@@ -1,0 +1,2 @@
+graphifyy==0.9.55
+PyYAML==6.0.3

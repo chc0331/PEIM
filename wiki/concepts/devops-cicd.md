@@ -1,0 +1,55 @@
+---
+id: devops-cicd
+title: DevOps 및 CI/CD
+aliases: [DevOps, CI/CD, Continuous Integration, Continuous Delivery]
+type: concept
+format: a4-1-subnote
+domains: [개발·운영]
+sources:
+- id: source-google-devops
+status: 출처 확인
+updated: '2026-09-06'
+---
+
+# DevOps 및 CI/CD
+
+## 서브노트
+
+### 정의
+
+DevOps는 개발과 운영의 공동 책임, 자동화, 빠른 피드백을 통해 안정적이고 신속한 소프트웨어 전달을 지향하는 문화·실천·역량의 결합이다. CI는 변경을 자주 통합·검증하고, CD는 검증된 변경을 신뢰성 있게 배포 가능한 상태로 만드는 흐름이다.
+
+### 핵심 구조·도식
+
+`Plan → Code → Build → Test(CI) → Release → Deploy(CD) → Operate → Monitor → Feedback → Plan`
+
+### 답안 키워드·비교·적용
+
+| 요소 | 답안 포인트 |
+| --- | --- |
+| 협업 | 개발·운영·보안의 공동 목표·책임 |
+| CI | 소규모 변경, 자동 빌드·테스트, 빠른 결함 발견 |
+| CD | 반복 가능 배포, 승인·릴리스·롤백 자동화 |
+| IaC | 인프라 구성의 버전관리·재현성 |
+| 관측성 | 운영 데이터로 품질·복구·개선 피드백 |
+
+CI/CD 도구를 설치했다고 DevOps가 완성되는 것은 아니다. 변경 실패율, 복구 시간, 배포 리드타임 등 전달·안정성 지표를 함께 본다.
+
+### 한계·리스크
+
+자동화된 오류는 빠르게 확산할 수 있으므로 테스트, 단계 배포, 롤백, 권한 분리와 감사 로그가 필요하다. 팀 평가가 서로 충돌하면 공동 책임이 무너진다.
+
+### 답안 골격
+
+- **1교시:** 정의 → 파이프라인 도식 → CI·CD·DevOps 비교 → 핵심 역량 → 기대효과·유의사항.
+- **논술형:** 현행 전달 흐름 → 자동화·품질 게이트 → 배포·롤백 → 보안·운영 연계 → 성과 지표·개선.
+
+### 회상 확인
+
+1. CI와 CD의 목적·산출물을 비교하라.
+2. 빠른 배포와 안정성을 동시에 높이는 통제는 무엇인가?
+3. DevOps 성숙도를 판단할 지표 세 가지를 제시하라.
+
+## 근거
+
+- [Google Cloud DevOps 역량 안내](../sources/google-devops.md)
