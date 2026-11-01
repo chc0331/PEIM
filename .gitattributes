@@ -1,0 +1,2 @@
+# Preserve captured source bytes so the raw SHA-256 checks survive a clone.
+raw/** -text

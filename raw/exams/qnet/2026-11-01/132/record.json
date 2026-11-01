@@ -1,0 +1,259 @@
+{
+  "round": 132,
+  "title": "제132회 정보관리기술사 문제지",
+  "article_id": "5212856",
+  "posted_date": "2024-01-29",
+  "listing_url": "https://www.q-net.or.kr/cst006.do?gSite=Q&gId=&id=cst00601s01&page=1&schText=%EC%A0%95%EB%B3%B4%EA%B4%80%EB%A6%AC&schType=T&brdId=Q006&code=1203",
+  "captured_at": "2026-11-01T14:29:51+09:00",
+  "detail_url": "https://www.q-net.or.kr/cst006.do?gSite=Q&gId=&id=cst00602&artlSeq=5212856&brdId=Q006&code=1203&cst=Y",
+  "download_url": "https://www.q-net.or.kr/cst006.do?gSite=Q&gId=&id=cst00602s01&fileCode=R001&filePath=bbs%2FQ006%2FQ006_2209096&fileName=%E2%98%85%EC%A0%9C132%ED%9A%8C+%EC%A0%95%EB%B3%B4%EA%B4%80%EB%A6%AC%EA%B8%B0%EC%88%A0%EC%82%AC+%EB%AC%B8%EC%A0%9C%EC%A7%80.pdf&fileSeq=2209096&artlSeq=5212856&href=0",
+  "original_filename": "★제132회 정보관리기술사 문제지.pdf",
+  "pdf_path": "raw/exams/qnet/2026-11-01/132/qnet-132.pdf",
+  "sha256": "58ef2bdd81d3bdee8b723069ef9bd1c6e55652f1fddba60a50e50b194ad730ba",
+  "bytes": 282450,
+  "pdf_pages": 7,
+  "collection_kind": "공식 PDF 원본과 pdftotext -layout 기계 추출; 해설 아님",
+  "sessions": [
+    {
+      "session": 1,
+      "expected": 13,
+      "questions": [
+        {
+          "number": 1,
+          "pages": [
+            1
+          ],
+          "text": "ISO 31000"
+        },
+        {
+          "number": 2,
+          "pages": [
+            1
+          ],
+          "text": "데이터 거래소"
+        },
+        {
+          "number": 3,
+          "pages": [
+            1
+          ],
+          "text": "베이지안 최적화(Bayesian Optimization)"
+        },
+        {
+          "number": 4,
+          "pages": [
+            1
+          ],
+          "text": "대칭 암호화와 비대칭 암호화"
+        },
+        {
+          "number": 5,
+          "pages": [
+            1
+          ],
+          "text": "ISA/IEC 62443"
+        },
+        {
+          "number": 6,
+          "pages": [
+            1
+          ],
+          "text": "큐싱(Qshing)"
+        },
+        {
+          "number": 7,
+          "pages": [
+            1
+          ],
+          "text": "ELK(Elasticsearch/Logstash/Kibana) 스택"
+        },
+        {
+          "number": 8,
+          "pages": [
+            1
+          ],
+          "text": "TPM(Trusted Platform Module)"
+        },
+        {
+          "number": 9,
+          "pages": [
+            1
+          ],
+          "text": "좋은 소프트웨어가 갖추어야 할 4가지 특징"
+        },
+        {
+          "number": 10,
+          "pages": [
+            1
+          ],
+          "text": "모집단의 특성을 추론하는 점추정과 구간추정 비교"
+        },
+        {
+          "number": 11,
+          "pages": [
+            1
+          ],
+          "text": "다중공선성(Multicollinearity)"
+        },
+        {
+          "number": 12,
+          "pages": [
+            1
+          ],
+          "text": "블록 스토리지, 파일 스토리지, 오브젝트 스토리지의 데이터 접근방식"
+        },
+        {
+          "number": 13,
+          "pages": [
+            1
+          ],
+          "text": "분산 데이터베이스의 5가지 투명성"
+        }
+      ]
+    },
+    {
+      "session": 2,
+      "expected": 6,
+      "questions": [
+        {
+          "number": 1,
+          "pages": [
+            2
+          ],
+          "text": "중심극한정리, t-검정, z-검정을 설명하시오."
+        },
+        {
+          "number": 2,
+          "pages": [
+            2
+          ],
+          "text": "머신러닝의 분류 모델인 서포트 벡터 머신(Support Vector Machine) 중 선형 서포트\n   벡터 머신의 마진(Margin) 분류 방법 2가지를 설명하시오."
+        },
+        {
+          "number": 3,
+          "pages": [
+            2
+          ],
+          "text": "현재, 소프트웨어 기술자 구분은 과거 기술자 등급제에서 IT역량분류체계를 기반으로 한\n   직무제(이하 IT직무제)로 변경되어 운영되고 있으나 실무 현장에서는 여전히 폐지된 등급제가\n   다수 활용되고 있는 실정이다. 소프트웨어 기술자 구분에 대하여 다음을 설명하시오.\n   가. 소프트웨어 기술자 등급제와 IT직무제의 개념과 특징\n   나. 현행 IT직무제의 문제점과 개선방향"
+        },
+        {
+          "number": 4,
+          "pages": [
+            3
+          ],
+          "text": "최근 개인정보보호위원회는 마이데이터 전송 시 개인정보의 안전한 처리를 보장하기\n   위한 가이드라인(마이데이터 전송 보안 안내서, 2023.09.)을 발간하였다. 이와 관련하여\n   다음을 설명하시오.\n  가. 전송대상 개인정보 보호책임자의 지정\n  나. 전송대상 개인정보처리시스템의 접근 관리\n  다. 전송대상 개인정보관리 및 재해·재난 대비 조치"
+        },
+        {
+          "number": 5,
+          "pages": [
+            3
+          ],
+          "text": "ISO 14000 인증의 개념과 필요성, 인증규격, 구축 및 인증절차, 인증효과를 설명하시오."
+        },
+        {
+          "number": 6,
+          "pages": [
+            3
+          ],
+          "text": "선형 자료 구조인 스택, 큐, 리스트의 자료 입출력 원리를 설명하시오."
+        }
+      ]
+    },
+    {
+      "session": 3,
+      "expected": 6,
+      "questions": [
+        {
+          "number": 1,
+          "pages": [
+            4
+          ],
+          "text": "소프트웨어(이하 SW) 운영단계 대가산정에 대하여 다음을 설명하시오.\n   (단, “소프트웨어 사업 대가산정 가이드 2023년 개정판” 기준)\n   가. 응용SW 요율제 유지관리비 산정방식과 SW운영 투입공수 산정방식\n   나. 고정비/변동비 산정방식"
+        },
+        {
+          "number": 2,
+          "pages": [
+            4
+          ],
+          "text": "클라우드 관리 플랫폼의 정의 및 필요성, 필수 기능, 플랫폼 선정 기준, 기대효과를 설명하시오."
+        },
+        {
+          "number": 3,
+          "pages": [
+            4
+          ],
+          "text": "다음과 같이 형태소 분석을 통하여 문서별로 단어의 횟수가 식별되었다. 각 문서의\n   TF-IDF(Term Frequency - Inverse Document Frequency)를 식별하기 위한 계산\n   과정과 그 결과를 설명하시오.\n  (단, Inverse Document Frequency 계산 시 log를 취하여 구하되 Document\n       Frequency 값을 임의로 가공하지 않아야 하며, 주어진 log값만을 활용한다.)\n                        <TF(Term Frequency) 결과>\n        단어              문서 1                        문서 2                 문서 3\n    엔진                   15                          10                   10\n    모터                    3                           0                    0\n    미션                    3                           5                    3\n    스티어링휠                 0                           5                    1\n    타이어                   2                           3                    5\n                                  <log값 조견표>\n                      \n                       \n                   log   \n                       \n                                  , log  , log  "
+        },
+        {
+          "number": 4,
+          "pages": [
+            5
+          ],
+          "text": "SCTP(Stream Control Transmission Protocol)와 관련하여 다음을 설명하시오.\n   가. SCTP 개요와 특징\n   나. SCTP 프로토콜(Protocol) 구조 및 동작 방식"
+        },
+        {
+          "number": 5,
+          "pages": [
+            5
+          ],
+          "text": "APEC(Asia-Pacific Economic Cooperation)의 CBPR(Cross Border Privacy Rules)에\n   대하여 다음을 설명하시오.\n  가. APEC 프라이버시 9원칙\n  나. CBPR의 주요 인증기준"
+        },
+        {
+          "number": 6,
+          "pages": [
+            5
+          ],
+          "text": "정보시스템의 성능 요구사항 작성 시 고려해야 하는 주요 성능지표 및 내용에 대하여\n   설명하시오."
+        }
+      ]
+    },
+    {
+      "session": 4,
+      "expected": 6,
+      "questions": [
+        {
+          "number": 1,
+          "pages": [
+            6
+          ],
+          "text": "FIPS(Federal Information Processing Standard) 140-2에 대하여 다음을 설명하시오.\n   가. FIPS 140-2 레벨 분류\n   나. 암호화 시스템 설계 시 고려사항\n   다. 암호화 시스템의 보안 요소\n   라. 보안 위협 대응 전략"
+        },
+        {
+          "number": 2,
+          "pages": [
+            6
+          ],
+          "text": "행정안전부에서는 고품질의 공공데이터 제공 및 활용의 선제적 대응을 위해 ‘공공데이터\n   베이스 표준화 관리 매뉴얼(2023.04.)’을 마련하여 예방적 품질관리 기준을 제시하고 있다.\n   이와 관련하여 다음을 설명하시오.\n  가. 시스템 구축 추진 단계별 예방적 품질관리 활동\n  나. 공공데이터 예방적 품질관리 4개 진단영역과 9개 진단항목"
+        },
+        {
+          "number": 3,
+          "pages": [
+            6
+          ],
+          "text": "설비 예지정비(Predictive Maintenance) 시스템 구축 시 LangChain 프레임워크를 활용할\n   수 있는 방안에 대하여 다음을 설명하시오.\n  가. 설비 예지정비의 개념 및 필요성\n  나. LangChain 프레임워크와 LLM(Large Language Model)\n  다. LangChain을 이용한 설비 예지정비"
+        },
+        {
+          "number": 4,
+          "pages": [
+            7
+          ],
+          "text": "소프트웨어 진흥법(시행 2023.10.19.)은 소프트웨어 산업의 발전을 위해 시행되어야 할\n   다양한 활동의 법적 근거를 마련하고 있다. 이와 관련하여 다음을 설명하시오.\n  가. 제5조(기본계획의 수립 등)의 2항에 따른 기본계획 내 포함되어야 할 사항\n  나. 제30조(소프트웨어안전 확보)의 2항에 따른 소프트웨어안전 확보를 위한 지침 내\n     포함되어야 할 사항"
+        },
+        {
+          "number": 5,
+          "pages": [
+            7
+          ],
+          "text": "소프트웨어 개발에 필요한 규모 산정 방식 종류와 특징을 비교 설명하고, 공공 소프트웨어\n   사업 규모 산정 방식의 현실적 개선 방안에 대하여 설명하시오."
+        },
+        {
+          "number": 6,
+          "pages": [
+            7
+          ],
+          "text": "A 기업의 경영진은 임직원들의 증가로 인해 정보보안의 필요성을 인식하고 정보보안\n   부서의 신설과 정보보안 체계를 수립하고자 한다. 다음을 설명하시오.\n   가. 정보보호 정책의 개념\n   나. 정보보호 시점별 보안 활동(Security Action Cycle)\n   다. 정보보안 전문가의 역할과 역량"
+        }
+      ]
+    }
+  ]
+}

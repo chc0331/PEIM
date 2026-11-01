@@ -1,0 +1,259 @@
+{
+  "round": 135,
+  "title": "제135회 정보관리기술사 문제지",
+  "article_id": "5226360",
+  "posted_date": "2025-02-10",
+  "listing_url": "https://www.q-net.or.kr/cst006.do?gSite=Q&gId=&id=cst00601s01&page=1&schText=%EC%A0%95%EB%B3%B4%EA%B4%80%EB%A6%AC&schType=T&brdId=Q006&code=1203",
+  "captured_at": "2026-11-01T14:29:23+09:00",
+  "detail_url": "https://www.q-net.or.kr/cst006.do?gSite=Q&gId=&id=cst00602&artlSeq=5226360&brdId=Q006&code=1203&cst=Y",
+  "download_url": "https://www.q-net.or.kr/cst006.do?gSite=Q&gId=&id=cst00602s01&fileCode=R001&filePath=bbs%2FQ006%2FQ006_2224856&fileName=%E2%98%85%EC%A0%9C135%ED%9A%8C+%EC%A0%95%EB%B3%B4%EA%B4%80%EB%A6%AC%EA%B8%B0%EC%88%A0%EC%82%AC+%EB%AC%B8%EC%A0%9C%EC%A7%80.pdf&fileSeq=2224856&artlSeq=5226360&href=0",
+  "original_filename": "★제135회 정보관리기술사 문제지.pdf",
+  "pdf_path": "raw/exams/qnet/2026-11-01/135/qnet-135.pdf",
+  "sha256": "e9e1c42ba4d3ef7897a1b1439763d97b42f4cbd99cd7397b3d0aaa42081048aa",
+  "bytes": 243441,
+  "pdf_pages": 7,
+  "collection_kind": "공식 PDF 원본과 pdftotext -layout 기계 추출; 해설 아님",
+  "sessions": [
+    {
+      "session": 1,
+      "expected": 13,
+      "questions": [
+        {
+          "number": 1,
+          "pages": [
+            1
+          ],
+          "text": "PR(Precision Recall) 곡선과 ROC(Receiver Operating Characteristic) 곡선 비교"
+        },
+        {
+          "number": 2,
+          "pages": [
+            1
+          ],
+          "text": "Multimodal LLM(Large Language Model)"
+        },
+        {
+          "number": 3,
+          "pages": [
+            1
+          ],
+          "text": "요구사항 추적표(Requirement Traceability Matrix)"
+        },
+        {
+          "number": 4,
+          "pages": [
+            1
+          ],
+          "text": "IBN(Intent-Based Networking)"
+        },
+        {
+          "number": 5,
+          "pages": [
+            1
+          ],
+          "text": "SIEM(Security Information & Event Management)와 SOAR(Security Orchestration,\n    Automation & Response) 비교"
+        },
+        {
+          "number": 6,
+          "pages": [
+            1
+          ],
+          "text": "실루엣 계수(Silhouette Coefficient)"
+        },
+        {
+          "number": 7,
+          "pages": [
+            1
+          ],
+          "text": "개인정보 안심구역"
+        },
+        {
+          "number": 8,
+          "pages": [
+            1
+          ],
+          "text": "불편추정량(Unbiased Estimator)"
+        },
+        {
+          "number": 9,
+          "pages": [
+            1
+          ],
+          "text": "소프트웨어 기술 부채의 유형과 관리 방법"
+        },
+        {
+          "number": 10,
+          "pages": [
+            1
+          ],
+          "text": "IEEE 802.11bn"
+        },
+        {
+          "number": 11,
+          "pages": [
+            1
+          ],
+          "text": "팬텀충돌(Phantom Conflict)"
+        },
+        {
+          "number": 12,
+          "pages": [
+            1
+          ],
+          "text": "VAE(Variational AutoEncoder)"
+        },
+        {
+          "number": 13,
+          "pages": [
+            1
+          ],
+          "text": "AGI(Artificial General Intelligence) 측면에서 ANI(Artificial Narrow Intelligence)의 필요성"
+        }
+      ]
+    },
+    {
+      "session": 2,
+      "expected": 6,
+      "questions": [
+        {
+          "number": 1,
+          "pages": [
+            2
+          ],
+          "text": "물리 데이터 모델링 중 반정규화에 대하여 다음을 설명하시오.\n   가. 반정규화 절차\n   나. 반정규화 유형\n   다. 반정규화 시 고려사항"
+        },
+        {
+          "number": 2,
+          "pages": [
+            2
+          ],
+          "text": "CI/CD(Continuous Integration/Continuous Delivery or Continuous Deployment)\n   파이프라인에서 DevSecOps 적용방안에 대하여 설명하시오."
+        },
+        {
+          "number": 3,
+          "pages": [
+            2
+          ],
+          "text": "회귀모형에서 오차의 등분산성(Homoscedasticity)과 다중공선성(Multicollinearity)에\n   대하여 설명하시오."
+        },
+        {
+          "number": 4,
+          "pages": [
+            2
+          ],
+          "text": "6G 이동통신기술에 대하여 다음을 설명하시오.\n    가. 서비스 특징\n    나. 성능 요구사항\n    다. 주파수 동향"
+        },
+        {
+          "number": 5,
+          "pages": [
+            3
+          ],
+          "text": "최근 많은 공공기관에서 거대 언어 모델(Large Language Model)의 적용을 준비하고\n   있다. 다음에 대하여 설명하시오.\n   가. 거대 언어 모델 적용을 위한 5가지 고려사항\n   나. 현재 구현 가능한 5가지 거대 언어 모델 아키텍처"
+        },
+        {
+          "number": 6,
+          "pages": [
+            3
+          ],
+          "text": "AI 디지털교과서에 대하여 다음을 설명하시오.\n   가. 개념 및 특징\n   나. 플랫폼 구조\n   다. 기능 및 핵심 서비스"
+        }
+      ]
+    },
+    {
+      "session": 3,
+      "expected": 6,
+      "questions": [
+        {
+          "number": 1,
+          "pages": [
+            4
+          ],
+          "text": "IT 프로젝트 관리에 대하여 다음을 설명하시오.\n    가. IT 프로젝트 관리의 개념\n    나. IT 프로젝트 관리 프로세스\n    다. IT 프로젝트 관리, 프로그램 관리, 포트폴리오 관리의 비교"
+        },
+        {
+          "number": 2,
+          "pages": [
+            4
+          ],
+          "text": "프롬프트 엔지니어링(Prompt Engineering)의 기술 요소와 활용 방안에 대하여\n   설명하시오."
+        },
+        {
+          "number": 3,
+          "pages": [
+            4
+          ],
+          "text": "멀티클라우드(MultiCloud)에 대하여 다음을 설명하시오.\n   가. 개념 및 필요성\n   나. 시스템 요구사항\n   다. 주요 기술"
+        },
+        {
+          "number": 4,
+          "pages": [
+            4
+          ],
+          "text": "양자 암호 기술에 대하여 다음을 설명하시오.\n   가. 양자키분배(QKD : Quantum Key Distribution)\n   나. 양자내성암호(PQC : Post Quantum Cryptography)\n   다. QKD와 PQC 비교"
+        },
+        {
+          "number": 5,
+          "pages": [
+            5
+          ],
+          "text": "데이터 거래를 위한 데이터 가치평가에 대하여 다음을 설명하시오.\n   가. 데이터 재화와 데이터 가치의 특징\n   나. 데이터 가치평가의 모델 및 절차\n   다. 데이터 가치평가의 활용방안"
+        },
+        {
+          "number": 6,
+          "pages": [
+            5
+          ],
+          "text": "딥페이크(Deepfake)에 대하여 다음을 설명하시오.\n   가. 딥페이크의 개념 및 핵심 기술\n   나. 딥페이크의 문제점\n   다. 딥페이크 대응방안"
+        }
+      ]
+    },
+    {
+      "session": 4,
+      "expected": 6,
+      "questions": [
+        {
+          "number": 1,
+          "pages": [
+            6
+          ],
+          "text": "확장성 해싱(Extendible Hashing)기법에 대하여 다음을 설명하시오.\n   가. 개념 및 구성요소\n   나. 충돌회피 기법"
+        },
+        {
+          "number": 2,
+          "pages": [
+            6
+          ],
+          "text": "릴레이션 무결성 제약의 유형과 사례를 제시하고, 구현 방법에 대하여 설명하시오."
+        },
+        {
+          "number": 3,
+          "pages": [
+            6
+          ],
+          "text": "이항 분포(Binomial Distribution)와 포아송 분포(Poisson Distribution)를 비교\n   설명하시오."
+        },
+        {
+          "number": 4,
+          "pages": [
+            6
+          ],
+          "text": "빅데이터 시각화(Visualization)에 대하여 다음을 설명하시오.\n   가. 개념 및 절차\n   나. 방법 및 도구\n                              2–1"
+        },
+        {
+          "number": 5,
+          "pages": [
+            7
+          ],
+          "text": "인공지능 소프트웨어 품질 보증을 위한 테스트 기법에 대하여 다음을 설명하시오.\n   가. 메타모픽 테스트(Metamorphic Test)\n   나. 뉴런 커버리지 테스트(Neuron Coverage Test)\n   다. 안전 반경 최대화 테스트"
+        },
+        {
+          "number": 6,
+          "pages": [
+            7
+          ],
+          "text": "경계 기반 보안(Perimeter Security)과 제로 트러스트(Zero Trust) 성숙도모델 2.0에\n   대하여 비교 설명하고, 제로 트러스트 아키텍처 도입 시 고려사항에 대하여 설명하시오."
+        }
+      ]
+    }
+  ]
+}

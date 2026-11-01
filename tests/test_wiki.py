@@ -93,11 +93,54 @@ class WikiLifecycleTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "근거 없음"):
             wiki.lint(self.root)
 
+    def test_official_question_requires_traceable_number_and_page(self):
+        path = self.root / "wiki/questions/exam.md"
+        meta = {"id": "question-exam", "title": "공식 문제", "aliases": [], "type": "question",
+                "question_kind": "공식 기출", "domains": ["test"], "sources": [{"path": "raw/original.md", "locator": "PDF p. 1"}],
+                "status": "출처 확인", "updated": "2026-11-01"}
+
+        def save(body='\n<a id="q1"></a>\n'):
+            path.write_text("---\n" + yaml.safe_dump(meta, allow_unicode=True) + "---\n" + body)
+
+        save()
+        with self.assertRaisesRegex(ValueError, "회차·교시"):
+            wiki.lint(self.root)
+        meta.update(exam_round=140, exam_session=1, questions=[{"number": 1, "pdf_pages": [1]}])
+        save()
+        wiki.lint(self.root)
+        meta["questions"][0]["pdf_pages"] = []
+        save()
+        with self.assertRaisesRegex(ValueError, "문항 번호·페이지"):
+            wiki.lint(self.root)
+        meta["questions"][0]["pdf_pages"] = [1]
+        save("missing anchor")
+        with self.assertRaisesRegex(ValueError, "본문 위치"):
+            wiki.lint(self.root)
+        meta["questions"].append({"number": 1, "pdf_pages": [2]})
+        save()
+        with self.assertRaisesRegex(ValueError, "중복·누락"):
+            wiki.lint(self.root)
+
     def test_conflicting_status_is_preserved(self):
         self.doc("a", "회상 연습", status="상충", body="Source one and source two disagree. Do not resolve automatically.")
         wiki.prepare(self.root)
         self.accept(self.extraction())
         self.assertEqual(wiki.read_json(self.root / "graphify-out/semantic-cache.json")["wiki/concepts/a.md"]["nodes"][0]["document_status"], "상충")
+
+    def test_concept_alias_merge_keeps_all_evidence_and_question_nodes(self):
+        docs = wiki.pages(self.root)
+        nodes = [
+            {"id": "canonical", "label": "회상 연습", "file_type": "concept", "source_file": "wiki/concepts/a.md", "source_location": "정의"},
+            {"id": "mention", "label": "Active recall", "file_type": "concept", "source_file": "wiki/questions/exam.md", "source_location": "문항 q1 / PDF p.1"},
+            {"id": "question", "label": "회상 연습", "file_type": "document", "source_file": "wiki/questions/exam.md"},
+        ]
+        edges = [{"source": "question", "target": "mention"}]
+        merged, rewritten, _ = wiki.merge_concepts(nodes, edges, docs)
+        self.assertEqual({n["id"] for n in merged}, {"canonical", "question"})
+        self.assertEqual(rewritten, [{"source": "question", "target": "canonical"}])
+        concept = next(n for n in merged if n["id"] == "canonical")
+        self.assertEqual(len(concept["evidence"]), 2)
+        self.assertEqual(wiki.merge_concepts(list(reversed(nodes)), edges, docs)[2]["mention"], "canonical")
 
     def test_stale_receipt_and_missing_output_rejected(self):
         wiki.prepare(self.root)

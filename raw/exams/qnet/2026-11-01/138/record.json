@@ -1,0 +1,259 @@
+{
+  "round": 138,
+  "title": "제138회 정보관리기술사 문제지",
+  "article_id": "5253558",
+  "posted_date": "2026-02-09",
+  "listing_url": "https://www.q-net.or.kr/cst006.do?gSite=Q&gId=&id=cst00601s01&page=1&schText=%EC%A0%95%EB%B3%B4%EA%B4%80%EB%A6%AC&schType=T&brdId=Q006&code=1203",
+  "captured_at": "2026-11-01T14:29:23+09:00",
+  "detail_url": "https://www.q-net.or.kr/cst006.do?gSite=Q&gId=&id=cst00602&artlSeq=5253558&brdId=Q006&code=1203&cst=Y",
+  "download_url": "https://www.q-net.or.kr/cst006.do?gSite=Q&gId=&id=cst00602s01&fileCode=R001&filePath=bbs%2FQ006%2FQ006_2250251&fileName=%E2%98%85%EC%A0%9C138%ED%9A%8C+%EC%A0%95%EB%B3%B4%EA%B4%80%EB%A6%AC%EA%B8%B0%EC%88%A0%EC%82%AC+%EB%AC%B8%EC%A0%9C%EC%A7%80.pdf&fileSeq=2250251&artlSeq=5253558&href=0",
+  "original_filename": "★제138회 정보관리기술사 문제지.pdf",
+  "pdf_path": "raw/exams/qnet/2026-11-01/138/qnet-138.pdf",
+  "sha256": "08d4d9576d99ef53e0dced810625068a6ab90048b3f14f84d3b2d078a67f1b93",
+  "bytes": 305675,
+  "pdf_pages": 10,
+  "collection_kind": "공식 PDF 원본과 pdftotext -layout 기계 추출; 해설 아님",
+  "sessions": [
+    {
+      "session": 1,
+      "expected": 13,
+      "questions": [
+        {
+          "number": 1,
+          "pages": [
+            1
+          ],
+          "text": "미국 국립표준기술연구소에서 발행한 AI RMF(Risk Management Framework)의\n     개념과 4가지 핵심구조, 7가지 신뢰 가능한 특성을 설명하시오."
+        },
+        {
+          "number": 2,
+          "pages": [
+            1
+          ],
+          "text": "프로젝트 위험관리"
+        },
+        {
+          "number": 3,
+          "pages": [
+            1
+          ],
+          "text": "ISO/IEC 42001:2023"
+        },
+        {
+          "number": 4,
+          "pages": [
+            1
+          ],
+          "text": "베이즈 정리"
+        },
+        {
+          "number": 5,
+          "pages": [
+            1
+          ],
+          "text": "안면인식 결제 서비스"
+        },
+        {
+          "number": 6,
+          "pages": [
+            1
+          ],
+          "text": "소프트웨어 개발 프로젝트에서 선도개발을 위한 개발방법론 테일러링(Tailoring)"
+        },
+        {
+          "number": 7,
+          "pages": [
+            1
+          ],
+          "text": "자기회귀모형(Autoregressive model)과 이동평균모형(Moving Average model)"
+        },
+        {
+          "number": 8,
+          "pages": [
+            1
+          ],
+          "text": "데이터 관측가능성(Data Observability)"
+        },
+        {
+          "number": 9,
+          "pages": [
+            1
+          ],
+          "text": "정보모델링의 참조 무결성"
+        },
+        {
+          "number": 10,
+          "pages": [
+            1
+          ],
+          "text": "TTPs(Tactics, Techniques and Procedures)"
+        },
+        {
+          "number": 11,
+          "pages": [
+            1
+          ],
+          "text": "은행가 알고리즘(Banker's Algorithm)"
+        },
+        {
+          "number": 12,
+          "pages": [
+            1
+          ],
+          "text": "프롬프트 인젝션(Prompt Injection)"
+        },
+        {
+          "number": 13,
+          "pages": [
+            1
+          ],
+          "text": "모델 전도 공격(Model Inversion Attack)"
+        }
+      ]
+    },
+    {
+      "session": 2,
+      "expected": 6,
+      "questions": [
+        {
+          "number": 1,
+          "pages": [
+            2
+          ],
+          "text": "최근 상용 DBMS를 오픈소스 DBMS로 전환하는 수요가 늘고 있다. 다음 내용을 설명\n   하시오.\n 가. 오픈소스 DBMS 전환 배경\n 나. 오픈소스 DBMS 전환 시 검토해야 할 제약사항\n 다. 오픈소스 DBMS 전환 시 단계별 마이그레이션 절차\n 라. 신뢰성 확보를 위한 고가용성(HA) 아키텍처 구성 방안"
+        },
+        {
+          "number": 2,
+          "pages": [
+            2
+          ],
+          "text": "다음 내용을 설명하시오.\n 가. ISP(Information Strategy Planning)의 정의 및 목적\n 나. ISP 수행방법론 체계와 절차\n 다. ISP, ISMP(Information System Master Plan) 비교"
+        },
+        {
+          "number": 3,
+          "pages": [
+            3
+          ],
+          "text": "인공지능 학습에 이용하는 GPU(Graphics Processing Unit)와 TPU(Tensor\n   Processing Unit)에 대하여 다음 내용을 설명하시오.\n 가. GPU와 TPU 개념\n 나. GPU와 TPU 비교\n 다. 최근 GPU보다 TPU를 사용하는 이유\n 라. 효율성 측면에서 TPU의 장점 및 향후 전망"
+        },
+        {
+          "number": 4,
+          "pages": [
+            3
+          ],
+          "text": "B기관은 기존에 운영 중이던 대국민 서비스 포털, 통합 업무 시스템, ERP 및 통합\n   인허가 관리 시스템을 클라우드 네이티브 환경으로 전환 및 신규 구축하는 프로젝트를\n   진행하려고 한다. TA(Technical Architect)와 AA(Application Architect)에 대하여\n   다음 내용을 설명하시오.\n 가. TA와 AA의 역할 비교 (범위, 책임/목표, 주요 산출물 측면)\n 나. TA와 AA 협업의 중요성 및 협업 방안"
+        },
+        {
+          "number": 5,
+          "pages": [
+            4
+          ],
+          "text": "소프트웨어 유지보수를 위한 재공학(Re-engineering)과 역공학(Reverse-engineering)에\n   대하여 다음 내용을 설명하시오.\n 가. 재공학 개념 및 목적\n 나. 재공학 절차\n 다. 역공학 개념 및 활용 방안"
+        },
+        {
+          "number": 6,
+          "pages": [
+            4
+          ],
+          "text": "프로그램 실행 시 운영체제는 메모리를 4가지 주요 영역으로 나누어 할당 및 관리한다.\n   각 영역의 역할과 특징 그리고 영역 간 동작 메커니즘에 대하여 다음 내용을 설명하시오.\n 가. 코드(Code)\n 나. 데이터(Data)\n 다. 힙(Heap)\n 라. 스택(Stack)"
+        }
+      ]
+    },
+    {
+      "session": 3,
+      "expected": 6,
+      "questions": [
+        {
+          "number": 1,
+          "pages": [
+            5
+          ],
+          "text": "최근 생성형 인공지능 서비스 확산에 따라 이용자 권리 보호를 위한 목적으로 생성형\n   인공지능 서비스 이용자 보호 가이드라인(2025. 2. 28.)을 제정하였다. 다음 내용을 설명\n   하시오.\n 가. 가이드라인 제정된 배경 및 필요성\n 나. 가이드라인에서 제시하는 이용자 보호의 실행방식을 4가지 제시하고, 각 방식이\n    생성형 AI 서비스에서 중요한 이유"
+        },
+        {
+          "number": 2,
+          "pages": [
+            5
+          ],
+          "text": "A사는 신규 정보시스템 개발 프로젝트에 로우코드(Low Code) 플랫폼을 적용하고자 한다.\n   다음 내용을 설명하시오.\n 가. 로우코드(Low Code)의 주요 특징\n 나. 노코드 (No Code)와 로우코드(Low Code) 비교\n 다. 로우코드(Low Code) 적용 시 한계점"
+        },
+        {
+          "number": 3,
+          "pages": [
+            6
+          ],
+          "text": "분산 데이터베이스 시스템 구축을 위한 데이터베이스 분할에 대하여 다음 내용을 설명\n   하시오.\n 가. 데이터베이스 분할 단위\n 나. 수평분할과 수직분할"
+        },
+        {
+          "number": 4,
+          "pages": [
+            6
+          ],
+          "text": "가용성 보장에 대하여 다음 내용을 설명하시오.\n 가. FTS(Fault Tolerant System) 구현 방법\n 나. HA(High Availability) 구현 방법\n 다. FTS와 HA 비교 설명"
+        },
+        {
+          "number": 5,
+          "pages": [
+            6
+          ],
+          "text": "IT 인프라 확장에 따른 사이버 위협에 대하여 다음 내용을 설명하시오.\n 가. 공격 표면(Attack Surface)과 공격 벡터(Attack Vector)\n 나. 측면 이동(Lateral Movement)의 단계별 메커니즘과 주요 기법"
+        },
+        {
+          "number": 6,
+          "pages": [
+            7
+          ],
+          "text": "최근 보안과 관련된 사고 및 이슈의 빈번한 발생으로 정보보호를 위한 관리체계에\n   대한 중요성이 부각되고 있다. 다음 내용을 설명하시오.\n 가. 정보보호 관리체계(ISMS)의 인증 영역과 법적 근거\n 나. 정보보호 관리체계(ISMS)의 관리과정\n 다. ISMS-P 간편인증 제도\n 라. ISMS-P 제도의 강화 방안"
+        }
+      ]
+    },
+    {
+      "session": 4,
+      "expected": 6,
+      "questions": [
+        {
+          "number": 1,
+          "pages": [
+            8
+          ],
+          "text": "「인공지능 발전과 신뢰 기반 조성 등에 관한 기본법」(약칭, 인공지능기본법)이\n   2026년 1월 22일 시행되었다. 다음 내용을 설명하시오.\n 가. 인공지능기본법의 주요 목적, 기본 원칙\n 나. 인공지능 기본계획의 주요 내용\n 다. 국가인공지능전략위원회의 주요 기능\n 라. 인공지능 기술 개발 및 산업육성을 위한 시책 4가지"
+        },
+        {
+          "number": 2,
+          "pages": [
+            8
+          ],
+          "text": "단방향 해시 함수(Hash Function)에 대하여 다음 내용을 설명하시오.\n 가. 단방향 해시 함수의 문제점\n 나. Rainbow Table\n 다. 해시 솔트(Hash Salt) 와 키 스트레칭(Key Stretching)\n 라. 해시함수의 활용"
+        },
+        {
+          "number": 3,
+          "pages": [
+            9
+          ],
+          "text": "6G 이동통신기술 핵심 개념인 AI-Native Network에 대하여 다음 내용을 설명하시오.\n 가. 자율 최적화\n 나. AI-RAN\n 다. 디지털트윈 기반 네트워크 관리"
+        },
+        {
+          "number": 4,
+          "pages": [
+            9
+          ],
+          "text": "데이터 통신에서 신뢰성 있는 전송을 보장하기 위한 오류 제어(Error Control) 기술에\n   대하여 다음 내용을 설명하시오.\n 가. 오류 검출(Error Detection)과 오류 정정(Error Correction)의 개념\n 나. ‘정지-대기(Stop-and-Wait) ARQ’와 ‘Go-Back-N ARQ’의 개념 및 수행절차\n 다. ‘정지-대기(Stop-and-Wait) ARQ’와 ‘Go-Back-N ARQ’ 비교"
+        },
+        {
+          "number": 5,
+          "pages": [
+            10
+          ],
+          "text": "최근 기업과 개인을 대상으로 한 랜섬웨어(Ransomware) 피해가 지속적으로 발생하고\n   있으며, 이를 서비스 형태로 제공하는 RaaS(Ransomware as a Service)의 등장으로\n   진입 장벽이 낮아지고 있다. 다음 내용을 설명하시오.\n 가. 랜섬웨어와 RaaS(Ransomware as a Service)의 개념 및 비교\n 나. 랜섬웨어의 주요 감염 경로 및 암호화 동작 원리\n 다. 랜섬웨어 피해 예방 및 침해 사고 발생 시 대응 절차"
+        },
+        {
+          "number": 6,
+          "pages": [
+            10
+          ],
+          "text": "인공지능(AI) 기술의 확산으로 데이터의 가치가 증대됨에 따라, 프라이버시를 보호\n   하면서도 데이터의 활용성을 극대화할 수 있는 개인정보 보호 강화기술(PET:\n   Privacy Enhancing Technology)이 주목받고 있다. 다음 내용을 설명하시오.\n 가. PET의 정의 및 등장 배경\n 나. PET의 주요 기술 분류 및 핵심 기술\n 다. PET 기술(동형암호, 차분 프라이버시, 합성데이터)의 상세 비교"
+        }
+      ]
+    }
+  ]
+}

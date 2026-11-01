@@ -95,6 +95,28 @@ def lint(root):
             errors.append(f"{name}: 개인 수행 기록은 study에 저장")
         if m.get("type") == "question" and m.get("question_kind") not in ("공식 기출", "훈련 문제"):
             errors.append(f"{name}: 공식 기출/훈련 문제 구분 필요")
+        if m.get("type") == "question" and m.get("question_kind") == "공식 기출":
+            if type(m.get("exam_round")) is not int or m["exam_round"] < 1 or m.get("exam_session") not in (1, 2, 3, 4):
+                errors.append(f"{name}: 공식 기출 회차·교시 필요")
+            questions = m.get("questions")
+            if not isinstance(questions, list) or not questions:
+                errors.append(f"{name}: 공식 기출 문항 번호·PDF 페이지 필요")
+            else:
+                numbers = []
+                for question in questions:
+                    if not isinstance(question, dict):
+                        errors.append(f"{name}: 잘못된 문항 메타데이터")
+                        continue
+                    number, positions = question.get("number"), question.get("pdf_pages")
+                    if type(number) is not int or number < 1 or not isinstance(positions, list) or not positions or any(type(p) is not int or p < 1 for p in positions):
+                        errors.append(f"{name}: 잘못된 공식 문항 번호·페이지")
+                    elif f'<a id="q{number}"></a>' not in doc["text"]:
+                        errors.append(f"{name}: 문항 {number}의 본문 위치 누락")
+                    numbers.append(number)
+                if numbers != list(range(1, len(questions) + 1)):
+                    errors.append(f"{name}: 공식 문항 번호 중복·누락·순서 오류")
+            if not any(isinstance(s, dict) and s.get("locator") for s in m.get("sources", [])):
+                errors.append(f"{name}: 공식 원문 위치(locator) 필요")
         if m.get("status") == "출처 확인" and not m.get("sources"):
             errors.append(f"{name}: 출처 확인 상태에 근거 없음")
     for name, doc in docs.items():
@@ -232,6 +254,49 @@ def accept(root, extraction_path, request_path):
     return {"accepted": len(updates)}
 
 
+def merge_concepts(nodes, edges, docs):
+    """Unify exact concept names/declared aliases while retaining every mention.
+
+    Document and question nodes stay distinct. No fuzzy matching or inferred
+    synonym is used, and extraction cache ownership remains unchanged.
+    """
+    aliases = {}
+    for name, doc in docs.items():
+        m = doc["meta"]
+        if m["type"] == "concept":
+            for alias in [m["title"], *m["aliases"]]:
+                aliases[normalize(alias)] = name
+    groups, unchanged = {}, []
+    for node in nodes:
+        if node.get("file_type") not in ("concept", "rationale"):
+            unchanged.append(node)
+            continue
+        label = normalize(node["label"])
+        key = ("wiki", aliases[label]) if label in aliases else ("label", label)
+        groups.setdefault(key, []).append(node)
+    remap, merged = {}, []
+    for key, mentions in groups.items():
+        page = key[1] if key[0] == "wiki" else None
+        primary = min(mentions, key=lambda n: (n["source_file"] != page, not n["source_file"].startswith("wiki/concepts/"), n["source_file"], n["id"]))
+        canonical = dict(primary)
+        canonical["aliases"] = sorted({n["label"] for n in mentions})
+        evidence = []
+        for node in mentions:
+            remap[node["id"]] = primary["id"]
+            item = {k: node.get(k) for k in ("source_file", "source_location", "source_url", "document_id", "document_status", "wiki_sources")}
+            item["title"] = docs.get(node["source_file"], {}).get("meta", {}).get("title", node["source_file"])
+            if item not in evidence:
+                evidence.append(item)
+        canonical["evidence"] = evidence
+        merged.append(canonical)
+    rewritten = []
+    for edge in edges:
+        edge = {**edge, "source": remap.get(edge["source"], edge["source"]), "target": remap.get(edge["target"], edge["target"])}
+        if edge["source"] != edge["target"]:
+            rewritten.append(edge)
+    return unchanged + merged, rewritten, remap
+
+
 def build(root):
     from graphify.build import build_from_json
     from graphify.cluster import cluster, score_all, label_communities_by_hub
@@ -250,6 +315,9 @@ def build(root):
     node_ids = {n["id"] for n in nodes}
     edges = [v for e in current.values() for v in e["edges"] if v["source"] in node_ids and v["target"] in node_ids]
     hyperedges = [v for e in current.values() for v in e.get("hyperedges", []) if all(n in node_ids for n in v["nodes"])]
+    nodes, edges, remap = merge_concepts(nodes, edges, docs)
+    hyperedges = [{**h, "nodes": list(dict.fromkeys(remap.get(n, n) for n in h["nodes"]))} for h in hyperedges]
+    hyperedges = [h for h in hyperedges if len(h["nodes"]) >= 3]
     G = build_from_json({"nodes": nodes, "edges": edges, "hyperedges": hyperedges}, directed=True, root=root)
     # Graphify can coalesce a document node and same-named concept into one ID.
     # A page referring to that concept must not become a spurious self-reference.
@@ -279,9 +347,28 @@ def build(root):
         html = re.sub(r"<title>.*?</title>", "<title>정보관리기술사 학습 그래프</title>", html_path.read_text(encoding="utf-8"))
         # Keep the native Graphify view; make its existing source field navigable.
         source_field = '<div class="field">Source: ${esc(n._source_file || \'-\')}</div>'
-        source_link = '<div class="field">Source: <a style="color:#9dccff" target="_blank" rel="noopener" href="../${(n._source_file || \'\').split(\'/\').map(encodeURIComponent).join(\'/\')}">${esc(n._source_file || \'-\')}</a></div>'
+        source_link = '<div class="field">위키 근거</div>${wikiSources(n)}'
         if source_field not in html:
             raise ValueError("Graphify HTML 형식 변경: 출처 링크 연동 재검증 필요")
+        evidence = {}
+        for n, data in G.nodes(data=True):
+            fallback = {k: data.get(k) for k in ("source_file", "source_location")}
+            fallback["title"] = docs.get(data.get("source_file"), {}).get("meta", {}).get("title", data.get("source_file"))
+            evidence[n] = data.get("evidence", [fallback])
+        evidence_json = json.dumps(evidence, ensure_ascii=False).replace("<", "\\u003c")
+        source_script = '''<script>
+const WIKI_EVIDENCE = %s;
+function wikiSources(n) {
+  return (WIKI_EVIDENCE[n.id] || []).map(e => {
+    const path = (e.source_file || '').split('/').map(encodeURIComponent).join('/');
+    const loc = e.source_location || '';
+    const q = String(loc).match(/q(\\d+)|(?:문항\\s*)?(\\d+)번/);
+    const anchor = q ? '#q' + (q[1] || q[2]) : '';
+    return '<div class="field"><a style="color:#9dccff" target="_blank" rel="noopener" href="../' + path + anchor + '">' + esc(e.title || e.source_file || '-') + '</a><br>' + esc(loc) + '</div>';
+  }).join('');
+}
+</script>''' % evidence_json
+        html = html.replace("</head>", source_script + "\n</head>")
         html_path.write_text(html.replace(source_field, source_link), encoding="utf-8")
         (stage / "GRAPH_REPORT.md").write_text(report, encoding="utf-8")
         for name in ("graph.json", "graph.html", "GRAPH_REPORT.md"):

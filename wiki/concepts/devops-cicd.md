@@ -1,14 +1,21 @@
 ---
 id: devops-cicd
 title: DevOps 및 CI/CD
-aliases: [DevOps, CI/CD, Continuous Integration, Continuous Delivery]
+aliases:
+- DevOps
+- CI/CD
+- Continuous Integration
+- Continuous Delivery
 type: concept
 format: a4-1-subnote
-domains: [개발·운영]
+domains:
+- 개발·운영
 sources:
 - id: source-google-devops
+- id: source-qnet-130
+- id: source-qnet-136
 status: 출처 확인
-updated: '2026-09-06'
+updated: '2026-11-01'
 ---
 
 # DevOps 및 CI/CD
@@ -53,3 +60,16 @@ CI/CD 도구를 설치했다고 DevOps가 완성되는 것은 아니다. 변경 
 ## 근거
 
 - [Google Cloud DevOps 역량 안내](../sources/google-devops.md)
+
+## 연관 기출과 브레인스토밍
+
+아래는 공식 문제지에서 확인한 관련 문항입니다. 문제지는 질문의 근거이며 위 기술 설명의 추가 검증 근거로 사용하지 않습니다.
+
+- [제130회 4교시 6번](../questions/qnet-130-p4.md#q6)
+- [제136회 1교시 6번](../questions/qnet-136-p1.md#q6)
+
+각 문항이 정의·비교·절차·적용 조건 중 무엇을 요구하는지 비교하고, 연결 이유를 원문 문구 또는 추론으로 구분해 설명합니다. [기출 탐색 지도](../comparisons/qnet-exam-map.md)에 다른 중심 개념과 탐색 질문을 함께 보관합니다. 미해결 기술 설명은 공식 기술 출처로 보완하며 생성만으로 학습 성취를 기록하지 않습니다.
+
+## 누적 기록
+
+- 2026-11-01: Q-Net 공식 기출과의 연결을 추가했습니다. 기존 기술 설명을 변경하지 않았습니다.

@@ -1,14 +1,22 @@
 ---
 id: cloud-computing
 title: 클라우드 컴퓨팅
-aliases: [Cloud Computing, IaaS, PaaS, SaaS]
+aliases:
+- Cloud Computing
 type: concept
 format: a4-1-subnote
-domains: [클라우드]
+domains:
+- 클라우드
 sources:
 - id: source-nist-cloud
+- id: source-qnet-136
+- id: source-qnet-140
 status: 출처 확인
-updated: '2026-09-06'
+updated: '2026-11-01'
+related_terms:
+- IaaS
+- PaaS
+- SaaS
 ---
 
 # 클라우드 컴퓨팅
@@ -51,3 +59,18 @@ updated: '2026-09-06'
 ## 근거
 
 - [NIST SP 800-145 클라우드 컴퓨팅 정의](../sources/nist-cloud.md)
+
+## 연관 기출과 브레인스토밍
+
+아래는 공식 문제지에서 확인한 관련 문항입니다. 문제지는 질문의 근거이며 위 기술 설명의 추가 검증 근거로 사용하지 않습니다.
+
+- [제136회 1교시 9번](../questions/qnet-136-p1.md#q9)
+- [제140회 2교시 1번](../questions/qnet-140-p2.md#q1)
+- [제140회 3교시 1번](../questions/qnet-140-p3.md#q1)
+
+각 문항이 정의·비교·절차·적용 조건 중 무엇을 요구하는지 비교하고, 연결 이유를 원문 문구 또는 추론으로 구분해 설명합니다. [기출 탐색 지도](../comparisons/qnet-exam-map.md)에 다른 중심 개념과 탐색 질문을 함께 보관합니다. 미해결 기술 설명은 공식 기술 출처로 보완하며 생성만으로 학습 성취를 기록하지 않습니다.
+
+## 누적 기록
+
+- 2026-11-01: Q-Net 공식 기출과의 연결을 추가했습니다. 기존 기술 설명을 변경하지 않았습니다.
+- 2026-11-01: IaaS·PaaS·SaaS는 클라우드의 동의어가 아닌 서비스 모델이므로 별칭에서 관련 용어로 옮겼습니다. 그래프에서 서로 다른 개념이 합쳐지는 것을 방지합니다.
