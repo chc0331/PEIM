@@ -1,0 +1,248 @@
+# 토픽별 서브노트 목록
+
+[통합 PDF](../../output/pdf/subnotes/정보관리기술사_기출서브노트_통합.pdf) · [개별 PDF 모음](../../output/pdf/subnotes/정보관리기술사_토픽별서브노트.zip) · [기출 요구사항 대응](coverage.md)
+
+## 데이터베이스·데이터 관리
+
+- [관계형 모델링과 무결성·CRUD 검증](../../wiki/concepts/relational-data-modeling.md) · [PDF](../../output/pdf/subnotes/topics/relational-data-modeling.pdf) — 2쪽; 통합 p.9; 출처 확인
+- [정규화와 이상현상: 함수종속에서 제4정규형까지](../../wiki/concepts/relational-normalization.md) · [PDF](../../output/pdf/subnotes/topics/relational-normalization.pdf) — 2쪽; 통합 p.11; 출처 확인
+- [반정규화와 조회 성능의 대가](../../wiki/concepts/database-denormalization.md) · [PDF](../../output/pdf/subnotes/topics/database-denormalization.pdf) — 2쪽; 통합 p.13; 출처 확인
+- [트랜잭션과 병행제어](../../wiki/concepts/transaction-concurrency-control.md) · [PDF](../../output/pdf/subnotes/topics/transaction-concurrency-control.pdf) — 2쪽; 통합 p.15; 부분 확인
+- [네 격리 수준과 팬텀·직렬화 이상](../../wiki/concepts/transaction-isolation-levels.md) · [PDF](../../output/pdf/subnotes/topics/transaction-isolation-levels.pdf) — 2쪽; 통합 p.17; 부분 확인
+- [B+트리 인덱스와 다차원 색인](../../wiki/concepts/database-index-structures.md) · [PDF](../../output/pdf/subnotes/topics/database-index-structures.pdf) — 2쪽; 통합 p.19; 부분 확인
+- [확장성 해싱: 디렉터리와 버킷 분할](../../wiki/concepts/extendible-hashing.md) · [PDF](../../output/pdf/subnotes/topics/extendible-hashing.pdf) — 2쪽; 통합 p.21; 출처 확인
+- [SQL 튜닝과 비용 기반 옵티마이저](../../wiki/concepts/sql-optimizer-tuning.md) · [PDF](../../output/pdf/subnotes/topics/sql-optimizer-tuning.pdf) — 2쪽; 통합 p.23; 출처 확인
+- [정적 SQL과 동적 SQL](../../wiki/concepts/static-dynamic-sql.md) · [PDF](../../output/pdf/subnotes/topics/static-dynamic-sql.pdf) — 2쪽; 통합 p.25; 출처 확인
+- [NoSQL 유형과 MongoDB 모델링](../../wiki/concepts/nosql-document-modeling.md) · [PDF](../../output/pdf/subnotes/topics/nosql-document-modeling.pdf) — 2쪽; 통합 p.27; 부분 확인
+- [수평·수직 분할과 샤딩](../../wiki/concepts/partitioning-sharding.md) · [PDF](../../output/pdf/subnotes/topics/partitioning-sharding.pdf) — 2쪽; 통합 p.29; 출처 확인
+- [분산 DB의 투명성](../../wiki/concepts/distributed-database-transparency.md) · [PDF](../../output/pdf/subnotes/topics/distributed-database-transparency.pdf) — 2쪽; 통합 p.31; 부분 확인
+- [CAP 한계와 PACELC 절충](../../wiki/concepts/cap-pacelc.md) · [PDF](../../output/pdf/subnotes/topics/cap-pacelc.pdf) — 2쪽; 통합 p.33; 출처 확인
+- [DB 전환·프로파일링·마이그레이션 검증](../../wiki/concepts/database-migration-validation.md) · [PDF](../../output/pdf/subnotes/topics/database-migration-validation.pdf) — 2쪽; 통합 p.35; 출처 확인
+- [공공 DB 표준화와 예방적 품질관리](../../wiki/concepts/public-database-standardization.md) · [PDF](../../output/pdf/subnotes/topics/public-database-standardization.pdf) — 2쪽; 통합 p.37; 출처 확인
+- [데이터 거버넌스와 마스터 데이터 관리](../../wiki/concepts/data-governance-master-data.md) · [PDF](../../output/pdf/subnotes/topics/data-governance-master-data.pdf) — 2쪽; 통합 p.39; 출처 확인
+- [데이터 품질의 진단·개선·성숙도](../../wiki/concepts/data-quality-management.md) · [PDF](../../output/pdf/subnotes/topics/data-quality-management.pdf) — 2쪽; 통합 p.41; 부분 확인
+- [DataOps와 데이터 관측가능성·ELK](../../wiki/concepts/dataops-observability-elk.md) · [PDF](../../output/pdf/subnotes/topics/dataops-observability-elk.pdf) — 2쪽; 통합 p.43; 출처 확인
+- [빅데이터 플랫폼·데이터 레이크·늪 방지](../../wiki/concepts/big-data-platform-data-lake.md) · [PDF](../../output/pdf/subnotes/topics/big-data-platform-data-lake.pdf) — 2쪽; 통합 p.45; 출처 확인
+- [데이터 커머스와 거래소](../../wiki/concepts/data-commerce-marketplace.md) · [PDF](../../output/pdf/subnotes/topics/data-commerce-marketplace.pdf) — 2쪽; 통합 p.47; 출처 확인
+- [데이터 가치평가와 자산화](../../wiki/concepts/data-valuation-assetization.md) · [PDF](../../output/pdf/subnotes/topics/data-valuation-assetization.pdf) — 2쪽; 통합 p.49; 부분 확인
+- [합성데이터 생성과 품질 평가](../../wiki/concepts/synthetic-data-generation-evaluation.md) · [PDF](../../output/pdf/subnotes/topics/synthetic-data-generation-evaluation.pdf) — 2쪽; 통합 p.51; 부분 확인
+- [AI 학습데이터 생애주기·품질·어노테이션](../../wiki/concepts/ai-training-data-quality.md) · [PDF](../../output/pdf/subnotes/topics/ai-training-data-quality.pdf) — 2쪽; 통합 p.53; 부분 확인
+- [벡터 DB의 HNSW·IVF 검색](../../wiki/concepts/vector-ann-hnsw-ivf.md) · [PDF](../../output/pdf/subnotes/topics/vector-ann-hnsw-ivf.pdf) — 2쪽; 통합 p.55; 출처 확인
+- [파일·데이터베이스·블록체인의 데이터 저장 비교](../../wiki/concepts/file-database-blockchain-storage.md) · [PDF](../../output/pdf/subnotes/topics/file-database-blockchain-storage.pdf) — 2쪽; 통합 p.57; 부분 확인
+## 통계·분석·AI
+
+- [목적에 맞는 데이터 시각화](../../wiki/concepts/data-visualization.md) · [PDF](../../output/pdf/subnotes/topics/data-visualization.pdf) — 2쪽; 통합 p.59; 출처 확인
+- [표본추출·점추정·구간추정·불편성](../../wiki/concepts/sampling-estimation-unbiasedness.md) · [PDF](../../output/pdf/subnotes/topics/sampling-estimation-unbiasedness.pdf) — 2쪽; 통합 p.61; 출처 확인
+- [정규분포·대수의 법칙·중심극한정리](../../wiki/concepts/normal-distribution-lln-clt.md) · [PDF](../../output/pdf/subnotes/topics/normal-distribution-lln-clt.pdf) — 2쪽; 통합 p.63; 출처 확인
+- [베르누이·기하·이항·포아송 분포](../../wiki/concepts/discrete-probability-distributions.md) · [PDF](../../output/pdf/subnotes/topics/discrete-probability-distributions.pdf) — 2쪽; 통합 p.65; 출처 확인
+- [독립·대응 t검정과 z검정](../../wiki/concepts/t-test-z-test.md) · [PDF](../../output/pdf/subnotes/topics/t-test-z-test.pdf) — 2쪽; 통합 p.67; 출처 확인
+- [잭나이프의 편향 보정과 분산 추정](../../wiki/concepts/jackknife-bias-variance.md) · [PDF](../../output/pdf/subnotes/topics/jackknife-bias-variance.pdf) — 2쪽; 통합 p.69; 출처 확인
+- [베이즈 정리와 기저율](../../wiki/concepts/bayes-theorem.md) · [PDF](../../output/pdf/subnotes/topics/bayes-theorem.pdf) — 2쪽; 통합 p.71; 출처 확인
+- [상관·인과와 A/B 실험](../../wiki/concepts/correlation-causation-ab-testing.md) · [PDF](../../output/pdf/subnotes/topics/correlation-causation-ab-testing.pdf) — 2쪽; 통합 p.73; 출처 확인
+- [회귀의 등분산성과 다중공선성](../../wiki/concepts/regression-assumptions.md) · [PDF](../../output/pdf/subnotes/topics/regression-assumptions.pdf) — 2쪽; 통합 p.75; 출처 확인
+- [귀납적 학습·과적합 진단과 MLOps·ModelOps](../../wiki/concepts/machine-learning-lifecycle-modelops.md) · [PDF](../../output/pdf/subnotes/topics/machine-learning-lifecycle-modelops.pdf) — 2쪽; 통합 p.77; 부분 확인
+- [혼동행렬·정밀도·재현율·F1과 PR/ROC](../../wiki/concepts/machine-learning-evaluation-metrics.md) · [PDF](../../output/pdf/subnotes/topics/machine-learning-evaluation-metrics.pdf) — 2쪽; 통합 p.79; 출처 확인
+- [의사결정나무·지니/엔트로피·배깅/부스팅](../../wiki/concepts/decision-tree-ensembles.md) · [PDF](../../output/pdf/subnotes/topics/decision-tree-ensembles.pdf) — 2쪽; 통합 p.81; 출처 확인
+- [SVM의 최대 마진과 hard/soft margin](../../wiki/concepts/support-vector-machine.md) · [PDF](../../output/pdf/subnotes/topics/support-vector-machine.pdf) — 2쪽; 통합 p.83; 출처 확인
+- [K-means·DBSCAN과 실루엣 평가](../../wiki/concepts/clustering-silhouette.md) · [PDF](../../output/pdf/subnotes/topics/clustering-silhouette.pdf) — 2쪽; 통합 p.85; 출처 확인
+- [SOM의 경쟁·이웃 학습](../../wiki/concepts/self-organizing-map.md) · [PDF](../../output/pdf/subnotes/topics/self-organizing-map.pdf) — 2쪽; 통합 p.87; 부분 확인
+- [이상치·노이즈·편향과 처리 판단](../../wiki/concepts/outliers-noise-bias-filtering.md) · [PDF](../../output/pdf/subnotes/topics/outliers-noise-bias-filtering.pdf) — 2쪽; 통합 p.89; 부분 확인
+- [AR·MA·시계열 딥러닝과 실시간 이상 탐지](../../wiki/concepts/time-series-models-anomaly-detection.md) · [PDF](../../output/pdf/subnotes/topics/time-series-models-anomaly-detection.pdf) — 2쪽; 통합 p.91; 부분 확인
+- [학습 최적화와 베이지안 탐색](../../wiki/concepts/learning-optimization-bayesian-search.md) · [PDF](../../output/pdf/subnotes/topics/learning-optimization-bayesian-search.pdf) — 2쪽; 통합 p.93; 출처 확인
+- [메타휴리스틱과 유전 알고리즘](../../wiki/concepts/metaheuristics-genetic-algorithm.md) · [PDF](../../output/pdf/subnotes/topics/metaheuristics-genetic-algorithm.pdf) — 2쪽; 통합 p.95; 부분 확인
+- [차원 축소: 특징 선택과 투영](../../wiki/concepts/dimensionality-reduction.md) · [PDF](../../output/pdf/subnotes/topics/dimensionality-reduction.pdf) — 2쪽; 통합 p.97; 출처 확인
+- [인공신경망·순전파·역전파·활성화](../../wiki/concepts/neural-network-backpropagation.md) · [PDF](../../output/pdf/subnotes/topics/neural-network-backpropagation.pdf) — 2쪽; 통합 p.99; 출처 확인
+- [VAE의 잠재분포와 재매개화](../../wiki/concepts/variational-autoencoder.md) · [PDF](../../output/pdf/subnotes/topics/variational-autoencoder.pdf) — 2쪽; 통합 p.101; 출처 확인
+- [SNN과 뉴로모픽 칩](../../wiki/concepts/spiking-neuromorphic-computing.md) · [PDF](../../output/pdf/subnotes/topics/spiking-neuromorphic-computing.pdf) — 2쪽; 통합 p.103; 부분 확인
+- [연합학습의 FedAvg와 분산 최적화](../../wiki/concepts/federated-learning.md) · [PDF](../../output/pdf/subnotes/topics/federated-learning.pdf) — 2쪽; 통합 p.105; 부분 확인
+- [강화학습의 상태·행동·보상과 VPP](../../wiki/concepts/reinforcement-learning.md) · [PDF](../../output/pdf/subnotes/topics/reinforcement-learning.pdf) — 2쪽; 통합 p.107; 부분 확인
+- [GNN의 메시지 전달과 관계 기반 예측](../../wiki/concepts/graph-neural-network.md) · [PDF](../../output/pdf/subnotes/topics/graph-neural-network.pdf) — 2쪽; 통합 p.109; 부분 확인
+- [파운데이션·PLM·LLM·멀티모달과 적용 설계](../../wiki/concepts/foundation-language-multimodal-models.md) · [PDF](../../output/pdf/subnotes/topics/foundation-language-multimodal-models.pdf) — 2쪽; 통합 p.111; 부분 확인
+- [Transformer와 MoE의 결합](../../wiki/concepts/transformer-mixture-of-experts.md) · [PDF](../../output/pdf/subnotes/topics/transformer-mixture-of-experts.pdf) — 2쪽; 통합 p.113; 출처 확인
+- [RAG·Advanced/Modular와 하이브리드 검색](../../wiki/concepts/retrieval-augmented-generation.md) · [PDF](../../output/pdf/subnotes/topics/retrieval-augmented-generation.pdf) — 2쪽; 통합 p.115; 출처 확인
+- [Fine-tuning·RLHF·RAFT 파이프라인](../../wiki/concepts/fine-tuning-rlhf-raft.md) · [PDF](../../output/pdf/subnotes/topics/fine-tuning-rlhf-raft.pdf) — 2쪽; 통합 p.117; 출처 확인
+- [프롬프트와 하네스 엔지니어링](../../wiki/concepts/prompt-harness-engineering.md) · [PDF](../../output/pdf/subnotes/topics/prompt-harness-engineering.pdf) — 2쪽; 통합 p.119; 출처 확인
+- [Agentic AI·다중 에이전트와 MCP](../../wiki/concepts/agentic-ai-multi-agent-mcp.md) · [PDF](../../output/pdf/subnotes/topics/agentic-ai-multi-agent-mcp.pdf) — 2쪽; 통합 p.121; 출처 확인
+- [온디바이스 AI의 경량화와 실행](../../wiki/concepts/on-device-ai.md) · [PDF](../../output/pdf/subnotes/topics/on-device-ai.pdf) — 2쪽; 통합 p.123; 부분 확인
+- [Physical AI와 생성형 AI](../../wiki/concepts/physical-ai.md) · [PDF](../../output/pdf/subnotes/topics/physical-ai.pdf) — 2쪽; 통합 p.125; 부분 확인
+- [큐비트와 양자머신러닝의 가능성과 제약](../../wiki/concepts/quantum-machine-learning.md) · [PDF](../../output/pdf/subnotes/topics/quantum-machine-learning.pdf) — 2쪽; 통합 p.127; 부분 확인
+- [TurboQuant와 KV 캐시 양자화](../../wiki/concepts/turboquant-vector-quantization.md) · [PDF](../../output/pdf/subnotes/topics/turboquant-vector-quantization.pdf) — 2쪽; 통합 p.129; 출처 확인
+- [데이터·텍스트·오피니언 마이닝과 TF-IDF](../../wiki/concepts/text-mining-opinion-tfidf.md) · [PDF](../../output/pdf/subnotes/topics/text-mining-opinion-tfidf.pdf) — 2쪽; 통합 p.131; 출처 확인
+- [음성 데이터 마이닝의 처리와 평가](../../wiki/concepts/speech-data-mining.md) · [PDF](../../output/pdf/subnotes/topics/speech-data-mining.pdf) — 2쪽; 통합 p.133; 부분 확인
+- [DeepView의 시각 이해·추적·상황 분석](../../wiki/concepts/deepview-visual-intelligence.md) · [PDF](../../output/pdf/subnotes/topics/deepview-visual-intelligence.pdf) — 2쪽; 통합 p.135; 출처 확인
+- [Text2SQL·LangChain과 예지정비 연결](../../wiki/concepts/text-to-sql-langchain-predictive-maintenance.md) · [PDF](../../output/pdf/subnotes/topics/text-to-sql-langchain-predictive-maintenance.pdf) — 2쪽; 통합 p.137; 출처 확인
+- [딥페이크의 생성·평가·탐지 한계](../../wiki/concepts/deepfake-generation-detection.md) · [PDF](../../output/pdf/subnotes/topics/deepfake-generation-detection.pdf) — 2쪽; 통합 p.139; 부분 확인
+- [연관규칙의 지지도·신뢰도·향상도](../../wiki/concepts/association-rule-metrics.md) · [PDF](../../output/pdf/subnotes/topics/association-rule-metrics.pdf) — 2쪽; 통합 p.141; 출처 확인
+## 소프트웨어·아키텍처
+
+- [요구공학과 요구사항 개발](../../wiki/concepts/requirements-engineering.md) · [PDF](../../output/pdf/subnotes/topics/requirements-engineering.pdf) — 2쪽; 통합 p.143; 출처 확인
+- [요구사항 명세서·추적표·성능 요구](../../wiki/concepts/requirements-specification-traceability.md) · [PDF](../../output/pdf/subnotes/topics/requirements-specification-traceability.pdf) — 2쪽; 통합 p.145; 출처 확인
+- [구조적·폭포수·애자일과 방법론 테일러링](../../wiki/concepts/agile-lifecycle-tailoring.md) · [PDF](../../output/pdf/subnotes/topics/agile-lifecycle-tailoring.pdf) — 2쪽; 통합 p.147; 출처 확인
+- [소프트웨어 제품계열 방법론](../../wiki/concepts/software-product-line.md) · [PDF](../../output/pdf/subnotes/topics/software-product-line.pdf) — 2쪽; 통합 p.149; 출처 확인
+- [모듈 응집도·결합도·캡슐화·정보은닉](../../wiki/concepts/modularity-encapsulation.md) · [PDF](../../output/pdf/subnotes/topics/modularity-encapsulation.pdf) — 2쪽; 통합 p.151; 부분 확인
+- [아키텍처 스타일·GoF 패턴·프록시](../../wiki/concepts/architecture-styles-design-patterns.md) · [PDF](../../output/pdf/subnotes/topics/architecture-styles-design-patterns.pdf) — 2쪽; 통합 p.153; 부분 확인
+- [아키텍처 분석·ATAM·CBAM](../../wiki/concepts/architecture-evaluation-atam-cbam.md) · [PDF](../../output/pdf/subnotes/topics/architecture-evaluation-atam-cbam.pdf) — 2쪽; 통합 p.155; 출처 확인
+- [MSA·서비스 메시·이벤트 아키텍처](../../wiki/concepts/microservices-event-driven-architecture.md) · [PDF](../../output/pdf/subnotes/topics/microservices-event-driven-architecture.pdf) — 2쪽; 통합 p.157; 부분 확인
+- [TA와 AA의 역할·산출물·협업](../../wiki/concepts/technical-application-architect.md) · [PDF](../../output/pdf/subnotes/topics/technical-application-architect.pdf) — 2쪽; 통합 p.159; 부분 확인
+- [UML 주사위 게임의 객체·시퀀스·클래스 모델](../../wiki/concepts/uml-dice-model.md) · [PDF](../../output/pdf/subnotes/topics/uml-dice-model.pdf) — 4쪽; 통합 p.161; 출처 확인
+- [UML 순차 다이어그램과 도서예약 변환](../../wiki/concepts/uml-sequence-library.md) · [PDF](../../output/pdf/subnotes/topics/uml-sequence-library.pdf) — 4쪽; 통합 p.165; 출처 확인
+- [UML 활동·상태·유스케이스 다이어그램](../../wiki/concepts/uml-behavior-diagrams.md) · [PDF](../../output/pdf/subnotes/topics/uml-behavior-diagrams.pdf) — 2쪽; 통합 p.169; 출처 확인
+- [리팩토링·코드스멜·기술부채](../../wiki/concepts/refactoring-code-smell-technical-debt.md) · [PDF](../../output/pdf/subnotes/topics/refactoring-code-smell-technical-debt.pdf) — 2쪽; 통합 p.171; 출처 확인
+- [레거시 역공학·재공학·재사용과 3R 확인 사항](../../wiki/concepts/software-reengineering-three-r.md) · [PDF](../../output/pdf/subnotes/topics/software-reengineering-three-r.pdf) — 2쪽; 통합 p.173; 부분 확인
+- [Spring Boot와 AOP](../../wiki/concepts/spring-boot-aop.md) · [PDF](../../output/pdf/subnotes/topics/spring-boot-aop.pdf) — 2쪽; 통합 p.175; 출처 확인
+- [로우코드·노코드 플랫폼](../../wiki/concepts/low-code-no-code.md) · [PDF](../../output/pdf/subnotes/topics/low-code-no-code.pdf) — 2쪽; 통합 p.177; 부분 확인
+- [REST·SOAP·Open API 설계](../../wiki/concepts/rest-soap-open-api.md) · [PDF](../../output/pdf/subnotes/topics/rest-soap-open-api.pdf) — 2쪽; 통합 p.179; 출처 확인
+- [웹 성능 저하 원인과 프런트엔드 최적화](../../wiki/concepts/web-performance-optimization.md) · [PDF](../../output/pdf/subnotes/topics/web-performance-optimization.pdf) — 2쪽; 통합 p.181; 출처 확인
+- [소프트웨어 품질과 ISO/IEC 25010 판본](../../wiki/concepts/software-quality-model.md) · [PDF](../../output/pdf/subnotes/topics/software-quality-model.pdf) — 2쪽; 통합 p.183; 부분 확인
+- [품질보증·인스펙션·GS 인증·품질비용](../../wiki/concepts/quality-assurance-inspection-certification.md) · [PDF](../../output/pdf/subnotes/topics/quality-assurance-inspection-certification.pdf) — 2쪽; 통합 p.185; 출처 확인
+- [테스트 7대 원리와 기법 분류](../../wiki/concepts/software-testing-principles-techniques.md) · [PDF](../../output/pdf/subnotes/topics/software-testing-principles-techniques.pdf) — 2쪽; 통합 p.187; 출처 확인
+- [동등분할·경계값·분류트리 테스트케이스](../../wiki/concepts/equivalence-boundary-classification-tests.md) · [PDF](../../output/pdf/subnotes/topics/equivalence-boundary-classification-tests.pdf) — 2쪽; 통합 p.189; 출처 확인
+- [통합·회귀·몽키 테스트와 계획서](../../wiki/concepts/integration-regression-monkey-testing.md) · [PDF](../../output/pdf/subnotes/topics/integration-regression-monkey-testing.pdf) — 2쪽; 통합 p.191; 출처 확인
+- [임베디드·신뢰성·이식성 테스트](../../wiki/concepts/embedded-reliability-portability-testing.md) · [PDF](../../output/pdf/subnotes/topics/embedded-reliability-portability-testing.pdf) — 2쪽; 통합 p.193; 부분 확인
+- [커버리지·뮤테이션·순환복잡도](../../wiki/concepts/coverage-mutation-cyclomatic-complexity.md) · [PDF](../../output/pdf/subnotes/topics/coverage-mutation-cyclomatic-complexity.pdf) — 2쪽; 통합 p.195; 출처 확인
+- [AI 메타모픽·뉴런 커버리지·안전 반경 테스트](../../wiki/concepts/ai-metamorphic-neuron-robustness-testing.md) · [PDF](../../output/pdf/subnotes/topics/ai-metamorphic-neuron-robustness-testing.pdf) — 2쪽; 통합 p.197; 부분 확인
+- [DevOps·CI/CD·DataOps와 보안 자동화](../../wiki/concepts/devops-cicd-dataops.md) · [PDF](../../output/pdf/subnotes/topics/devops-cicd-dataops.pdf) — 2쪽; 통합 p.199; 부분 확인
+- [무중단 배포·테스트 전략·A/B 실험](../../wiki/concepts/deployment-ab-testing.md) · [PDF](../../output/pdf/subnotes/topics/deployment-ab-testing.pdf) — 2쪽; 통합 p.201; 부분 확인
+- [형상관리·기준선·IaC](../../wiki/concepts/configuration-management-iac.md) · [PDF](../../output/pdf/subnotes/topics/configuration-management-iac.pdf) — 2쪽; 통합 p.203; 출처 확인
+- [SW 안전성·FTA·FMEA·HAZOP·STPA](../../wiki/concepts/safety-hazard-analysis.md) · [PDF](../../output/pdf/subnotes/topics/safety-hazard-analysis.pdf) — 2쪽; 통합 p.205; 부분 확인
+- [SW 안전진단의 기능동작 정확성](../../wiki/concepts/software-safety-diagnosis.md) · [PDF](../../output/pdf/subnotes/topics/software-safety-diagnosis.pdf) — 2쪽; 통합 p.207; 확인 필요
+- [오픈소스에서 소스공개 라이선스로의 전환](../../wiki/concepts/source-available-license-transition.md) · [PDF](../../output/pdf/subnotes/topics/source-available-license-transition.pdf) — 2쪽; 통합 p.209; 출처 확인
+- [이진 탐색 트리와 트리정렬](../../wiki/concepts/binary-search-tree-and-tree-sort.md) · [PDF](../../output/pdf/subnotes/topics/binary-search-tree-and-tree-sort.pdf) — 2쪽; 통합 p.211; 출처 확인
+- [선형·비선형 자료구조와 스택·큐·리스트 입출력](../../wiki/concepts/linear-nonlinear-structures.md) · [PDF](../../output/pdf/subnotes/topics/linear-nonlinear-structures.pdf) — 2쪽; 통합 p.213; 출처 확인
+- [버블·삽입·퀵 정렬의 원리와 수행 비교](../../wiki/concepts/bubble-insertion-quick-sort.md) · [PDF](../../output/pdf/subnotes/topics/bubble-insertion-quick-sort.pdf) — 2쪽; 통합 p.215; 출처 확인
+- [알고리즘 복잡도와 O 표기·증가율 비교](../../wiki/concepts/algorithm-complexity-big-o.md) · [PDF](../../output/pdf/subnotes/topics/algorithm-complexity-big-o.pdf) — 2쪽; 통합 p.217; 출처 확인
+## 운영체제·컴퓨터구조
+
+- [경쟁 상태와 뮤텍스·세마포어·모니터](../../wiki/concepts/process-synchronization.md) · [PDF](../../output/pdf/subnotes/topics/process-synchronization.pdf) — 2쪽; 통합 p.219; 출처 확인
+- [우선순위 역전·상속·천장](../../wiki/concepts/priority-inversion.md) · [PDF](../../output/pdf/subnotes/topics/priority-inversion.pdf) — 2쪽; 통합 p.221; 부분 확인
+- [은행가 알고리즘과 안전 상태](../../wiki/concepts/bankers-algorithm.md) · [PDF](../../output/pdf/subnotes/topics/bankers-algorithm.pdf) — 2쪽; 통합 p.223; 출처 확인
+- [가상 메모리·단편화·스레싱](../../wiki/concepts/virtual-memory.md) · [PDF](../../output/pdf/subnotes/topics/virtual-memory.pdf) — 2쪽; 통합 p.225; 출처 확인
+- [코드·데이터·힙·스택과 메모리 오류](../../wiki/concepts/process-memory.md) · [PDF](../../output/pdf/subnotes/topics/process-memory.pdf) — 2쪽; 통합 p.227; 부분 확인
+- [IPC와 공유 메모리 동기화](../../wiki/concepts/interprocess-communication.md) · [PDF](../../output/pdf/subnotes/topics/interprocess-communication.pdf) — 2쪽; 통합 p.229; 출처 확인
+- [좀비 프로세스와 자식 회수](../../wiki/concepts/zombie-process.md) · [PDF](../../output/pdf/subnotes/topics/zombie-process.pdf) — 2쪽; 통합 p.231; 출처 확인
+- [CPU·디스크 스케줄링과 SJF·SRT·SSTF·SLTF](../../wiki/concepts/cpu-disk-scheduling.md) · [PDF](../../output/pdf/subnotes/topics/cpu-disk-scheduling.pdf) — 2쪽; 통합 p.233; 출처 확인
+- [엔디언·메모리 인터리빙·캐시 일관성](../../wiki/concepts/memory-layout-bandwidth.md) · [PDF](../../output/pdf/subnotes/topics/memory-layout-bandwidth.pdf) — 2쪽; 통합 p.235; 부분 확인
+- [AI 가속기·HBM·CXL·뉴로모픽 칩](../../wiki/concepts/ai-accelerator-memory.md) · [PDF](../../output/pdf/subnotes/topics/ai-accelerator-memory.pdf) — 2쪽; 통합 p.237; 부분 확인
+- [인터미턴트 컴퓨팅](../../wiki/concepts/intermittent-computing.md) · [PDF](../../output/pdf/subnotes/topics/intermittent-computing.pdf) — 2쪽; 통합 p.239; 부분 확인
+- [큐비트와 양자컴퓨팅 하드웨어](../../wiki/concepts/qubit-quantum-hardware.md) · [PDF](../../output/pdf/subnotes/topics/qubit-quantum-hardware.pdf) — 2쪽; 통합 p.241; 부분 확인
+## 네트워크·통신
+
+- [IPv4 서브네팅·슈퍼네팅·VLSM 계산](../../wiki/concepts/ipv4-subnetting-vlsm.md) · [PDF](../../output/pdf/subnotes/topics/ipv4-subnetting-vlsm.pdf) — 2쪽; 통합 p.243; 출처 확인
+- [TCP 연결·종료·흐름제어·혼잡제어](../../wiki/concepts/tcp-control.md) · [PDF](../../output/pdf/subnotes/topics/tcp-control.pdf) — 2쪽; 통합 p.245; 출처 확인
+- [소켓·WebSocket·SCTP](../../wiki/concepts/socket-sctp-websocket.md) · [PDF](../../output/pdf/subnotes/topics/socket-sctp-websocket.pdf) — 2쪽; 통합 p.247; 출처 확인
+- [오류 검출·정정과 Stop-and-Wait·Go-Back-N](../../wiki/concepts/error-control-arq.md) · [PDF](../../output/pdf/subnotes/topics/error-control-arq.pdf) — 2쪽; 통합 p.249; 부분 확인
+- [차등 맨체스터 부호화](../../wiki/concepts/differential-manchester.md) · [PDF](../../output/pdf/subnotes/topics/differential-manchester.pdf) — 2쪽; 통합 p.251; 출처 확인
+- [IGP·EGP·RIP·OSPF와 라우팅 탐색](../../wiki/concepts/routing-and-prefix-lookup.md) · [PDF](../../output/pdf/subnotes/topics/routing-and-prefix-lookup.pdf) — 2쪽; 통합 p.253; 출처 확인
+- [SDN·OpenFlow·IBN](../../wiki/concepts/sdn-openflow-ibn.md) · [PDF](../../output/pdf/subnotes/topics/sdn-openflow-ibn.pdf) — 2쪽; 통합 p.255; 부분 확인
+- [VXLAN 오버레이 네트워크](../../wiki/concepts/vxlan-overlay.md) · [PDF](../../output/pdf/subnotes/topics/vxlan-overlay.pdf) — 2쪽; 통합 p.257; 출처 확인
+- [CSMA/CA·TDMA·CDMA·NOMA](../../wiki/concepts/wireless-multiple-access.md) · [PDF](../../output/pdf/subnotes/topics/wireless-multiple-access.pdf) — 2쪽; 통합 p.259; 부분 확인
+- [Wi-Fi7과 IEEE802.11bn UHR](../../wiki/concepts/wifi7-wifi8.md) · [PDF](../../output/pdf/subnotes/topics/wifi7-wifi8.pdf) — 2쪽; 통합 p.261; 부분 확인
+- [6G·SATIN·AI-Native 네트워크·5G 특화망](../../wiki/concepts/imt2030-ai-native.md) · [PDF](../../output/pdf/subnotes/topics/imt2030-ai-native.pdf) — 2쪽; 통합 p.263; 부분 확인
+- [NFC와 MODBUS·산업제어 보안](../../wiki/concepts/nfc-ot-modbus.md) · [PDF](../../output/pdf/subnotes/topics/nfc-ot-modbus.pdf) — 2쪽; 통합 p.265; 부분 확인
+- [FIFO와 Weighted Fair Queueing](../../wiki/concepts/fifo-wfq.md) · [PDF](../../output/pdf/subnotes/topics/fifo-wfq.pdf) — 2쪽; 통합 p.267; 출처 확인
+## 클라우드·운영·복구
+
+- [GPU·TPU·멀티GPU와 AI 슈퍼컴퓨팅](../../wiki/concepts/ai-supercomputing-gpu-tpu.md) · [PDF](../../output/pdf/subnotes/topics/ai-supercomputing-gpu-tpu.pdf) — 2쪽; 통합 p.269; 부분 확인
+- [클라우드 서비스·배포 모델과 엣지](../../wiki/concepts/cloud-service-deployment-edge.md) · [PDF](../../output/pdf/subnotes/topics/cloud-service-deployment-edge.pdf) — 2쪽; 통합 p.271; 출처 확인
+- [가상화·응용 가상화·DaaS](../../wiki/concepts/virtualization-daas.md) · [PDF](../../output/pdf/subnotes/topics/virtualization-daas.pdf) — 2쪽; 통합 p.273; 부분 확인
+- [코드형 인프라 IaC](../../wiki/concepts/infrastructure-as-code.md) · [PDF](../../output/pdf/subnotes/topics/infrastructure-as-code.pdf) — 2쪽; 통합 p.275; 출처 확인
+- [쿠버네티스와 HPA·오토스케일링](../../wiki/concepts/kubernetes-hpa.md) · [PDF](../../output/pdf/subnotes/topics/kubernetes-hpa.pdf) — 2쪽; 통합 p.277; 출처 확인
+- [서버리스 컴퓨팅](../../wiki/concepts/serverless-computing.md) · [PDF](../../output/pdf/subnotes/topics/serverless-computing.pdf) — 2쪽; 통합 p.279; 출처 확인
+- [멀티클라우드와 클라우드 관리 플랫폼](../../wiki/concepts/multicloud-cmp.md) · [PDF](../../output/pdf/subnotes/topics/multicloud-cmp.pdf) — 2쪽; 통합 p.281; 부분 확인
+- [클라우드 도입 보안·아웃소싱·CSAP](../../wiki/concepts/cloud-security-assurance.md) · [PDF](../../output/pdf/subnotes/topics/cloud-security-assurance.pdf) — 2쪽; 통합 p.283; 부분 확인
+- [블록·파일·오브젝트 스토리지와 가상화](../../wiki/concepts/storage-architecture.md) · [PDF](../../output/pdf/subnotes/topics/storage-architecture.pdf) — 2쪽; 통합 p.285; 부분 확인
+- [FTS와 HA·장애 격리](../../wiki/concepts/availability-ft-ha.md) · [PDF](../../output/pdf/subnotes/topics/availability-ft-ha.pdf) — 2쪽; 통합 p.287; 부분 확인
+- [RTO·RPO와 Active-Active·Passive·Pilot Light](../../wiki/concepts/disaster-recovery-rto-rpo.md) · [PDF](../../output/pdf/subnotes/topics/disaster-recovery-rto-rpo.pdf) — 2쪽; 통합 p.289; 출처 확인
+- [AI 데이터센터·슈퍼컴퓨팅·DCI·입지·규모산정](../../wiki/concepts/ai-data-center-platform.md) · [PDF](../../output/pdf/subnotes/topics/ai-data-center-platform.pdf) — 2쪽; 통합 p.291; 부분 확인
+## 보안·개인정보·AI 거버넌스
+
+- [AI 거버넌스와 NIST AI RMF 1.0](../../wiki/concepts/nist-ai-rmf.md) · [PDF](../../output/pdf/subnotes/topics/nist-ai-rmf.pdf) — 2쪽; 통합 p.293; 출처 확인
+- [접근 통제 정책·보안모델·LDAP](../../wiki/concepts/access-control-models-ldap.md) · [PDF](../../output/pdf/subnotes/topics/access-control-models-ldap.pdf) — 2쪽; 통합 p.295; 부분 확인
+- [식별·인증·비인간 신원 NHI](../../wiki/concepts/identity-authentication-nhi.md) · [PDF](../../output/pdf/subnotes/topics/identity-authentication-nhi.pdf) — 2쪽; 통합 p.297; 부분 확인
+- [대칭·비대칭 암호와 AES](../../wiki/concepts/symmetric-asymmetric-aes.md) · [PDF](../../output/pdf/subnotes/topics/symmetric-asymmetric-aes.pdf) — 2쪽; 통합 p.299; 출처 확인
+- [ECB·CBC·CFB·OFB 블록 암호 모드](../../wiki/concepts/block-cipher-modes.md) · [PDF](../../output/pdf/subnotes/topics/block-cipher-modes.pdf) — 2쪽; 통합 p.301; 출처 확인
+- [해시·MAC·솔트·키 스트레칭](../../wiki/concepts/hash-mac-password.md) · [PDF](../../output/pdf/subnotes/topics/hash-mac-password.pdf) — 2쪽; 통합 p.303; 출처 확인
+- [RSA·DSA·ECC와 전자봉투](../../wiki/concepts/rsa-dsa-ecc-envelope.md) · [PDF](../../output/pdf/subnotes/topics/rsa-dsa-ecc-envelope.pdf) — 2쪽; 통합 p.305; 출처 확인
+- [TLS1.2 구조와 TLS1.3 개선](../../wiki/concepts/tls13.md) · [PDF](../../output/pdf/subnotes/topics/tls13.pdf) — 2쪽; 통합 p.307; 출처 확인
+- [IPsec·TLS VPN과 Tor](../../wiki/concepts/vpn-tor.md) · [PDF](../../output/pdf/subnotes/topics/vpn-tor.pdf) — 2쪽; 통합 p.309; 출처 확인
+- [양자키분배 QKD와 양자내성암호 PQC](../../wiki/concepts/qkd-pqc.md) · [PDF](../../output/pdf/subnotes/topics/qkd-pqc.pdf) — 2쪽; 통합 p.311; 부분 확인
+- [TPM·FIPS140-2·CC·신속확인 제도](../../wiki/concepts/security-assurance-tpm-fips-cc.md) · [PDF](../../output/pdf/subnotes/topics/security-assurance-tpm-fips-cc.pdf) — 2쪽; 통합 p.313; 부분 확인
+- [디지털 포렌식·아티팩트·슬랙·카빙·안티포렌식](../../wiki/concepts/digital-forensics.md) · [PDF](../../output/pdf/subnotes/topics/digital-forensics.pdf) — 2쪽; 통합 p.315; 부분 확인
+- [랜섬웨어·RaaS·인포스틸러·계정 공격](../../wiki/concepts/ransomware-credential-threats.md) · [PDF](../../output/pdf/subnotes/topics/ransomware-credential-threats.pdf) — 2쪽; 통합 p.317; 부분 확인
+- [공격 표면·벡터·TTPs·측면이동·CTEM](../../wiki/concepts/threat-exposure-ttp.md) · [PDF](../../output/pdf/subnotes/topics/threat-exposure-ttp.pdf) — 2쪽; 통합 p.319; 부분 확인
+- [Mirai·IoT·드론·NFT·메타버스 보안](../../wiki/concepts/iot-drone-platform-security.md) · [PDF](../../output/pdf/subnotes/topics/iot-drone-platform-security.pdf) — 2쪽; 통합 p.321; 부분 확인
+- [SIEM과 SOAR·사고 대응 자동화](../../wiki/concepts/siem-soar.md) · [PDF](../../output/pdf/subnotes/topics/siem-soar.pdf) — 2쪽; 통합 p.323; 출처 확인
+- [제로 트러스트·공급망 보안·N2SF](../../wiki/concepts/zero-trust-supply-chain-n2sf.md) · [PDF](../../output/pdf/subnotes/topics/zero-trust-supply-chain-n2sf.pdf) — 2쪽; 통합 p.325; 부분 확인
+- [BPFDoor 백도어와 리눅스 탐지](../../wiki/concepts/bpfdoor-defense.md) · [PDF](../../output/pdf/subnotes/topics/bpfdoor-defense.pdf) — 2쪽; 통합 p.327; 부분 확인
+- [리버스 프록시·로드밸런싱·DDoS 대피](../../wiki/concepts/reverse-proxy-ddos.md) · [PDF](../../output/pdf/subnotes/topics/reverse-proxy-ddos.pdf) — 2쪽; 통합 p.329; 부분 확인
+- [개인정보 보호 법·내부 관리 계획·마이데이터 권리](../../wiki/concepts/privacy-law-internal-plan.md) · [PDF](../../output/pdf/subnotes/topics/privacy-law-internal-plan.pdf) — 2쪽; 통합 p.331; 부분 확인
+- [가명처리·익명처리와 재식별 위험](../../wiki/concepts/pseudonymization-anonymization.md) · [PDF](../../output/pdf/subnotes/topics/pseudonymization-anonymization.pdf) — 2쪽; 통합 p.333; 부분 확인
+- [PET 분류와 동형암호](../../wiki/concepts/pet-homomorphic-encryption.md) · [PDF](../../output/pdf/subnotes/topics/pet-homomorphic-encryption.pdf) — 2쪽; 통합 p.335; 출처 확인
+- [차분 프라이버시와 프라이버시 예산](../../wiki/concepts/differential-privacy.md) · [PDF](../../output/pdf/subnotes/topics/differential-privacy.pdf) — 2쪽; 통합 p.337; 출처 확인
+- [다자간 안전 계산 MPC와 임계 인증](../../wiki/concepts/secure-multiparty-computation.md) · [PDF](../../output/pdf/subnotes/topics/secure-multiparty-computation.pdf) — 2쪽; 통합 p.339; 출처 확인
+- [연합학습·FedAvg와 프라이버시 보완](../../wiki/concepts/federated-learning-security.md) · [PDF](../../output/pdf/subnotes/topics/federated-learning-security.pdf) — 2쪽; 통합 p.341; 출처 확인
+- [Privacy by Design의 7원칙과 8전략](../../wiki/concepts/privacy-by-design.md) · [PDF](../../output/pdf/subnotes/topics/privacy-by-design.pdf) — 2쪽; 통합 p.343; 부분 확인
+- [개인정보 안심구역·데이터안심구역·CBPR](../../wiki/concepts/safe-data-zones-cbpr.md) · [PDF](../../output/pdf/subnotes/topics/safe-data-zones-cbpr.pdf) — 2쪽; 통합 p.345; 부분 확인
+- [ISMS·ISMS-P·간편인증과 정보 보호 컴플라이언스](../../wiki/concepts/isms-compliance-governance.md) · [PDF](../../output/pdf/subnotes/topics/isms-compliance-governance.pdf) — 2쪽; 통합 p.347; 부분 확인
+- [ISO/IEC42001과 CAT의 보증 범위](../../wiki/concepts/iso42001-ai-management.md) · [PDF](../../output/pdf/subnotes/topics/iso42001-ai-management.pdf) — 2쪽; 통합 p.349; 부분 확인
+- [국내 AI 윤리·메타버스 윤리·이용자 보호](../../wiki/concepts/ai-ethics-user-protection.md) · [PDF](../../output/pdf/subnotes/topics/ai-ethics-user-protection.pdf) — 2쪽; 통합 p.351; 부분 확인
+- [AI기본법·고영향 AI와 사업자 책무](../../wiki/concepts/korean-ai-basic-act.md) · [PDF](../../output/pdf/subnotes/topics/korean-ai-basic-act.pdf) — 2쪽; 통합 p.353; 부분 확인
+- [AI 리스크·적대적 학습 공격·모델 전도](../../wiki/concepts/adversarial-ai-security.md) · [PDF](../../output/pdf/subnotes/topics/adversarial-ai-security.pdf) — 2쪽; 통합 p.355; 출처 확인
+- [OWASP LLM2025·프롬프트 주입·MCP·자율성 통제](../../wiki/concepts/llm-owasp-mcp-autonomy.md) · [PDF](../../output/pdf/subnotes/topics/llm-owasp-mcp-autonomy.pdf) — 2쪽; 통합 p.357; 출처 확인
+- [AI 생성 코드·오픈웨이트 라이선스와 컴플라이언스](../../wiki/concepts/ai-code-openweight-licensing.md) · [PDF](../../output/pdf/subnotes/topics/ai-code-openweight-licensing.pdf) — 2쪽; 통합 p.359; 부분 확인
+- [암호 공격 모델과 암호문 공격](../../wiki/concepts/cryptanalysis-threat-models.md) · [PDF](../../output/pdf/subnotes/topics/cryptanalysis-threat-models.pdf) — 2쪽; 통합 p.361; 부분 확인
+- [DevSecOps·SBOM과 보안 품질 자동화](../../wiki/concepts/devsecops-sbom-security-quality.md) · [PDF](../../output/pdf/subnotes/topics/devsecops-sbom-security-quality.pdf) — 2쪽; 통합 p.363; 출처 확인
+- [안면인식 결제 서비스의 구조와 보호 대책](../../wiki/concepts/facial-recognition-payment.md) · [PDF](../../output/pdf/subnotes/topics/facial-recognition-payment.pdf) — 2쪽; 통합 p.365; 출처 확인
+## 전략·IT 거버넌스
+
+- [전자정부 UI/UX·웹 품질·KRDS](../../wiki/concepts/digital-government-ui-quality.md) · [PDF](../../output/pdf/subnotes/topics/digital-government-ui-quality.pdf) — 2쪽; 통합 p.367; 출처 확인
+- [ISP·ISMP·BPR 수행과 산출물](../../wiki/concepts/isp-ismp-bpr.md) · [PDF](../../output/pdf/subnotes/topics/isp-ismp-bpr.pdf) — 2쪽; 통합 p.369; 부분 확인
+- [IT 거버넌스·EA·효과 평가](../../wiki/concepts/it-governance-enterprise-architecture.md) · [PDF](../../output/pdf/subnotes/topics/it-governance-enterprise-architecture.pdf) — 2쪽; 통합 p.371; 부분 확인
+- [IT 투자평가·ROI·BSC](../../wiki/concepts/it-investment-balanced-scorecard.md) · [PDF](../../output/pdf/subnotes/topics/it-investment-balanced-scorecard.pdf) — 2쪽; 통합 p.373; 부분 확인
+- [AHP 계층분석 의사결정](../../wiki/concepts/analytic-hierarchy-process.md) · [PDF](../../output/pdf/subnotes/topics/analytic-hierarchy-process.pdf) — 2쪽; 통합 p.375; 부분 확인
+- [ITSM과 서비스 설계·구축·전환](../../wiki/concepts/it-service-management.md) · [PDF](../../output/pdf/subnotes/topics/it-service-management.pdf) — 2쪽; 통합 p.377; 부분 확인
+- [SLA 지표·측정·금융 클라우드](../../wiki/concepts/service-level-agreement-financial-cloud.md) · [PDF](../../output/pdf/subnotes/topics/service-level-agreement-financial-cloud.pdf) — 2쪽; 통합 p.379; 부분 확인
+- [DX·AX·CoE와 전략적 추진](../../wiki/concepts/digital-transformation-ax-coe.md) · [PDF](../../output/pdf/subnotes/topics/digital-transformation-ax-coe.pdf) — 2쪽; 통합 p.381; 부분 확인
+- [SEM 전략적 기업경영](../../wiki/concepts/strategic-enterprise-management.md) · [PDF](../../output/pdf/subnotes/topics/strategic-enterprise-management.pdf) — 2쪽; 통합 p.383; 출처 확인
+- [SWOT·3C·PEST 경영환경 분석](../../wiki/concepts/business-environment-analysis.md) · [PDF](../../output/pdf/subnotes/topics/business-environment-analysis.pdf) — 2쪽; 통합 p.385; 부분 확인
+- [TAM 기술수용모델](../../wiki/concepts/technology-acceptance-model.md) · [PDF](../../output/pdf/subnotes/topics/technology-acceptance-model.pdf) — 2쪽; 통합 p.387; 부분 확인
+- [TAM·SAM·SOM과 화이트레이블 마케팅](../../wiki/concepts/market-size-white-label.md) · [PDF](../../output/pdf/subnotes/topics/market-size-white-label.pdf) — 2쪽; 통합 p.389; 부분 확인
+- [공공 SLA 표준안·시스템 등급별 적용](../../wiki/concepts/public-sector-service-level-agreement.md) · [PDF](../../output/pdf/subnotes/topics/public-sector-service-level-agreement.pdf) — 2쪽; 통합 p.391; 부분 확인
+- [ESG 경영·지표와 IT 역할](../../wiki/concepts/esg-information-technology.md) · [PDF](../../output/pdf/subnotes/topics/esg-information-technology.pdf) — 2쪽; 통합 p.393; 출처 확인
+- [ISO14000 계열·환경경영시스템 인증](../../wiki/concepts/environmental-management-iso14000.md) · [PDF](../../output/pdf/subnotes/topics/environmental-management-iso14000.pdf) — 2쪽; 통합 p.395; 부분 확인
+- [OECD 디지털세·두 축 국제조세 개편](../../wiki/concepts/oecd-digital-tax-two-pillars.md) · [PDF](../../output/pdf/subnotes/topics/oecd-digital-tax-two-pillars.pdf) — 2쪽; 통합 p.397; 부분 확인
+- [UN 전자정부 평가·EGDI](../../wiki/concepts/un-egovernment-development-index.md) · [PDF](../../output/pdf/subnotes/topics/un-egovernment-development-index.pdf) — 2쪽; 통합 p.399; 출처 확인
+- [디지털플랫폼정부의 구조·효과](../../wiki/concepts/digital-platform-government.md) · [PDF](../../output/pdf/subnotes/topics/digital-platform-government.pdf) — 2쪽; 통합 p.401; 출처 확인
+- [데이터산업법의 목적·주요 내용·기대효과](../../wiki/concepts/data-industry-act.md) · [PDF](../../output/pdf/subnotes/topics/data-industry-act.pdf) — 2쪽; 통합 p.403; 출처 확인
+## 프로젝트·감리·사업대가
+
+- [프로젝트·프로그램·포트폴리오와 ISO 21500](../../wiki/concepts/project-program-portfolio-iso.md) · [PDF](../../output/pdf/subnotes/topics/project-program-portfolio-iso.pdf) — 2쪽; 통합 p.405; 부분 확인
+- [WBS 작성·범위·일정 만회](../../wiki/concepts/work-breakdown-structure.md) · [PDF](../../output/pdf/subnotes/topics/work-breakdown-structure.pdf) — 2쪽; 통합 p.407; 출처 확인
+- [프로젝트 위험관리·대응·ISO 31000](../../wiki/concepts/project-risk-management.md) · [PDF](../../output/pdf/subnotes/topics/project-risk-management.pdf) — 2쪽; 통합 p.409; 출처 확인
+- [PM의 갈등관리와 Tuckman 팀 발달](../../wiki/concepts/project-conflict-team-development.md) · [PDF](../../output/pdf/subnotes/topics/project-conflict-team-development.pdf) — 2쪽; 통합 p.411; 부분 확인
+- [감리·상주감리·PMO·PMC 비교](../../wiki/concepts/pmo-pmc-information-system-audit.md) · [PDF](../../output/pdf/subnotes/topics/pmo-pmc-information-system-audit.pdf) — 2쪽; 통합 p.413; 부분 확인
+- [빅데이터 사업 분석·설계 감리](../../wiki/concepts/big-data-system-audit.md) · [PDF](../../output/pdf/subnotes/topics/big-data-system-audit.pdf) — 2쪽; 통합 p.415; 출처 확인
+- [클라우드 전환 사업의 단계별 감리](../../wiki/concepts/cloud-migration-audit.md) · [PDF](../../output/pdf/subnotes/topics/cloud-migration-audit.pdf) — 2쪽; 통합 p.417; 출처 확인
+- [시스템 운영·유지보수 감리](../../wiki/concepts/operations-maintenance-audit.md) · [PDF](../../output/pdf/subnotes/topics/operations-maintenance-audit.pdf) — 2쪽; 통합 p.419; 부분 확인
+- [대규모 공공시스템 개통 준비도](../../wiki/concepts/go-live-readiness.md) · [PDF](../../output/pdf/subnotes/topics/go-live-readiness.pdf) — 2쪽; 통합 p.421; 출처 확인
+- [소프트웨어 규모·비용 산정](../../wiki/concepts/software-size-cost-estimation.md) · [PDF](../../output/pdf/subnotes/topics/software-size-cost-estimation.pdf) — 2쪽; 통합 p.423; 출처 확인
+- [2023 운영단계 SW 대가산정](../../wiki/concepts/software-operations-pricing.md) · [PDF](../../output/pdf/subnotes/topics/software-operations-pricing.pdf) — 2쪽; 통합 p.425; 출처 확인
+- [2025 AI 서비스 도입 사업 대가산정](../../wiki/concepts/ai-service-pricing-2025.md) · [PDF](../../output/pdf/subnotes/topics/ai-service-pricing-2025.pdf) — 2쪽; 통합 p.427; 출처 확인
+- [공공SW 과업 확정·기간·변경 심의](../../wiki/concepts/public-software-task-review.md) · [PDF](../../output/pdf/subnotes/topics/public-software-task-review.pdf) — 2쪽; 통합 p.429; 부분 확인
+- [SW 진흥법 기본계획·SW안전 지침](../../wiki/concepts/software-promotion-act-plan-safety.md) · [PDF](../../output/pdf/subnotes/topics/software-promotion-act-plan-safety.pdf) — 2쪽; 통합 p.431; 부분 확인
+- [SW 기술자 등급제와 IT직무제](../../wiki/concepts/it-job-competency-system.md) · [PDF](../../output/pdf/subnotes/topics/it-job-competency-system.pdf) — 2쪽; 통합 p.433; 부분 확인
+- [2024 조달청 대형SW 전문평가제](../../wiki/concepts/software-proposal-evaluation-2024.md) · [PDF](../../output/pdf/subnotes/topics/software-proposal-evaluation-2024.pdf) — 2쪽; 통합 p.435; 출처 확인
+## 산업 적용·신기술
+
+- [SCM·수요예측·안전재고/적정재고](../../wiki/concepts/supply-chain-demand-inventory.md) · [PDF](../../output/pdf/subnotes/topics/supply-chain-demand-inventory.pdf) — 2쪽; 통합 p.437; 부분 확인
+- [POP 생산시점 정보관리](../../wiki/concepts/point-of-production.md) · [PDF](../../output/pdf/subnotes/topics/point-of-production.pdf) — 2쪽; 통합 p.439; 부분 확인
+- [다크 팩토리·무인 생산 운영](../../wiki/concepts/dark-factory.md) · [PDF](../../output/pdf/subnotes/topics/dark-factory.pdf) — 2쪽; 통합 p.441; 부분 확인
+- [블록체인 유형·파일/DB와 저장 방식 비교](../../wiki/concepts/blockchain-deployment-data-storage.md) · [PDF](../../output/pdf/subnotes/topics/blockchain-deployment-data-storage.pdf) — 2쪽; 통합 p.443; 부분 확인
+- [NFT 대체불가능 토큰](../../wiki/concepts/non-fungible-token.md) · [PDF](../../output/pdf/subnotes/topics/non-fungible-token.pdf) — 2쪽; 통합 p.445; 부분 확인
+- [Web3·분산 소유 웹 서비스](../../wiki/concepts/decentralized-web3.md) · [PDF](../../output/pdf/subnotes/topics/decentralized-web3.pdf) — 2쪽; 통합 p.447; 출처 확인
+- [디지털트윈·메타버스 비교와 안전한 적용](../../wiki/concepts/digital-twin-metaverse.md) · [PDF](../../output/pdf/subnotes/topics/digital-twin-metaverse.pdf) — 2쪽; 통합 p.449; 출처 확인
+- [메타버스 윤리원칙·3가치8원칙](../../wiki/concepts/metaverse-ethical-principles.md) · [PDF](../../output/pdf/subnotes/topics/metaverse-ethical-principles.pdf) — 2쪽; 통합 p.451; 출처 확인
+- [디지털 역기능·3대 사회 이슈와 대응](../../wiki/concepts/digital-dysfunctions.md) · [PDF](../../output/pdf/subnotes/topics/digital-dysfunctions.pdf) — 2쪽; 통합 p.453; 출처 확인
+- [다크패턴 유형·예방/규제 대응](../../wiki/concepts/dark-patterns.md) · [PDF](../../output/pdf/subnotes/topics/dark-patterns.pdf) — 2쪽; 통합 p.455; 부분 확인
+- [슈퍼앱·미니앱과 멀티앱 비교](../../wiki/concepts/superapp-miniapp.md) · [PDF](../../output/pdf/subnotes/topics/superapp-miniapp.pdf) — 2쪽; 통합 p.457; 출처 확인
+- [AI 디지털교과서의 구조·핵심 서비스](../../wiki/concepts/ai-digital-textbook-platform.md) · [PDF](../../output/pdf/subnotes/topics/ai-digital-textbook-platform.pdf) — 2쪽; 통합 p.459; 출처 확인

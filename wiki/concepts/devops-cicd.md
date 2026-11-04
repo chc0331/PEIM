@@ -15,7 +15,7 @@ sources:
 - id: source-qnet-130
 - id: source-qnet-136
 status: 출처 확인
-updated: '2026-11-01'
+updated: '2026-11-05'
 ---
 
 # DevOps 및 CI/CD
@@ -73,3 +73,12 @@ CI/CD 도구를 설치했다고 DevOps가 완성되는 것은 아니다. 변경 
 ## 누적 기록
 
 - 2026-11-01: Q-Net 공식 기출과의 연결을 추가했습니다. 기존 기술 설명을 변경하지 않았습니다.
+
+
+## 인쇄 노트와 세부 주제
+
+이 문서는 기존 개요를 보존한 길잡이입니다. 2026-11-05에 보완한 아래 노트에서 상세 설명·예제·기출 대응·적용 기준을 확인합니다. 각 노트는 제목에 명시한 범위를 다루며 이 개요와 자동으로 같은 개념으로 합치지 않습니다.
+
+- [DevOps·CI/CD·DataOps와 보안 자동화](devops-cicd-dataops.md)
+- [무중단 배포·테스트 전략·A/B 실험](deployment-ab-testing.md)
+- [코드형 인프라 IaC](infrastructure-as-code.md)

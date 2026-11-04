@@ -4,3 +4,4 @@ __pycache__/
 graphify-out/
 .graphify_cache/
 .pytest_cache/
+tmp/

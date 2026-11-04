@@ -1,14 +1,18 @@
 ---
 id: enterprise-architecture
 title: 전사 아키텍처(EA)
-aliases: [EA, Enterprise Architecture, 전사적 아키텍처]
+aliases:
+- EA
+- Enterprise Architecture
+- 전사적 아키텍처
 type: concept
 format: a4-1-subnote
-domains: [전략·아키텍처]
+domains:
+- 전략·아키텍처
 sources:
 - id: source-korea-ea-isp
 status: 출처 확인
-updated: '2026-09-06'
+updated: '2026-11-05'
 ---
 
 # 전사 아키텍처(EA)
@@ -53,3 +57,11 @@ EA는 ISP의 전략 의사결정 근거가 될 수 있지만 ISP 전체를 대�
 ## 근거
 
 - [공공 EA·ISP 관리 및 활용 근거](../sources/korea-ea-isp.md)
+
+
+## 인쇄 노트와 세부 주제
+
+이 문서는 기존 개요를 보존한 길잡이입니다. 2026-11-05에 보완한 아래 노트에서 상세 설명·예제·기출 대응·적용 기준을 확인합니다. 각 노트는 제목에 명시한 범위를 다루며 이 개요와 자동으로 같은 개념으로 합치지 않습니다.
+
+- [IT 거버넌스·EA·효과 평가](it-governance-enterprise-architecture.md)
+- [아키텍처 분석·ATAM·CBAM](architecture-evaluation-atam-cbam.md)
