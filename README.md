@@ -26,7 +26,7 @@
 - [465문항 요구사항과 수록 위치](docs/subnotes/coverage.md) · [인쇄·재생성 안내](docs/subnotes/README.md)
 - [학습자 프로필](study/profile.md) · [진도·복습](study/progress.md)
 - [현재 독학 전략](wiki/comparisons/study-strategy.md)
-- [그래프 시각화](graphify-out/graph.html) · [그래프 보고서와 출처 목록](graphify-out/GRAPH_REPORT.md)
+- [공개 개념 그래프](https://chc0331.github.io/PEIM-concept-graph/) · [전체 로컬 그래프](graphify-out/graph.html) · [그래프 보고서와 출처 목록](graphify-out/GRAPH_REPORT.md)
 - [문서 형식·갱신·복구 절차](docs/wiki-workflow.md)
 
 위키에는 출처 368개·개념 237개·비교/탐색 2개·기출 교시 문서 60개가 있습니다(2026-11-05). Q-Net 제126~140회 공식 PDF 15개와 465문항을 보관하고 문항마다 PDF 페이지를 연결했습니다. 인쇄용 서브노트 224개에는 쉬운 설명·비교·예제·답안 골격·회상 질문과 기출 요구사항 대응을 담았습니다. 각 노트는 2쪽 또는 4쪽이며, 통합본은 472쪽입니다.
@@ -74,4 +74,6 @@ Codex 스킬은 `.codex/skills/graphify/`에 이미 등록되어 있습니다. �
 
 문서가 존재하는 것과 실제로 회상·답안 작성을 할 수 있는 것은 별개입니다. 사용자의 수행 기록은 그래프에 넣지 않습니다. 검증 상태가 상충·미검증인 내용도 탐색할 수 있으나 정답 근거로 무비판적으로 사용하지 않습니다.
 
-그래프 HTML은 Graphify의 기본 시각화이며 최초 표시 시 vis-network 라이브러리를 CDN에서 불러옵니다. 로컬에 자료를 보관하지만 완전한 오프라인 화면을 보장하지 않습니다. 파일/프로젝트를 외부에 공개하거나 클라우드에 배포하지 않았습니다.
+전체 그래프 HTML은 Graphify의 기본 시각화이며 최초 표시 시 vis-network 라이브러리를 CDN에서 불러옵니다. 로컬에 자료를 보관하지만 완전한 오프라인 화면을 보장하지 않습니다. 별도 공개 저장소의 개념 그래프 페이지에는 개념 문서에서 추출한 노드와 관계만 담고, 원자료·기출 문서 노드·개인 학습 기록은 싣지 않습니다. 위키 원문 링크는 이 비공개 PEIM 저장소에 접근할 수 있어야 열립니다.
+
+공개 페이지는 자동 갱신되지 않습니다. 새 자료를 위키에 반영하고 `scripts/wiki.py prepare`·의미 추출·`build`를 마친 다음, `.venv/bin/python scripts/export_concept_graph.py --output /path/to/PEIM-concept-graph`로 공개 저장소 체크아웃에 내보내고 해당 저장소를 커밋·푸시합니다. 내보내기는 그래프가 최신 상태인지 검사하며 개인 자료 경로가 섞인 결과는 거부합니다. 공개 페이지의 화면 원본은 `site/concept-graph/`입니다.
