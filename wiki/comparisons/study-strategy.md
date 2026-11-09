@@ -13,8 +13,9 @@ sources:
 - id: source-kpc-138-review
 - id: source-itproda-review
 - id: source-qnet-guide
+- id: source-gornik-ai-engineering-learning
 status: 출처 확인
-updated: '2026-09-06'
+updated: '2026-11-09'
 ---
 
 # 주 15~20시간 독학 학습 전략
@@ -44,5 +45,11 @@ updated: '2026-09-06'
 - [6개월 사례](../sources/six-month-review.md)와 [10개월 사례](../sources/ten-month-review.md)의 투입 조건을 함께 읽는다.
 - 시험 요건은 [Q-Net 안내](../sources/qnet-guide.md)와 해당 회차 공고를 확인한다.
 - 자료 정리는 [LLM Wiki 패턴](../sources/llm-wiki-pattern.md)을 따르고 관계 탐색은 [Graphify](../sources/graphify-reference.md)를 사용한다.
+
+## AI를 활용한 시작과 복습
+
+[공학 학습 방법 영상](../sources/gornik-ai-engineering-learning.md)은 AI로 개념 시각화·읽을 자료 선별·막힌 과제의 첫 단계 파악·자료 탐색을 제안한다. 이는 발표자의 경험이며 효과 크기를 검증한 시험 지침은 아니다.
+
+이 프로젝트에서는 다음 순서로 적용한다. 공식 기출 요구와 기존 노트를 기준으로 작은 학습 목표를 정하고, 필요한 구조와 예제를 시각화한 뒤 학습자가 자료를 가리고 직접 설명하거나 답안을 작성한다. 이후 출처와 비교해 빠진 기본기와 오류를 보완한다. 자료 선별과 20% 비유를 시험 범위 축소나 빈출 예측으로 취급하지 않는다.
 
 이 페이지가 생성됐다는 사실은 사용자가 학습·회상·답안 작성을 완료했다는 증거가 아니다.

@@ -5,6 +5,7 @@
 ## sources
 
 - [Google Cloud DevOps 역량 안내](sources/google-devops.md) — 출처 확인; 개발·운영
+- [AI를 활용한 공학 학습 방법 영상](sources/gornik-ai-engineering-learning.md) — 출처 확인; 학습 방법
 - [Graphify 공식 프로젝트와 Codex 의미 추출 절차](sources/graphify-reference.md) — 출처 확인; 도구 문서
 - [ISO/IEC 38500:2024 IT 거버넌스 안내](sources/iso-it-governance.md) — 출처 확인; IT 거버넌스
 - [ISO/IEC 20000-1:2018 IT 서비스 관리 안내](sources/iso-itsm.md) — 출처 확인; IT 서비스 관리

@@ -725,3 +725,13 @@
 - 반영: [프로젝트 관리](concepts/project-management.md)
 - 반영: [정보보호 거버넌스와 ISMS-P](concepts/security-governance-isms-p.md)
 - 학습 숙련도는 자동 변경하지 않음. 문서 의미·상충 검토는 강사가 수행.
+
+## [2026-11-09T15:31:35+09:00] sync
+
+- 반영: [주 15~20시간 독학 학습 전략](comparisons/study-strategy.md)
+- 반영: [AI를 활용한 공학 학습 방법 영상](sources/gornik-ai-engineering-learning.md)
+- 학습 숙련도는 자동 변경하지 않음. 문서 의미·상충 검토는 강사가 수행.
+
+## [2026-11-09T16:34:14+09:00] sync
+
+- 학습 숙련도는 자동 변경하지 않음. 문서 의미·상충 검토는 강사가 수행.
