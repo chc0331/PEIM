@@ -4,15 +4,15 @@
 
 - 사용: [48주 시간표와 첫 2주 일별 체크](timetable.md)에서 현재 활동을 확인하고 이 문서에서 해당 토픽의 기본·선택 여부와 근거를 확인합니다.
 - 기본은 공통 기초·선수 개념과 확인된 기출 요구를 중심으로 고른 초기 계획입니다. 선택 심화는 세부 기술·변형·특정 적용을 다룰 기회이며, 선택 여부는 공식 중요도나 출제 여부를 뜻하지 않습니다. 진단 결과에 따라 조정합니다.
-- 표기된 주차는 첫 학습을 위한 계획입니다. 각 행은 고유 토픽 또는 기초 목표의 기준 체크 한 곳입니다. 다른 일차·과목·복습에서 다시 나와도 여기의 같은 토픽을 참조하며 완료를 중복 계산하지 않습니다.
-- 기본 토픽을 실제로 학습하고 짧은 회상을 수행했다는 제출 근거 또는 사용자 보고가 있으면 Codex가 체크합니다. 사용자 보고만으로 정확성이나 숙련도를 올리지 않습니다. 선택 심화는 원할 때 수행하며 미체크여도 기본 진도 완료를 막지 않습니다.
+- 표에 적힌 주차는 처음 공부할 시점입니다. 주제와 기초 목표마다 완료 여부를 이 문서의 한 곳에 기록합니다. 다른 과목에서 같은 주제를 다시 다룰 때도 기존 항목을 사용합니다.
+- 기본 주제를 공부하고 자료 없이 짧게 설명한 사실을 학습 보고나 제출물로 확인하면 Codex가 체크합니다. 사용자 보고만으로 정확성이나 숙련도를 올리지 않습니다. 선택 심화는 원할 때 수행하며 미체크여도 기본 진도 완료를 막지 않습니다.
 - 기본 활동은 주 15시간 안에 배정합니다. 선택 심화는 해당 주 학습에 여유가 있거나 사용자가 추가로 확보한 최대 5시간에 고르며, 모든 심화 항목을 해당 주에 해야 한다는 뜻이 아닙니다.
 - 검토 표시는 기존 서브노트의 내용 검토 상태입니다. 기출 링크는 예시 한 문항이며 공식 정답이나 모든 소문항의 검증을 뜻하지 않습니다. 다른 연결 문항과 적용 범위는 각 노트와 [기출 요구사항 대응표](../docs/subnotes/coverage.md)를 확인합니다.
 - 여러 내용을 묶은 토픽은 수업에서 다룰 기본 초점을 먼저 밝히고, 체크할 때 실제로 학습·회상한 범위와 남은 부분을 진도 기록에 구분합니다. 한 토픽 체크가 모든 세부 내용의 숙달을 뜻하지 않습니다.
 - 정규화 위키와 인쇄 노트에는 1일차 129회 기출의 강사 풀이가 있습니다. 기출 답안 제출 전에는 해당 노트를 열지 말고, 풀이를 먼저 보고 싶으면 요청해 주세요.
 - 기준: [기존 토픽 카탈로그](../docs/subnotes/catalog.json)의 2022~2026년 126~140회 기출 연결과 [2027~2030 사진 대조표](../wiki/comparisons/qnet-2027-curriculum-map.md)를 함께 사용합니다. 사진은 8쪽 중 1~4쪽이며 4쪽 일부와 5~8쪽은 미확인입니다. Q-Net 첨부 원문 전체는 독립적으로 열람하지 못했습니다.
-- 224개 기존 토픽과 별도로 자료를 보완해야 하는 **기초 목표 11개**를 추가했습니다. 목표 체크는 여기에만 있으며 자료 준비나 노트 생성만으로 체크하지 않습니다. 기초 목표는 수업 전에 강사가 공식 근거와 설명을 준비하고, 내용 학습과 짧은 회상을 확인한 뒤 체크합니다. 기존 노트의 검토 상태와 자료 연결 상태, 개인 학습 상태는 서로 다릅니다.
-- 기본으로 바꾼 토픽도 기준과 닿는 기초 초점부터 다룹니다. 배정량이 15시간 안에 맞지 않으면 신규량을 줄여 미완료 항목을 다음 해당 과목 주차로 옮깁니다. 모든 법령·정책은 학습 시점과 응시 시점의 공식 원문을 다시 확인합니다.
+- **기초 목표 11개**에는 설명, 예제, 회상 질문을 담은 보충 자료를 연결했습니다. 자료를 공부하고 짧은 회상을 마쳤는지 확인한 뒤 이 문서에서 체크합니다. 문서의 출처 검토 상태와 학습 완료 여부는 따로 기록합니다.
+- 기본으로 바꾼 토픽도 기준과 닿는 기초 초점부터 다룹니다. 공부할 분량이 15시간을 넘으면 새로 배울 분량을 줄이고, 못 마친 항목은 같은 과목을 다시 공부하는 주로 옮깁니다. 모든 법령·정책은 학습 시점과 응시 시점의 공식 원문을 다시 확인합니다.
 
 ## 과목 바로가기
 
@@ -33,7 +33,7 @@
 
 ## 주차별 기본 토픽과 기초 목표
 
-아래는 유일한 토픽·목표 체크로 가는 바로가기입니다. 25주 이후에도 기존 토픽의 중복 체크 없이 다시 참조하며, 26·30·31주에 배정된 기초 항목은 기존 학습시간에서 수행합니다. 목표 수가 많을 때는 회상·답안 시간을 지키고 남은 항목을 해당 과목 복습 주로 이월합니다.
+아래 링크를 열면 해당 주에 공부할 주제와 기초 목표의 체크 항목으로 이동합니다. 25주 이후에도 기존 토픽의 중복 체크 없이 다시 참조하며, 26·30·31주에 배정된 기초 항목은 기존 학습시간에서 수행합니다. 목표 수가 많을 때는 회상·답안 시간을 지키고 남은 항목을 해당 과목 복습 주로 이월합니다.
 
 | 주차 | 해당 주의 기본 토픽·목표 |
 |---|---|
@@ -173,8 +173,8 @@
 
 ### 사진 대조 후 추가한 기초 학습 목표
 
-- [ ] **기본 목표 · [26주차](timetable.md#week-26)** 임베디드 응용 분석·설계 — 학습 범위: 요구·하드웨어 제약·인터페이스를 분석하고 기본 구조와 검증 관점을 설명. 자료 보완 예정 · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-embedded) <!-- goal-id:embedded-app --><a id="goal-embedded-app"></a>
-- [ ] **기본 목표 · [26주차](timetable.md#week-26)** 프로그래밍 언어와 응용 SW 기초 — 학습 범위: 언어의 실행 방식·자료형·제어 흐름과 응용 구성의 기본을 사례로 설명. 자료 보완 예정 · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-programming) <!-- goal-id:programming-fundamentals --><a id="goal-programming-fundamentals"></a>
+- [ ] **기본 목표 · [26주차](timetable.md#week-26)** 임베디드 응용 분석·설계 — 학습 범위: 요구·하드웨어 제약·인터페이스를 분석하고 기본 구조와 검증 관점을 설명. [기초 설명·예제·회상 질문](../wiki/concepts/embedded-app.md) · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-embedded) <!-- goal-id:embedded-app --><a id="goal-embedded-app"></a>
+- [ ] **기본 목표 · [26주차](timetable.md#week-26)** 프로그래밍 언어와 응용 SW 기초 — 학습 범위: 언어의 실행 방식·자료형·제어 흐름과 응용 구성의 기본을 사례로 설명. [기초 설명·예제·회상 질문](../wiki/concepts/programming-fundamentals.md) · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-programming) <!-- goal-id:programming-fundamentals --><a id="goal-programming-fundamentals"></a>
 
 
 <a id="course-systems"></a>
@@ -205,9 +205,9 @@
 
 ### 사진 대조 후 추가한 기초 학습 목표
 
-- [ ] **기본 목표 · [5주차](timetable.md#week-5)** 시스템 프로그래밍 기초 — 학습 범위: 시스템 호출·프로세스·파일 입출력의 역할을 응용 프로그램과 연결해 설명. 자료 보완 예정 · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-system-programming) <!-- goal-id:system-programming --><a id="goal-system-programming"></a>
-- [ ] **기본 목표 · [5주차](timetable.md#week-5)** 수치해석 기초 — 학습 범위: 근사·오차·수렴을 간단한 수치 계산 사례로 구분. 자료 보완 예정 · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-numerical) <!-- goal-id:numerical-analysis --><a id="goal-numerical-analysis"></a>
-- [ ] **기본 목표 · [15주차](timetable.md#week-15)** 시스템 SW 아키텍처와 기술문서 — 학습 범위: 시스템 SW 구성요소·인터페이스·품질 요구와 기술문서에 담을 내용을 설명. 자료 보완 예정 · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-system-sw-arch) <!-- goal-id:system-software-architecture --><a id="goal-system-software-architecture"></a>
+- [ ] **기본 목표 · [5주차](timetable.md#week-5)** 시스템 프로그래밍 기초 — 학습 범위: 시스템 호출·프로세스·파일 입출력의 역할을 응용 프로그램과 연결해 설명. [기초 설명·예제·회상 질문](../wiki/concepts/system-programming.md) · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-system-programming) <!-- goal-id:system-programming --><a id="goal-system-programming"></a>
+- [ ] **기본 목표 · [5주차](timetable.md#week-5)** 수치해석 기초 — 학습 범위: 근사·오차·수렴을 간단한 수치 계산 사례로 구분. [기초 설명·예제·회상 질문](../wiki/concepts/numerical-analysis.md) · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-numerical) <!-- goal-id:numerical-analysis --><a id="goal-numerical-analysis"></a>
+- [ ] **기본 목표 · [15주차](timetable.md#week-15)** 시스템 SW 아키텍처와 기술문서 — 학습 범위: 시스템 SW 구성요소·인터페이스·품질 요구와 기술문서에 담을 내용을 설명. [기초 설명·예제·회상 질문](../wiki/concepts/system-software-architecture.md) · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-system-sw-arch) <!-- goal-id:system-software-architecture --><a id="goal-system-software-architecture"></a>
 
 
 <a id="course-network"></a>
@@ -242,7 +242,7 @@
 
 ### 사진 대조 후 추가한 기초 학습 목표
 
-- [ ] **기본 목표 · [16주차](timetable.md#week-16)** 네트워크 설계 기초 — 학습 범위: 요구·트래픽·주소·토폴로지·가용성·보안과 검증 순서를 연결. 자료 보완 예정 · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-network-design) <!-- goal-id:network-design --><a id="goal-network-design"></a>
+- [ ] **기본 목표 · [16주차](timetable.md#week-16)** 네트워크 설계 기초 — 학습 범위: 요구·트래픽·주소·토폴로지·가용성·보안과 검증 순서를 연결. [기초 설명·예제·회상 질문](../wiki/concepts/network-design.md) · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-network-design) <!-- goal-id:network-design --><a id="goal-network-design"></a>
 
 
 <a id="course-cloud"></a>
@@ -276,7 +276,7 @@
 
 ### 사진 대조 후 추가한 기초 학습 목표
 
-- [ ] **기본 목표 · [17주차](timetable.md#week-17)** 분산파일 처리 기초 — 학습 범위: 파일 분할·배치·복제·처리의 기본 구조와 분산 DB와의 차이를 설명. 자료 보완 예정 · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-distributed-files) <!-- goal-id:distributed-file-processing --><a id="goal-distributed-file-processing"></a>
+- [ ] **기본 목표 · [17주차](timetable.md#week-17)** 분산파일 처리 기초 — 학습 범위: 파일 분할·배치·복제·처리의 기본 구조와 분산 DB와의 차이를 설명. [기초 설명·예제·회상 질문](../wiki/concepts/distributed-file-processing.md) · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-distributed-files) <!-- goal-id:distributed-file-processing --><a id="goal-distributed-file-processing"></a>
 
 
 <a id="course-security"></a>
@@ -374,9 +374,9 @@
 
 ### 사진 대조 후 추가한 기초 학습 목표
 
-- [ ] **기본 목표 · [20주차](timetable.md#week-20)** UI/UX 계획·설계 기초 — 학습 범위: 사용자 요구에서 콘셉트·정보구조·화면 흐름·검증으로 이어지는 과정을 설명. 자료 보완 예정 · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-uiux) <!-- goal-id:ui-ux-design --><a id="goal-ui-ux-design"></a>
-- [ ] **기본 목표 · [20주차](timetable.md#week-20)** SW 제품 개발 계획 기초 — 학습 범위: 대상 사용자·문제·제품 목표·범위·우선순위·개발 및 검증 계획을 연결. 자료 보완 예정 · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-product-planning) <!-- goal-id:software-product-planning --><a id="goal-software-product-planning"></a>
-- [ ] **기본 목표 · [31주차](timetable.md#week-31)** 정보통신 법규·정책 기초 확인 — 학습 범위: 사진에 언급된 법령·지침과 정책의 목적·적용대상을 분류하고 학습 시점의 공식 원문을 확인. 자료 보완 예정 · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-legal) <!-- goal-id:legal-policy-overview --><a id="goal-legal-policy-overview"></a>
+- [ ] **기본 목표 · [20주차](timetable.md#week-20)** UI/UX 계획·설계 기초 — 학습 범위: 사용자 요구에서 콘셉트·정보구조·화면 흐름·검증으로 이어지는 과정을 설명. [기초 설명·예제·회상 질문](../wiki/concepts/ui-ux-design.md) · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-uiux) <!-- goal-id:ui-ux-design --><a id="goal-ui-ux-design"></a>
+- [ ] **기본 목표 · [20주차](timetable.md#week-20)** SW 제품 개발 계획 기초 — 학습 범위: 대상 사용자·문제·제품 목표·범위·우선순위·개발 및 검증 계획을 연결. [기초 설명·예제·회상 질문](../wiki/concepts/software-product-planning.md) · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-product-planning) <!-- goal-id:software-product-planning --><a id="goal-software-product-planning"></a>
+- [ ] **기본 목표 · [31주차](timetable.md#week-31)** 정보통신 법규·정책 기초 확인 — 학습 범위: 사진에 언급된 법령·지침과 정책의 목적·적용대상을 분류하고 학습 시점의 공식 원문을 확인. [기초 설명·예제·회상 질문](../wiki/concepts/legal-policy-overview.md) · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-legal) <!-- goal-id:legal-policy-overview --><a id="goal-legal-policy-overview"></a>
 
 
 <a id="course-project"></a>
@@ -473,7 +473,7 @@
 
 ### 사진 대조 후 추가한 기초 학습 목표
 
-- [ ] **기본 목표 · [23주차](timetable.md#week-23)** 빅데이터 분석 과정 기초 — 학습 범위: 분석 기획·데이터 탐색·모델링·결과 해석을 목적과 검증에 연결. 자료 보완 예정 · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-analysis-plan) <!-- goal-id:big-data-analysis --><a id="goal-big-data-analysis"></a>
+- [ ] **기본 목표 · [23주차](timetable.md#week-23)** 빅데이터 분석 과정 기초 — 학습 범위: 분석 기획·데이터 탐색·모델링·결과 해석을 목적과 검증에 연결. [기초 설명·예제·회상 질문](../wiki/concepts/big-data-analysis.md) · [사진 대조](../wiki/comparisons/qnet-2027-curriculum-map.md#qnet-analysis-plan) <!-- goal-id:big-data-analysis --><a id="goal-big-data-analysis"></a>
 
 
 <a id="course-industry"></a>

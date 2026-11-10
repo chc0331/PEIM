@@ -15,56 +15,56 @@
     {
       "topic": "relational-data-modeling",
       "page": 1,
-      "characters": 724,
-      "bottom": 511.0
+      "characters": 790,
+      "bottom": 526.4
     },
     {
       "topic": "relational-data-modeling",
       "page": 2,
-      "characters": 1018,
+      "characters": 1085,
       "bottom": 638.8
     },
     {
       "topic": "relational-normalization",
       "page": 1,
-      "characters": 924,
+      "characters": 970,
       "bottom": 653.2
     },
     {
       "topic": "relational-normalization",
       "page": 2,
-      "characters": 1303,
-      "bottom": 692.8
+      "characters": 1358,
+      "bottom": 708.2
     },
     {
       "topic": "database-denormalization",
       "page": 1,
-      "characters": 676,
-      "bottom": 526.4
-    },
-    {
-      "topic": "database-denormalization",
-      "page": 2,
-      "characters": 917,
-      "bottom": 574.3
-    },
-    {
-      "topic": "transaction-concurrency-control",
-      "page": 1,
-      "characters": 783,
+      "characters": 719,
       "bottom": 541.8
     },
     {
+      "topic": "database-denormalization",
+      "page": 2,
+      "characters": 932,
+      "bottom": 589.7
+    },
+    {
+      "topic": "transaction-concurrency-control",
+      "page": 1,
+      "characters": 907,
+      "bottom": 588.0
+    },
+    {
       "topic": "transaction-concurrency-control",
       "page": 2,
-      "characters": 990,
+      "characters": 1007,
       "bottom": 592.6
     },
     {
       "topic": "transaction-isolation-levels",
       "page": 1,
-      "characters": 884,
-      "bottom": 526.4
+      "characters": 1024,
+      "bottom": 557.2
     },
     {
       "topic": "transaction-isolation-levels",
@@ -75,163 +75,163 @@
     {
       "topic": "database-index-structures",
       "page": 1,
-      "characters": 843,
-      "bottom": 555.8
+      "characters": 883,
+      "bottom": 571.2
     },
     {
       "topic": "database-index-structures",
       "page": 2,
-      "characters": 936,
-      "bottom": 577.2
+      "characters": 968,
+      "bottom": 592.6
     },
     {
       "topic": "extendible-hashing",
       "page": 1,
-      "characters": 718,
-      "bottom": 511.0
+      "characters": 738,
+      "bottom": 526.4
     },
     {
       "topic": "extendible-hashing",
       "page": 2,
-      "characters": 859,
+      "characters": 867,
       "bottom": 557.8
     },
     {
       "topic": "sql-optimizer-tuning",
       "page": 1,
-      "characters": 821,
-      "bottom": 541.8
+      "characters": 858,
+      "bottom": 557.2
     },
     {
       "topic": "sql-optimizer-tuning",
       "page": 2,
-      "characters": 1010,
+      "characters": 1028,
       "bottom": 593.7
     },
     {
       "topic": "static-dynamic-sql",
       "page": 1,
-      "characters": 756,
+      "characters": 759,
       "bottom": 541.8
     },
     {
       "topic": "static-dynamic-sql",
       "page": 2,
-      "characters": 783,
-      "bottom": 529.9
+      "characters": 802,
+      "bottom": 545.3
     },
     {
       "topic": "nosql-document-modeling",
       "page": 1,
-      "characters": 834,
+      "characters": 829,
       "bottom": 541.8
     },
     {
       "topic": "nosql-document-modeling",
       "page": 2,
-      "characters": 965,
-      "bottom": 592.6
+      "characters": 1000,
+      "bottom": 608.0
     },
     {
       "topic": "partitioning-sharding",
       "page": 1,
-      "characters": 813,
+      "characters": 823,
       "bottom": 541.8
     },
     {
       "topic": "partitioning-sharding",
       "page": 2,
-      "characters": 1037,
-      "bottom": 575.4
+      "characters": 1065,
+      "bottom": 590.8
     },
     {
       "topic": "distributed-database-transparency",
       "page": 1,
-      "characters": 784,
+      "characters": 780,
       "bottom": 526.4
     },
     {
       "topic": "distributed-database-transparency",
       "page": 2,
-      "characters": 1018,
-      "bottom": 589.7
+      "characters": 1046,
+      "bottom": 605.1
     },
     {
       "topic": "cap-pacelc",
       "page": 1,
-      "characters": 811,
+      "characters": 779,
       "bottom": 541.8
     },
     {
       "topic": "cap-pacelc",
       "page": 2,
-      "characters": 875,
+      "characters": 890,
       "bottom": 557.8
     },
     {
       "topic": "database-migration-validation",
       "page": 1,
-      "characters": 784,
+      "characters": 801,
       "bottom": 541.8
     },
     {
       "topic": "database-migration-validation",
       "page": 2,
-      "characters": 1035,
-      "bottom": 575.4
+      "characters": 1058,
+      "bottom": 590.8
     },
     {
       "topic": "public-database-standardization",
       "page": 1,
-      "characters": 863,
+      "characters": 888,
       "bottom": 541.8
     },
     {
       "topic": "public-database-standardization",
       "page": 2,
-      "characters": 1047,
+      "characters": 1067,
       "bottom": 662.0
     },
     {
       "topic": "data-governance-master-data",
       "page": 1,
-      "characters": 820,
-      "bottom": 541.8
+      "characters": 869,
+      "bottom": 557.2
     },
     {
       "topic": "data-governance-master-data",
       "page": 2,
-      "characters": 926,
+      "characters": 927,
       "bottom": 561.8
     },
     {
       "topic": "data-quality-management",
       "page": 1,
-      "characters": 831,
-      "bottom": 541.8
+      "characters": 864,
+      "bottom": 557.2
     },
     {
       "topic": "data-quality-management",
       "page": 2,
-      "characters": 1010,
-      "bottom": 590.8
+      "characters": 1042,
+      "bottom": 606.2
     },
     {
       "topic": "dataops-observability-elk",
       "page": 1,
-      "characters": 891,
+      "characters": 904,
       "bottom": 541.8
     },
     {
       "topic": "dataops-observability-elk",
       "page": 2,
-      "characters": 1099,
+      "characters": 1163,
       "bottom": 618.7
     },
     {
       "topic": "big-data-platform-data-lake",
       "page": 1,
-      "characters": 909,
+      "characters": 934,
       "bottom": 541.8
     },
     {
@@ -243,104 +243,104 @@
     {
       "topic": "data-commerce-marketplace",
       "page": 1,
-      "characters": 803,
+      "characters": 799,
       "bottom": 541.8
     },
     {
       "topic": "data-commerce-marketplace",
       "page": 2,
-      "characters": 847,
-      "bottom": 546.4
+      "characters": 864,
+      "bottom": 561.8
     },
     {
       "topic": "data-valuation-assetization",
       "page": 1,
-      "characters": 828,
-      "bottom": 541.8
+      "characters": 870,
+      "bottom": 557.2
     },
     {
       "topic": "data-valuation-assetization",
       "page": 2,
-      "characters": 947,
+      "characters": 949,
       "bottom": 574.3
     },
     {
       "topic": "synthetic-data-generation-evaluation",
       "page": 1,
-      "characters": 881,
+      "characters": 872,
       "bottom": 541.8
     },
     {
       "topic": "synthetic-data-generation-evaluation",
       "page": 2,
-      "characters": 1138,
-      "bottom": 607.3
+      "characters": 1186,
+      "bottom": 638.1
     },
     {
       "topic": "ai-training-data-quality",
       "page": 1,
-      "characters": 918,
+      "characters": 916,
       "bottom": 557.2
     },
     {
       "topic": "ai-training-data-quality",
       "page": 2,
-      "characters": 1086,
-      "bottom": 603.3
+      "characters": 1164,
+      "bottom": 634.1
     },
     {
       "topic": "vector-ann-hnsw-ivf",
       "page": 1,
-      "characters": 894,
+      "characters": 882,
       "bottom": 541.8
     },
     {
       "topic": "vector-ann-hnsw-ivf",
       "page": 2,
-      "characters": 833,
-      "bottom": 545.3
+      "characters": 851,
+      "bottom": 560.7
     },
     {
       "topic": "file-database-blockchain-storage",
       "page": 1,
-      "characters": 968,
+      "characters": 952,
       "bottom": 588.0
     },
     {
       "topic": "file-database-blockchain-storage",
       "page": 2,
-      "characters": 1183,
-      "bottom": 637.0
+      "characters": 1236,
+      "bottom": 652.4
     },
     {
       "topic": "data-visualization",
       "page": 1,
-      "characters": 744,
+      "characters": 738,
       "bottom": 526.4
     },
     {
       "topic": "data-visualization",
       "page": 2,
-      "characters": 800,
-      "bottom": 542.4
+      "characters": 826,
+      "bottom": 557.8
     },
     {
       "topic": "sampling-estimation-unbiasedness",
       "page": 1,
-      "characters": 940,
+      "characters": 947,
       "bottom": 578.6
     },
     {
       "topic": "sampling-estimation-unbiasedness",
       "page": 2,
-      "characters": 995,
-      "bottom": 571.4
+      "characters": 1046,
+      "bottom": 586.8
     },
     {
       "topic": "normal-distribution-lln-clt",
       "page": 1,
-      "characters": 872,
-      "bottom": 541.8
+      "characters": 886,
+      "bottom": 557.2
     },
     {
       "topic": "normal-distribution-lln-clt",
@@ -351,146 +351,146 @@
     {
       "topic": "discrete-probability-distributions",
       "page": 1,
-      "characters": 863,
+      "characters": 883,
       "bottom": 544.6
     },
     {
       "topic": "discrete-probability-distributions",
       "page": 2,
-      "characters": 1021,
+      "characters": 1024,
       "bottom": 590.8
     },
     {
       "topic": "t-test-z-test",
       "page": 1,
-      "characters": 869,
+      "characters": 876,
       "bottom": 578.6
     },
     {
       "topic": "t-test-z-test",
       "page": 2,
-      "characters": 1039,
-      "bottom": 587.9
+      "characters": 1137,
+      "bottom": 634.1
     },
     {
       "topic": "jackknife-bias-variance",
       "page": 1,
-      "characters": 854,
-      "bottom": 526.4
+      "characters": 875,
+      "bottom": 541.8
     },
     {
       "topic": "jackknife-bias-variance",
       "page": 2,
-      "characters": 786,
-      "bottom": 529.9
+      "characters": 812,
+      "bottom": 545.3
     },
     {
       "topic": "bayes-theorem",
       "page": 1,
-      "characters": 694,
+      "characters": 697,
       "bottom": 511.0
     },
     {
       "topic": "bayes-theorem",
       "page": 2,
-      "characters": 830,
-      "bottom": 542.4
+      "characters": 894,
+      "bottom": 557.8
     },
     {
       "topic": "correlation-causation-ab-testing",
       "page": 1,
-      "characters": 796,
-      "bottom": 526.4
+      "characters": 838,
+      "bottom": 541.8
     },
     {
       "topic": "correlation-causation-ab-testing",
       "page": 2,
-      "characters": 986,
+      "characters": 1047,
       "bottom": 586.8
     },
     {
       "topic": "regression-assumptions",
       "page": 1,
-      "characters": 829,
-      "bottom": 541.8
+      "characters": 872,
+      "bottom": 557.2
     },
     {
       "topic": "regression-assumptions",
       "page": 2,
-      "characters": 863,
-      "bottom": 561.8
+      "characters": 905,
+      "bottom": 577.2
     },
     {
       "topic": "machine-learning-lifecycle-modelops",
       "page": 1,
-      "characters": 937,
+      "characters": 945,
       "bottom": 541.8
     },
     {
       "topic": "machine-learning-lifecycle-modelops",
       "page": 2,
-      "characters": 1129,
-      "bottom": 634.1
+      "characters": 1201,
+      "bottom": 680.3
     },
     {
       "topic": "machine-learning-evaluation-metrics",
       "page": 1,
-      "characters": 915,
+      "characters": 904,
       "bottom": 541.8
     },
     {
       "topic": "machine-learning-evaluation-metrics",
       "page": 2,
-      "characters": 838,
+      "characters": 862,
       "bottom": 560.7
     },
     {
       "topic": "decision-tree-ensembles",
       "page": 1,
-      "characters": 877,
+      "characters": 897,
       "bottom": 557.2
     },
     {
       "topic": "decision-tree-ensembles",
       "page": 2,
-      "characters": 942,
-      "bottom": 561.8
+      "characters": 902,
+      "bottom": 546.4
     },
     {
       "topic": "support-vector-machine",
       "page": 1,
-      "characters": 872,
+      "characters": 883,
       "bottom": 544.6
     },
     {
       "topic": "support-vector-machine",
       "page": 2,
-      "characters": 867,
+      "characters": 885,
       "bottom": 545.3
     },
     {
       "topic": "clustering-silhouette",
       "page": 1,
-      "characters": 935,
+      "characters": 926,
       "bottom": 544.6
     },
     {
       "topic": "clustering-silhouette",
       "page": 2,
-      "characters": 776,
-      "bottom": 529.9
+      "characters": 808,
+      "bottom": 545.3
     },
     {
       "topic": "self-organizing-map",
       "page": 1,
-      "characters": 790,
+      "characters": 798,
       "bottom": 541.8
     },
     {
       "topic": "self-organizing-map",
       "page": 2,
-      "characters": 866,
-      "bottom": 560.7
+      "characters": 901,
+      "bottom": 576.1
     },
     {
       "topic": "outliers-noise-bias-filtering",
@@ -501,338 +501,338 @@
     {
       "topic": "outliers-noise-bias-filtering",
       "page": 2,
-      "characters": 884,
-      "bottom": 561.8
+      "characters": 922,
+      "bottom": 577.2
     },
     {
       "topic": "time-series-models-anomaly-detection",
       "page": 1,
-      "characters": 881,
-      "bottom": 541.8
+      "characters": 911,
+      "bottom": 557.2
     },
     {
       "topic": "time-series-models-anomaly-detection",
       "page": 2,
-      "characters": 1433,
+      "characters": 1464,
       "bottom": 676.7
     },
     {
       "topic": "learning-optimization-bayesian-search",
       "page": 1,
-      "characters": 995,
+      "characters": 986,
       "bottom": 586.6
     },
     {
       "topic": "learning-optimization-bayesian-search",
       "page": 2,
-      "characters": 1147,
+      "characters": 1177,
       "bottom": 631.2
     },
     {
       "topic": "metaheuristics-genetic-algorithm",
       "page": 1,
-      "characters": 825,
+      "characters": 782,
       "bottom": 541.8
     },
     {
       "topic": "metaheuristics-genetic-algorithm",
       "page": 2,
-      "characters": 784,
-      "bottom": 560.7
+      "characters": 802,
+      "bottom": 576.1
     },
     {
       "topic": "dimensionality-reduction",
       "page": 1,
-      "characters": 773,
+      "characters": 781,
       "bottom": 526.4
     },
     {
       "topic": "dimensionality-reduction",
       "page": 2,
-      "characters": 802,
+      "characters": 836,
       "bottom": 545.3
     },
     {
       "topic": "neural-network-backpropagation",
       "page": 1,
-      "characters": 855,
+      "characters": 853,
       "bottom": 541.8
     },
     {
       "topic": "neural-network-backpropagation",
       "page": 2,
-      "characters": 831,
-      "bottom": 573.2
+      "characters": 863,
+      "bottom": 588.6
     },
     {
       "topic": "variational-autoencoder",
       "page": 1,
-      "characters": 879,
+      "characters": 898,
       "bottom": 558.6
     },
     {
       "topic": "variational-autoencoder",
       "page": 2,
-      "characters": 783,
+      "characters": 794,
       "bottom": 557.8
     },
     {
       "topic": "spiking-neuromorphic-computing",
       "page": 1,
-      "characters": 924,
+      "characters": 913,
       "bottom": 541.8
     },
     {
       "topic": "spiking-neuromorphic-computing",
       "page": 2,
-      "characters": 859,
-      "bottom": 545.3
+      "characters": 889,
+      "bottom": 560.7
     },
     {
       "topic": "federated-learning",
       "page": 1,
-      "characters": 900,
-      "bottom": 572.6
+      "characters": 866,
+      "bottom": 557.2
     },
     {
       "topic": "federated-learning",
       "page": 2,
-      "characters": 975,
-      "bottom": 604.0
+      "characters": 1011,
+      "bottom": 619.4
     },
     {
       "topic": "reinforcement-learning",
       "page": 1,
-      "characters": 846,
-      "bottom": 541.8
+      "characters": 863,
+      "bottom": 557.2
     },
     {
       "topic": "reinforcement-learning",
       "page": 2,
-      "characters": 844,
+      "characters": 862,
       "bottom": 576.1
     },
     {
       "topic": "graph-neural-network",
       "page": 1,
-      "characters": 833,
-      "bottom": 541.8
+      "characters": 844,
+      "bottom": 557.2
     },
     {
       "topic": "graph-neural-network",
       "page": 2,
-      "characters": 895,
+      "characters": 909,
       "bottom": 573.2
     },
     {
       "topic": "foundation-language-multimodal-models",
       "page": 1,
-      "characters": 1113,
+      "characters": 1098,
       "bottom": 602.0
     },
     {
       "topic": "foundation-language-multimodal-models",
       "page": 2,
-      "characters": 1379,
-      "bottom": 676.7
+      "characters": 1410,
+      "bottom": 692.1
     },
     {
       "topic": "transformer-mixture-of-experts",
       "page": 1,
-      "characters": 1076,
+      "characters": 1070,
       "bottom": 578.6
     },
     {
       "topic": "transformer-mixture-of-experts",
       "page": 2,
-      "characters": 1041,
-      "bottom": 589.7
+      "characters": 1054,
+      "bottom": 605.1
     },
     {
       "topic": "retrieval-augmented-generation",
       "page": 1,
-      "characters": 993,
+      "characters": 997,
       "bottom": 541.8
     },
     {
       "topic": "retrieval-augmented-generation",
       "page": 2,
-      "characters": 1137,
-      "bottom": 615.8
+      "characters": 1163,
+      "bottom": 646.6
     },
     {
       "topic": "fine-tuning-rlhf-raft",
       "page": 1,
-      "characters": 889,
-      "bottom": 541.8
+      "characters": 892,
+      "bottom": 557.2
     },
     {
       "topic": "fine-tuning-rlhf-raft",
       "page": 2,
-      "characters": 1123,
-      "bottom": 615.8
+      "characters": 1148,
+      "bottom": 631.2
     },
     {
       "topic": "prompt-harness-engineering",
       "page": 1,
-      "characters": 868,
+      "characters": 855,
       "bottom": 541.8
     },
     {
       "topic": "prompt-harness-engineering",
       "page": 2,
-      "characters": 948,
-      "bottom": 546.4
+      "characters": 977,
+      "bottom": 561.8
     },
     {
       "topic": "agentic-ai-multi-agent-mcp",
       "page": 1,
-      "characters": 994,
-      "bottom": 572.6
+      "characters": 957,
+      "bottom": 541.8
     },
     {
       "topic": "agentic-ai-multi-agent-mcp",
       "page": 2,
-      "characters": 1007,
-      "bottom": 589.7
+      "characters": 1020,
+      "bottom": 605.1
     },
     {
       "topic": "on-device-ai",
-      "page": 1,
-      "characters": 832,
-      "bottom": 541.8
-    },
-    {
-      "topic": "on-device-ai",
-      "page": 2,
-      "characters": 871,
-      "bottom": 545.3
-    },
-    {
-      "topic": "physical-ai",
-      "page": 1,
-      "characters": 838,
-      "bottom": 541.8
-    },
-    {
-      "topic": "physical-ai",
-      "page": 2,
-      "characters": 851,
-      "bottom": 560.7
-    },
-    {
-      "topic": "quantum-machine-learning",
-      "page": 1,
-      "characters": 943,
-      "bottom": 557.2
-    },
-    {
-      "topic": "quantum-machine-learning",
-      "page": 2,
-      "characters": 888,
-      "bottom": 573.2
-    },
-    {
-      "topic": "turboquant-vector-quantization",
-      "page": 1,
-      "characters": 978,
-      "bottom": 557.2
-    },
-    {
-      "topic": "turboquant-vector-quantization",
-      "page": 2,
-      "characters": 963,
-      "bottom": 573.2
-    },
-    {
-      "topic": "text-mining-opinion-tfidf",
-      "page": 1,
-      "characters": 823,
-      "bottom": 541.8
-    },
-    {
-      "topic": "text-mining-opinion-tfidf",
-      "page": 2,
-      "characters": 1077,
-      "bottom": 589.7
-    },
-    {
-      "topic": "speech-data-mining",
-      "page": 1,
-      "characters": 834,
-      "bottom": 541.8
-    },
-    {
-      "topic": "speech-data-mining",
-      "page": 2,
-      "characters": 862,
-      "bottom": 545.3
-    },
-    {
-      "topic": "deepview-visual-intelligence",
       "page": 1,
       "characters": 831,
       "bottom": 541.8
     },
     {
+      "topic": "on-device-ai",
+      "page": 2,
+      "characters": 892,
+      "bottom": 560.7
+    },
+    {
+      "topic": "physical-ai",
+      "page": 1,
+      "characters": 849,
+      "bottom": 541.8
+    },
+    {
+      "topic": "physical-ai",
+      "page": 2,
+      "characters": 879,
+      "bottom": 576.1
+    },
+    {
+      "topic": "quantum-machine-learning",
+      "page": 1,
+      "characters": 938,
+      "bottom": 557.2
+    },
+    {
+      "topic": "quantum-machine-learning",
+      "page": 2,
+      "characters": 901,
+      "bottom": 573.2
+    },
+    {
+      "topic": "turboquant-vector-quantization",
+      "page": 1,
+      "characters": 944,
+      "bottom": 557.2
+    },
+    {
+      "topic": "turboquant-vector-quantization",
+      "page": 2,
+      "characters": 989,
+      "bottom": 588.6
+    },
+    {
+      "topic": "text-mining-opinion-tfidf",
+      "page": 1,
+      "characters": 802,
+      "bottom": 541.8
+    },
+    {
+      "topic": "text-mining-opinion-tfidf",
+      "page": 2,
+      "characters": 1126,
+      "bottom": 620.5
+    },
+    {
+      "topic": "speech-data-mining",
+      "page": 1,
+      "characters": 849,
+      "bottom": 541.8
+    },
+    {
+      "topic": "speech-data-mining",
+      "page": 2,
+      "characters": 902,
+      "bottom": 560.7
+    },
+    {
+      "topic": "deepview-visual-intelligence",
+      "page": 1,
+      "characters": 832,
+      "bottom": 541.8
+    },
+    {
       "topic": "deepview-visual-intelligence",
       "page": 2,
-      "characters": 794,
-      "bottom": 545.3
+      "characters": 817,
+      "bottom": 560.7
     },
     {
       "topic": "text-to-sql-langchain-predictive-maintenance",
       "page": 1,
-      "characters": 958,
+      "characters": 969,
       "bottom": 572.6
     },
     {
       "topic": "text-to-sql-langchain-predictive-maintenance",
       "page": 2,
-      "characters": 887,
-      "bottom": 561.8
+      "characters": 967,
+      "bottom": 592.6
     },
     {
       "topic": "deepfake-generation-detection",
       "page": 1,
-      "characters": 863,
+      "characters": 864,
       "bottom": 541.8
     },
     {
       "topic": "deepfake-generation-detection",
       "page": 2,
-      "characters": 1075,
-      "bottom": 603.3
+      "characters": 1167,
+      "bottom": 634.1
     },
     {
       "topic": "association-rule-metrics",
       "page": 1,
-      "characters": 880,
+      "characters": 882,
       "bottom": 541.8
     },
     {
       "topic": "association-rule-metrics",
       "page": 2,
-      "characters": 889,
-      "bottom": 557.8
+      "characters": 979,
+      "bottom": 588.6
     },
     {
       "topic": "requirements-engineering",
       "page": 1,
-      "characters": 779,
-      "bottom": 591.2
+      "characters": 753,
+      "bottom": 575.8
     },
     {
       "topic": "requirements-engineering",
       "page": 2,
-      "characters": 833,
-      "bottom": 546.4
+      "characters": 871,
+      "bottom": 577.2
     },
     {
       "topic": "requirements-specification-traceability",
       "page": 1,
-      "characters": 865,
-      "bottom": 563.2
+      "characters": 900,
+      "bottom": 592.6
     },
     {
       "topic": "requirements-specification-traceability",
@@ -843,7 +843,7 @@
     {
       "topic": "agile-lifecycle-tailoring",
       "page": 1,
-      "characters": 878,
+      "characters": 917,
       "bottom": 594.0
     },
     {
@@ -855,68 +855,68 @@
     {
       "topic": "software-product-line",
       "page": 1,
-      "characters": 773,
+      "characters": 810,
       "bottom": 575.8
     },
     {
       "topic": "software-product-line",
       "page": 2,
-      "characters": 723,
+      "characters": 739,
       "bottom": 529.9
     },
     {
       "topic": "modularity-encapsulation",
       "page": 1,
-      "characters": 915,
+      "characters": 929,
       "bottom": 563.2
     },
     {
       "topic": "modularity-encapsulation",
       "page": 2,
-      "characters": 926,
+      "characters": 939,
       "bottom": 561.8
     },
     {
       "topic": "architecture-styles-design-patterns",
       "page": 1,
-      "characters": 951,
-      "bottom": 578.6
+      "characters": 991,
+      "bottom": 594.0
     },
     {
       "topic": "architecture-styles-design-patterns",
       "page": 2,
-      "characters": 907,
+      "characters": 911,
       "bottom": 561.8
     },
     {
       "topic": "architecture-evaluation-atam-cbam",
       "page": 1,
-      "characters": 913,
+      "characters": 929,
       "bottom": 594.0
     },
     {
       "topic": "architecture-evaluation-atam-cbam",
       "page": 2,
-      "characters": 926,
+      "characters": 938,
       "bottom": 571.4
     },
     {
       "topic": "microservices-event-driven-architecture",
       "page": 1,
-      "characters": 878,
+      "characters": 884,
       "bottom": 594.0
     },
     {
       "topic": "microservices-event-driven-architecture",
       "page": 2,
-      "characters": 1173,
+      "characters": 1184,
       "bottom": 626.7
     },
     {
       "topic": "technical-application-architect",
       "page": 1,
-      "characters": 845,
-      "bottom": 547.8
+      "characters": 886,
+      "bottom": 563.2
     },
     {
       "topic": "technical-application-architect",
@@ -927,7 +927,7 @@
     {
       "topic": "uml-dice-model",
       "page": 1,
-      "characters": 1154,
+      "characters": 1160,
       "bottom": 527.4
     },
     {
@@ -951,20 +951,20 @@
     {
       "topic": "uml-sequence-library",
       "page": 1,
-      "characters": 923,
-      "bottom": 475.2
+      "characters": 942,
+      "bottom": 490.6
     },
     {
       "topic": "uml-sequence-library",
       "page": 2,
-      "characters": 312,
+      "characters": 314,
       "bottom": 448.1
     },
     {
       "topic": "uml-sequence-library",
       "page": 3,
-      "characters": 942,
-      "bottom": 591.5
+      "characters": 969,
+      "bottom": 606.9
     },
     {
       "topic": "uml-sequence-library",
@@ -975,55 +975,55 @@
     {
       "topic": "uml-behavior-diagrams",
       "page": 1,
-      "characters": 870,
-      "bottom": 578.6
+      "characters": 911,
+      "bottom": 594.0
     },
     {
       "topic": "uml-behavior-diagrams",
       "page": 2,
-      "characters": 748,
-      "bottom": 529.9
+      "characters": 771,
+      "bottom": 545.3
     },
     {
       "topic": "refactoring-code-smell-technical-debt",
       "page": 1,
-      "characters": 917,
+      "characters": 945,
       "bottom": 578.6
     },
     {
       "topic": "refactoring-code-smell-technical-debt",
       "page": 2,
-      "characters": 886,
+      "characters": 897,
       "bottom": 562.9
     },
     {
       "topic": "software-reengineering-three-r",
       "page": 1,
-      "characters": 976,
+      "characters": 984,
       "bottom": 634.0
     },
     {
       "topic": "software-reengineering-three-r",
       "page": 2,
-      "characters": 868,
+      "characters": 873,
       "bottom": 560.7
     },
     {
       "topic": "spring-boot-aop",
       "page": 1,
-      "characters": 908,
-      "bottom": 578.6
+      "characters": 962,
+      "bottom": 594.0
     },
     {
       "topic": "spring-boot-aop",
       "page": 2,
-      "characters": 884,
+      "characters": 891,
       "bottom": 561.8
     },
     {
       "topic": "low-code-no-code",
       "page": 1,
-      "characters": 853,
+      "characters": 882,
       "bottom": 578.6
     },
     {
@@ -1035,8 +1035,8 @@
     {
       "topic": "rest-soap-open-api",
       "page": 1,
-      "characters": 954,
-      "bottom": 563.2
+      "characters": 994,
+      "bottom": 578.6
     },
     {
       "topic": "rest-soap-open-api",
@@ -1047,32 +1047,32 @@
     {
       "topic": "web-performance-optimization",
       "page": 1,
-      "characters": 859,
-      "bottom": 561.8
+      "characters": 887,
+      "bottom": 577.2
     },
     {
       "topic": "web-performance-optimization",
       "page": 2,
-      "characters": 727,
+      "characters": 763,
       "bottom": 545.3
     },
     {
       "topic": "software-quality-model",
       "page": 1,
-      "characters": 937,
-      "bottom": 578.6
+      "characters": 951,
+      "bottom": 594.0
     },
     {
       "topic": "software-quality-model",
       "page": 2,
-      "characters": 882,
+      "characters": 909,
       "bottom": 561.8
     },
     {
       "topic": "quality-assurance-inspection-certification",
       "page": 1,
-      "characters": 934,
-      "bottom": 594.0
+      "characters": 948,
+      "bottom": 609.4
     },
     {
       "topic": "quality-assurance-inspection-certification",
@@ -1089,103 +1089,103 @@
     {
       "topic": "software-testing-principles-techniques",
       "page": 2,
-      "characters": 710,
-      "bottom": 529.9
+      "characters": 903,
+      "bottom": 576.1
     },
     {
       "topic": "equivalence-boundary-classification-tests",
       "page": 1,
-      "characters": 1017,
-      "bottom": 578.6
+      "characters": 1034,
+      "bottom": 594.0
     },
     {
       "topic": "equivalence-boundary-classification-tests",
       "page": 2,
-      "characters": 767,
+      "characters": 780,
       "bottom": 529.9
     },
     {
       "topic": "integration-regression-monkey-testing",
       "page": 1,
-      "characters": 921,
+      "characters": 945,
       "bottom": 592.6
     },
     {
       "topic": "integration-regression-monkey-testing",
       "page": 2,
-      "characters": 856,
-      "bottom": 546.4
-    },
-    {
-      "topic": "embedded-reliability-portability-testing",
-      "page": 1,
-      "characters": 921,
-      "bottom": 609.4
-    },
-    {
-      "topic": "embedded-reliability-portability-testing",
-      "page": 2,
-      "characters": 906,
+      "characters": 893,
       "bottom": 561.8
     },
     {
+      "topic": "embedded-reliability-portability-testing",
+      "page": 1,
+      "characters": 922,
+      "bottom": 609.4
+    },
+    {
+      "topic": "embedded-reliability-portability-testing",
+      "page": 2,
+      "characters": 942,
+      "bottom": 592.6
+    },
+    {
       "topic": "coverage-mutation-cyclomatic-complexity",
       "page": 1,
-      "characters": 982,
+      "characters": 999,
       "bottom": 609.4
     },
     {
       "topic": "coverage-mutation-cyclomatic-complexity",
       "page": 2,
-      "characters": 905,
+      "characters": 949,
       "bottom": 578.3
     },
     {
       "topic": "ai-metamorphic-neuron-robustness-testing",
       "page": 1,
-      "characters": 967,
+      "characters": 983,
       "bottom": 594.0
     },
     {
       "topic": "ai-metamorphic-neuron-robustness-testing",
       "page": 2,
-      "characters": 1156,
+      "characters": 1168,
       "bottom": 615.8
     },
     {
       "topic": "devops-cicd-dataops",
       "page": 1,
-      "characters": 959,
-      "bottom": 578.6
+      "characters": 972,
+      "bottom": 594.0
     },
     {
       "topic": "devops-cicd-dataops",
       "page": 2,
-      "characters": 898,
-      "bottom": 577.2
+      "characters": 916,
+      "bottom": 592.6
     },
     {
       "topic": "deployment-ab-testing",
       "page": 1,
-      "characters": 935,
+      "characters": 968,
       "bottom": 594.0
     },
     {
       "topic": "deployment-ab-testing",
       "page": 2,
-      "characters": 933,
+      "characters": 955,
       "bottom": 593.7
     },
     {
       "topic": "configuration-management-iac",
       "page": 1,
-      "characters": 900,
+      "characters": 923,
       "bottom": 578.6
     },
     {
       "topic": "configuration-management-iac",
       "page": 2,
-      "characters": 894,
+      "characters": 895,
       "bottom": 562.9
     },
     {
@@ -1197,62 +1197,62 @@
     {
       "topic": "safety-hazard-analysis",
       "page": 2,
-      "characters": 895,
-      "bottom": 561.8
+      "characters": 1064,
+      "bottom": 608.0
     },
     {
       "topic": "software-safety-diagnosis",
       "page": 1,
-      "characters": 815,
-      "bottom": 578.6
+      "characters": 810,
+      "bottom": 563.2
     },
     {
       "topic": "software-safety-diagnosis",
       "page": 2,
-      "characters": 901,
+      "characters": 917,
       "bottom": 592.6
     },
     {
       "topic": "source-available-license-transition",
       "page": 1,
-      "characters": 1088,
+      "characters": 1155,
       "bottom": 624.8
     },
     {
       "topic": "source-available-license-transition",
       "page": 2,
-      "characters": 1080,
+      "characters": 1082,
       "bottom": 610.2
     },
     {
       "topic": "binary-search-tree-and-tree-sort",
       "page": 1,
-      "characters": 938,
+      "characters": 945,
       "bottom": 603.2
     },
     {
       "topic": "binary-search-tree-and-tree-sort",
       "page": 2,
-      "characters": 1324,
-      "bottom": 677.4
+      "characters": 1350,
+      "bottom": 692.8
     },
     {
       "topic": "linear-nonlinear-structures",
       "page": 1,
-      "characters": 1041,
+      "characters": 1044,
       "bottom": 630.6
     },
     {
       "topic": "linear-nonlinear-structures",
       "page": 2,
-      "characters": 1885,
+      "characters": 1887,
       "bottom": 784.9
     },
     {
       "topic": "bubble-insertion-quick-sort",
       "page": 1,
-      "characters": 943,
-      "bottom": 596.8
+      "characters": 982,
+      "bottom": 608.0
     },
     {
       "topic": "bubble-insertion-quick-sort",
@@ -1263,1466 +1263,1466 @@
     {
       "topic": "algorithm-complexity-big-o",
       "page": 1,
-      "characters": 1021,
+      "characters": 1030,
       "bottom": 751.2
     },
     {
       "topic": "algorithm-complexity-big-o",
       "page": 2,
-      "characters": 1220,
+      "characters": 1245,
       "bottom": 663.8
     },
     {
       "topic": "process-synchronization",
       "page": 1,
-      "characters": 740,
-      "bottom": 526.4
+      "characters": 761,
+      "bottom": 540.4
     },
     {
       "topic": "process-synchronization",
       "page": 2,
-      "characters": 767,
+      "characters": 828,
       "bottom": 566.7
     },
     {
       "topic": "priority-inversion",
       "page": 1,
-      "characters": 731,
-      "bottom": 526.4
+      "characters": 799,
+      "bottom": 555.8
     },
     {
       "topic": "priority-inversion",
       "page": 2,
-      "characters": 899,
-      "bottom": 620.0
+      "characters": 954,
+      "bottom": 635.4
     },
     {
       "topic": "bankers-algorithm",
       "page": 1,
-      "characters": 762,
+      "characters": 797,
       "bottom": 541.8
     },
     {
       "topic": "bankers-algorithm",
       "page": 2,
-      "characters": 906,
-      "bottom": 600.6
+      "characters": 1069,
+      "bottom": 616.0
     },
     {
       "topic": "virtual-memory",
       "page": 1,
-      "characters": 769,
-      "bottom": 541.8
+      "characters": 923,
+      "bottom": 585.2
     },
     {
       "topic": "virtual-memory",
       "page": 2,
-      "characters": 965,
-      "bottom": 609.3
+      "characters": 1097,
+      "bottom": 624.7
     },
     {
       "topic": "process-memory",
       "page": 1,
-      "characters": 739,
-      "bottom": 526.4
+      "characters": 915,
+      "bottom": 571.2
     },
     {
       "topic": "process-memory",
       "page": 2,
-      "characters": 816,
+      "characters": 984,
       "bottom": 580.3
     },
     {
       "topic": "interprocess-communication",
       "page": 1,
-      "characters": 707,
-      "bottom": 541.8
+      "characters": 841,
+      "bottom": 557.2
     },
     {
       "topic": "interprocess-communication",
       "page": 2,
-      "characters": 854,
-      "bottom": 567.8
+      "characters": 1068,
+      "bottom": 629.4
     },
     {
       "topic": "zombie-process",
       "page": 1,
-      "characters": 680,
-      "bottom": 511.0
+      "characters": 755,
+      "bottom": 540.4
     },
     {
       "topic": "zombie-process",
       "page": 2,
-      "characters": 705,
-      "bottom": 566.7
+      "characters": 812,
+      "bottom": 582.1
     },
     {
       "topic": "cpu-disk-scheduling",
       "page": 1,
-      "characters": 696,
-      "bottom": 526.4
-    },
-    {
-      "topic": "cpu-disk-scheduling",
-      "page": 2,
-      "characters": 934,
-      "bottom": 609.3
-    },
-    {
-      "topic": "memory-layout-bandwidth",
-      "page": 1,
-      "characters": 772,
+      "characters": 859,
       "bottom": 541.8
     },
     {
+      "topic": "cpu-disk-scheduling",
+      "page": 2,
+      "characters": 1083,
+      "bottom": 624.7
+    },
+    {
+      "topic": "memory-layout-bandwidth",
+      "page": 1,
+      "characters": 847,
+      "bottom": 586.6
+    },
+    {
       "topic": "memory-layout-bandwidth",
       "page": 2,
-      "characters": 789,
-      "bottom": 566.7
+      "characters": 1009,
+      "bottom": 597.5
     },
     {
       "topic": "ai-accelerator-memory",
       "page": 1,
-      "characters": 874,
+      "characters": 932,
       "bottom": 567.8
     },
     {
       "topic": "ai-accelerator-memory",
       "page": 2,
-      "characters": 868,
+      "characters": 954,
       "bottom": 599.7
     },
     {
       "topic": "intermittent-computing",
       "page": 1,
-      "characters": 736,
-      "bottom": 563.2
+      "characters": 816,
+      "bottom": 578.6
     },
     {
       "topic": "intermittent-computing",
       "page": 2,
-      "characters": 854,
+      "characters": 962,
       "bottom": 594.6
     },
     {
       "topic": "qubit-quantum-hardware",
       "page": 1,
-      "characters": 723,
+      "characters": 823,
       "bottom": 547.8
     },
     {
       "topic": "qubit-quantum-hardware",
       "page": 2,
-      "characters": 1014,
+      "characters": 1057,
       "bottom": 615.1
     },
     {
       "topic": "ipv4-subnetting-vlsm",
       "page": 1,
-      "characters": 1074,
-      "bottom": 619.0
+      "characters": 1270,
+      "bottom": 705.8
     },
     {
       "topic": "ipv4-subnetting-vlsm",
       "page": 2,
-      "characters": 913,
-      "bottom": 624.9
+      "characters": 1096,
+      "bottom": 671.1
     },
     {
       "topic": "tcp-control",
       "page": 1,
-      "characters": 786,
-      "bottom": 526.4
+      "characters": 903,
+      "bottom": 572.6
     },
     {
       "topic": "tcp-control",
       "page": 2,
-      "characters": 915,
-      "bottom": 567.8
+      "characters": 1149,
+      "bottom": 660.2
     },
     {
       "topic": "socket-sctp-websocket",
       "page": 1,
-      "characters": 857,
-      "bottom": 541.8
+      "characters": 893,
+      "bottom": 557.2
     },
     {
       "topic": "socket-sctp-websocket",
       "page": 2,
-      "characters": 1001,
-      "bottom": 584.3
+      "characters": 1051,
+      "bottom": 599.7
     },
     {
       "topic": "error-control-arq",
       "page": 1,
-      "characters": 818,
+      "characters": 850,
       "bottom": 541.8
     },
     {
       "topic": "error-control-arq",
       "page": 2,
-      "characters": 798,
-      "bottom": 551.3
+      "characters": 949,
+      "bottom": 597.5
     },
     {
       "topic": "differential-manchester",
       "page": 1,
-      "characters": 703,
-      "bottom": 525.0
+      "characters": 754,
+      "bottom": 554.4
     },
     {
       "topic": "differential-manchester",
       "page": 2,
-      "characters": 872,
-      "bottom": 603.5
+      "characters": 1107,
+      "bottom": 618.9
     },
     {
       "topic": "routing-and-prefix-lookup",
       "page": 1,
-      "characters": 797,
-      "bottom": 526.4
+      "characters": 1006,
+      "bottom": 586.6
     },
     {
       "topic": "routing-and-prefix-lookup",
       "page": 2,
-      "characters": 988,
+      "characters": 1166,
       "bottom": 600.8
     },
     {
       "topic": "sdn-openflow-ibn",
       "page": 1,
-      "characters": 722,
+      "characters": 780,
       "bottom": 541.8
     },
     {
       "topic": "sdn-openflow-ibn",
       "page": 2,
-      "characters": 723,
-      "bottom": 551.3
-    },
-    {
-      "topic": "vxlan-overlay",
-      "page": 1,
-      "characters": 693,
-      "bottom": 526.4
-    },
-    {
-      "topic": "vxlan-overlay",
-      "page": 2,
-      "characters": 696,
-      "bottom": 551.3
-    },
-    {
-      "topic": "wireless-multiple-access",
-      "page": 1,
-      "characters": 748,
-      "bottom": 567.8
-    },
-    {
-      "topic": "wireless-multiple-access",
-      "page": 2,
-      "characters": 693,
+      "characters": 800,
       "bottom": 566.7
     },
     {
+      "topic": "vxlan-overlay",
+      "page": 1,
+      "characters": 826,
+      "bottom": 526.4
+    },
+    {
+      "topic": "vxlan-overlay",
+      "page": 2,
+      "characters": 855,
+      "bottom": 566.7
+    },
+    {
+      "topic": "wireless-multiple-access",
+      "page": 1,
+      "characters": 933,
+      "bottom": 583.2
+    },
+    {
+      "topic": "wireless-multiple-access",
+      "page": 2,
+      "characters": 857,
+      "bottom": 582.1
+    },
+    {
       "topic": "wifi7-wifi8",
       "page": 1,
-      "characters": 766,
-      "bottom": 511.0
+      "characters": 877,
+      "bottom": 557.2
     },
     {
       "topic": "wifi7-wifi8",
       "page": 2,
-      "characters": 790,
+      "characters": 906,
       "bottom": 583.2
     },
     {
       "topic": "imt2030-ai-native",
+      "page": 1,
+      "characters": 892,
+      "bottom": 541.8
+    },
+    {
+      "topic": "imt2030-ai-native",
+      "page": 2,
+      "characters": 770,
+      "bottom": 551.3
+    },
+    {
+      "topic": "nfc-ot-modbus",
+      "page": 1,
+      "characters": 878,
+      "bottom": 557.2
+    },
+    {
+      "topic": "nfc-ot-modbus",
+      "page": 2,
+      "characters": 897,
+      "bottom": 595.7
+    },
+    {
+      "topic": "fifo-wfq",
       "page": 1,
       "characters": 808,
-      "bottom": 557.2
-    },
-    {
-      "topic": "imt2030-ai-native",
-      "page": 2,
-      "characters": 680,
-      "bottom": 551.3
-    },
-    {
-      "topic": "nfc-ot-modbus",
-      "page": 1,
-      "characters": 793,
-      "bottom": 541.8
-    },
-    {
-      "topic": "nfc-ot-modbus",
-      "page": 2,
-      "characters": 818,
-      "bottom": 580.3
-    },
-    {
-      "topic": "fifo-wfq",
-      "page": 1,
-      "characters": 705,
       "bottom": 563.2
     },
     {
       "topic": "fifo-wfq",
       "page": 2,
-      "characters": 728,
-      "bottom": 551.3
+      "characters": 906,
+      "bottom": 566.7
     },
     {
       "topic": "ai-supercomputing-gpu-tpu",
       "page": 1,
+      "characters": 1071,
+      "bottom": 557.2
+    },
+    {
+      "topic": "ai-supercomputing-gpu-tpu",
+      "page": 2,
+      "characters": 1225,
+      "bottom": 652.4
+    },
+    {
+      "topic": "cloud-service-deployment-edge",
+      "page": 1,
+      "characters": 853,
+      "bottom": 540.4
+    },
+    {
+      "topic": "cloud-service-deployment-edge",
+      "page": 2,
+      "characters": 852,
+      "bottom": 566.7
+    },
+    {
+      "topic": "virtualization-daas",
+      "page": 1,
+      "characters": 764,
+      "bottom": 541.8
+    },
+    {
+      "topic": "virtualization-daas",
+      "page": 2,
+      "characters": 796,
+      "bottom": 567.8
+    },
+    {
+      "topic": "infrastructure-as-code",
+      "page": 1,
+      "characters": 832,
+      "bottom": 557.2
+    },
+    {
+      "topic": "infrastructure-as-code",
+      "page": 2,
+      "characters": 834,
+      "bottom": 582.1
+    },
+    {
+      "topic": "kubernetes-hpa",
+      "page": 1,
+      "characters": 920,
+      "bottom": 557.2
+    },
+    {
+      "topic": "kubernetes-hpa",
+      "page": 2,
       "characters": 1086,
-      "bottom": 572.6
-    },
-    {
-      "topic": "ai-supercomputing-gpu-tpu",
-      "page": 2,
-      "characters": 1147,
-      "bottom": 637.0
-    },
-    {
-      "topic": "cloud-service-deployment-edge",
-      "page": 1,
-      "characters": 757,
-      "bottom": 526.4
-    },
-    {
-      "topic": "cloud-service-deployment-edge",
-      "page": 2,
-      "characters": 714,
-      "bottom": 551.3
-    },
-    {
-      "topic": "virtualization-daas",
-      "page": 1,
-      "characters": 731,
-      "bottom": 541.8
-    },
-    {
-      "topic": "virtualization-daas",
-      "page": 2,
-      "characters": 734,
-      "bottom": 567.8
-    },
-    {
-      "topic": "infrastructure-as-code",
-      "page": 1,
-      "characters": 691,
-      "bottom": 526.4
-    },
-    {
-      "topic": "infrastructure-as-code",
-      "page": 2,
-      "characters": 682,
-      "bottom": 551.3
-    },
-    {
-      "topic": "kubernetes-hpa",
-      "page": 1,
-      "characters": 769,
-      "bottom": 526.4
-    },
-    {
-      "topic": "kubernetes-hpa",
-      "page": 2,
-      "characters": 824,
-      "bottom": 567.8
+      "bottom": 614.0
     },
     {
       "topic": "serverless-computing",
       "page": 1,
-      "characters": 775,
-      "bottom": 563.2
+      "characters": 946,
+      "bottom": 578.6
     },
     {
       "topic": "serverless-computing",
       "page": 2,
-      "characters": 637,
-      "bottom": 551.3
+      "characters": 861,
+      "bottom": 597.5
     },
     {
       "topic": "multicloud-cmp",
       "page": 1,
-      "characters": 700,
+      "characters": 754,
       "bottom": 541.8
     },
     {
       "topic": "multicloud-cmp",
       "page": 2,
-      "characters": 822,
-      "bottom": 583.2
+      "characters": 921,
+      "bottom": 598.6
     },
     {
       "topic": "cloud-security-assurance",
       "page": 1,
-      "characters": 807,
+      "characters": 897,
       "bottom": 557.2
     },
     {
       "topic": "cloud-security-assurance",
       "page": 2,
-      "characters": 825,
+      "characters": 936,
       "bottom": 598.6
     },
     {
       "topic": "storage-architecture",
       "page": 1,
-      "characters": 792,
-      "bottom": 541.8
+      "characters": 888,
+      "bottom": 572.6
     },
     {
       "topic": "storage-architecture",
       "page": 2,
-      "characters": 686,
-      "bottom": 551.3
-    },
-    {
-      "topic": "availability-ft-ha",
-      "page": 1,
-      "characters": 720,
-      "bottom": 557.2
-    },
-    {
-      "topic": "availability-ft-ha",
-      "page": 2,
-      "characters": 726,
+      "characters": 856,
       "bottom": 566.7
     },
     {
+      "topic": "availability-ft-ha",
+      "page": 1,
+      "characters": 879,
+      "bottom": 572.6
+    },
+    {
+      "topic": "availability-ft-ha",
+      "page": 2,
+      "characters": 901,
+      "bottom": 597.5
+    },
+    {
       "topic": "disaster-recovery-rto-rpo",
       "page": 1,
-      "characters": 861,
-      "bottom": 552.4
+      "characters": 997,
+      "bottom": 598.6
     },
     {
       "topic": "disaster-recovery-rto-rpo",
       "page": 2,
-      "characters": 742,
-      "bottom": 551.3
+      "characters": 891,
+      "bottom": 566.7
     },
     {
       "topic": "ai-data-center-platform",
       "page": 1,
-      "characters": 829,
+      "characters": 887,
       "bottom": 541.8
     },
     {
       "topic": "ai-data-center-platform",
       "page": 2,
-      "characters": 830,
-      "bottom": 599.7
+      "characters": 992,
+      "bottom": 630.5
     },
     {
       "topic": "nist-ai-rmf",
       "page": 1,
-      "characters": 867,
+      "characters": 912,
       "bottom": 623.8
     },
     {
       "topic": "nist-ai-rmf",
       "page": 2,
+      "characters": 1001,
+      "bottom": 635.4
+    },
+    {
+      "topic": "access-control-models-ldap",
+      "page": 1,
+      "characters": 906,
+      "bottom": 557.2
+    },
+    {
+      "topic": "access-control-models-ldap",
+      "page": 2,
+      "characters": 940,
+      "bottom": 598.6
+    },
+    {
+      "topic": "identity-authentication-nhi",
+      "page": 1,
+      "characters": 889,
+      "bottom": 572.6
+    },
+    {
+      "topic": "identity-authentication-nhi",
+      "page": 2,
+      "characters": 892,
+      "bottom": 598.6
+    },
+    {
+      "topic": "symmetric-asymmetric-aes",
+      "page": 1,
+      "characters": 778,
+      "bottom": 511.0
+    },
+    {
+      "topic": "symmetric-asymmetric-aes",
+      "page": 2,
+      "characters": 861,
+      "bottom": 598.6
+    },
+    {
+      "topic": "block-cipher-modes",
+      "page": 1,
+      "characters": 892,
+      "bottom": 581.8
+    },
+    {
+      "topic": "block-cipher-modes",
+      "page": 2,
+      "characters": 809,
+      "bottom": 551.3
+    },
+    {
+      "topic": "hash-mac-password",
+      "page": 1,
+      "characters": 1097,
+      "bottom": 624.8
+    },
+    {
+      "topic": "hash-mac-password",
+      "page": 2,
       "characters": 944,
-      "bottom": 620.0
+      "bottom": 584.3
     },
     {
-      "topic": "access-control-models-ldap",
+      "topic": "rsa-dsa-ecc-envelope",
       "page": 1,
-      "characters": 819,
+      "characters": 840,
       "bottom": 541.8
     },
     {
-      "topic": "access-control-models-ldap",
+      "topic": "rsa-dsa-ecc-envelope",
       "page": 2,
-      "characters": 764,
-      "bottom": 567.8
+      "characters": 1085,
+      "bottom": 628.7
     },
     {
-      "topic": "identity-authentication-nhi",
+      "topic": "tls13",
       "page": 1,
-      "characters": 728,
+      "characters": 1411,
+      "bottom": 723.2
+    },
+    {
+      "topic": "tls13",
+      "page": 2,
+      "characters": 975,
+      "bottom": 583.2
+    },
+    {
+      "topic": "vpn-tor",
+      "page": 1,
+      "characters": 882,
       "bottom": 557.2
     },
     {
-      "topic": "identity-authentication-nhi",
-      "page": 2,
-      "characters": 785,
-      "bottom": 583.2
-    },
-    {
-      "topic": "symmetric-asymmetric-aes",
-      "page": 1,
-      "characters": 735,
-      "bottom": 526.4
-    },
-    {
-      "topic": "symmetric-asymmetric-aes",
-      "page": 2,
-      "characters": 764,
-      "bottom": 567.8
-    },
-    {
-      "topic": "block-cipher-modes",
-      "page": 1,
-      "characters": 743,
-      "bottom": 583.2
-    },
-    {
-      "topic": "block-cipher-modes",
-      "page": 2,
-      "characters": 701,
-      "bottom": 551.3
-    },
-    {
-      "topic": "hash-mac-password",
-      "page": 1,
-      "characters": 946,
-      "bottom": 609.4
-    },
-    {
-      "topic": "hash-mac-password",
-      "page": 2,
-      "characters": 850,
-      "bottom": 584.3
-    },
-    {
-      "topic": "rsa-dsa-ecc-envelope",
-      "page": 1,
-      "characters": 740,
-      "bottom": 526.4
-    },
-    {
-      "topic": "rsa-dsa-ecc-envelope",
-      "page": 2,
-      "characters": 972,
-      "bottom": 613.3
-    },
-    {
-      "topic": "tls13",
-      "page": 1,
-      "characters": 1226,
-      "bottom": 677.0
-    },
-    {
-      "topic": "tls13",
-      "page": 2,
-      "characters": 821,
-      "bottom": 567.8
-    },
-    {
-      "topic": "vpn-tor",
-      "page": 1,
-      "characters": 771,
-      "bottom": 541.8
-    },
-    {
       "topic": "vpn-tor",
       "page": 2,
-      "characters": 790,
+      "characters": 878,
       "bottom": 584.3
     },
     {
       "topic": "qkd-pqc",
       "page": 1,
-      "characters": 745,
-      "bottom": 541.8
+      "characters": 860,
+      "bottom": 572.6
     },
     {
       "topic": "qkd-pqc",
       "page": 2,
-      "characters": 686,
-      "bottom": 551.3
+      "characters": 825,
+      "bottom": 566.7
     },
     {
       "topic": "security-assurance-tpm-fips-cc",
       "page": 1,
+      "characters": 907,
+      "bottom": 557.2
+    },
+    {
+      "topic": "security-assurance-tpm-fips-cc",
+      "page": 2,
+      "characters": 931,
+      "bottom": 583.2
+    },
+    {
+      "topic": "digital-forensics",
+      "page": 1,
+      "characters": 971,
+      "bottom": 572.6
+    },
+    {
+      "topic": "digital-forensics",
+      "page": 2,
       "characters": 852,
-      "bottom": 557.2
-    },
-    {
-      "topic": "security-assurance-tpm-fips-cc",
-      "page": 2,
-      "characters": 793,
-      "bottom": 583.2
-    },
-    {
-      "topic": "digital-forensics",
-      "page": 1,
-      "characters": 790,
-      "bottom": 541.8
-    },
-    {
-      "topic": "digital-forensics",
-      "page": 2,
-      "characters": 706,
       "bottom": 551.3
     },
     {
       "topic": "ransomware-credential-threats",
       "page": 1,
-      "characters": 790,
-      "bottom": 526.4
+      "characters": 1031,
+      "bottom": 588.0
     },
     {
       "topic": "ransomware-credential-threats",
       "page": 2,
-      "characters": 888,
+      "characters": 957,
       "bottom": 599.7
     },
     {
       "topic": "threat-exposure-ttp",
       "page": 1,
-      "characters": 792,
+      "characters": 879,
       "bottom": 557.2
     },
     {
       "topic": "threat-exposure-ttp",
       "page": 2,
-      "characters": 691,
-      "bottom": 551.3
+      "characters": 764,
+      "bottom": 566.7
     },
     {
       "topic": "iot-drone-platform-security",
       "page": 1,
-      "characters": 767,
+      "characters": 855,
       "bottom": 557.2
     },
     {
       "topic": "iot-drone-platform-security",
       "page": 2,
-      "characters": 804,
+      "characters": 873,
       "bottom": 583.2
     },
     {
       "topic": "siem-soar",
       "page": 1,
-      "characters": 742,
+      "characters": 877,
       "bottom": 578.6
     },
     {
       "topic": "siem-soar",
       "page": 2,
-      "characters": 939,
+      "characters": 993,
       "bottom": 615.1
     },
     {
       "topic": "zero-trust-supply-chain-n2sf",
       "page": 1,
-      "characters": 819,
+      "characters": 885,
       "bottom": 541.8
     },
     {
       "topic": "zero-trust-supply-chain-n2sf",
       "page": 2,
-      "characters": 801,
+      "characters": 917,
       "bottom": 583.2
     },
     {
       "topic": "bpfdoor-defense",
       "page": 1,
-      "characters": 711,
+      "characters": 781,
       "bottom": 541.8
     },
     {
       "topic": "bpfdoor-defense",
       "page": 2,
-      "characters": 895,
+      "characters": 977,
       "bottom": 599.7
     },
     {
       "topic": "reverse-proxy-ddos",
       "page": 1,
-      "characters": 744,
+      "characters": 822,
       "bottom": 557.2
     },
     {
       "topic": "reverse-proxy-ddos",
       "page": 2,
-      "characters": 682,
+      "characters": 811,
       "bottom": 551.3
     },
     {
       "topic": "privacy-law-internal-plan",
       "page": 1,
-      "characters": 861,
-      "bottom": 572.6
+      "characters": 1029,
+      "bottom": 586.6
     },
     {
       "topic": "privacy-law-internal-plan",
       "page": 2,
+      "characters": 1035,
+      "bottom": 630.5
+    },
+    {
+      "topic": "pseudonymization-anonymization",
+      "page": 1,
       "characters": 854,
-      "bottom": 599.7
-    },
-    {
-      "topic": "pseudonymization-anonymization",
-      "page": 1,
-      "characters": 768,
       "bottom": 557.2
     },
     {
       "topic": "pseudonymization-anonymization",
       "page": 2,
-      "characters": 800,
+      "characters": 897,
       "bottom": 583.2
     },
     {
       "topic": "pet-homomorphic-encryption",
       "page": 1,
-      "characters": 786,
-      "bottom": 557.2
+      "characters": 916,
+      "bottom": 572.6
     },
     {
       "topic": "pet-homomorphic-encryption",
       "page": 2,
-      "characters": 891,
+      "characters": 953,
       "bottom": 599.7
     },
     {
       "topic": "differential-privacy",
       "page": 1,
-      "characters": 713,
-      "bottom": 526.4
+      "characters": 886,
+      "bottom": 555.8
     },
     {
       "topic": "differential-privacy",
       "page": 2,
-      "characters": 723,
-      "bottom": 566.7
+      "characters": 943,
+      "bottom": 597.5
     },
     {
       "topic": "secure-multiparty-computation",
       "page": 1,
-      "characters": 756,
-      "bottom": 541.8
-    },
-    {
-      "topic": "secure-multiparty-computation",
-      "page": 2,
-      "characters": 968,
-      "bottom": 632.5
-    },
-    {
-      "topic": "federated-learning-security",
-      "page": 1,
-      "characters": 777,
-      "bottom": 526.4
-    },
-    {
-      "topic": "federated-learning-security",
-      "page": 2,
-      "characters": 879,
-      "bottom": 580.3
-    },
-    {
-      "topic": "privacy-by-design",
-      "page": 1,
-      "characters": 777,
-      "bottom": 541.8
-    },
-    {
-      "topic": "privacy-by-design",
-      "page": 2,
-      "characters": 824,
-      "bottom": 580.3
-    },
-    {
-      "topic": "safe-data-zones-cbpr",
-      "page": 1,
-      "characters": 813,
+      "characters": 862,
       "bottom": 557.2
     },
     {
+      "topic": "secure-multiparty-computation",
+      "page": 2,
+      "characters": 1113,
+      "bottom": 647.9
+    },
+    {
+      "topic": "federated-learning-security",
+      "page": 1,
+      "characters": 1006,
+      "bottom": 588.0
+    },
+    {
+      "topic": "federated-learning-security",
+      "page": 2,
+      "characters": 1058,
+      "bottom": 626.5
+    },
+    {
+      "topic": "privacy-by-design",
+      "page": 1,
+      "characters": 849,
+      "bottom": 541.8
+    },
+    {
+      "topic": "privacy-by-design",
+      "page": 2,
+      "characters": 886,
+      "bottom": 580.3
+    },
+    {
       "topic": "safe-data-zones-cbpr",
-      "page": 2,
-      "characters": 892,
-      "bottom": 612.2
-    },
-    {
-      "topic": "isms-compliance-governance",
-      "page": 1,
-      "characters": 841,
-      "bottom": 541.8
-    },
-    {
-      "topic": "isms-compliance-governance",
-      "page": 2,
-      "characters": 737,
-      "bottom": 583.2
-    },
-    {
-      "topic": "iso42001-ai-management",
-      "page": 1,
-      "characters": 805,
-      "bottom": 541.8
-    },
-    {
-      "topic": "iso42001-ai-management",
-      "page": 2,
-      "characters": 879,
-      "bottom": 599.7
-    },
-    {
-      "topic": "ai-ethics-user-protection",
-      "page": 1,
-      "characters": 814,
-      "bottom": 526.4
-    },
-    {
-      "topic": "ai-ethics-user-protection",
-      "page": 2,
-      "characters": 892,
-      "bottom": 616.2
-    },
-    {
-      "topic": "korean-ai-basic-act",
       "page": 1,
       "characters": 863,
       "bottom": 557.2
     },
     {
+      "topic": "safe-data-zones-cbpr",
+      "page": 2,
+      "characters": 964,
+      "bottom": 612.2
+    },
+    {
+      "topic": "isms-compliance-governance",
+      "page": 1,
+      "characters": 897,
+      "bottom": 541.8
+    },
+    {
+      "topic": "isms-compliance-governance",
+      "page": 2,
+      "characters": 807,
+      "bottom": 583.2
+    },
+    {
+      "topic": "iso42001-ai-management",
+      "page": 1,
+      "characters": 892,
+      "bottom": 541.8
+    },
+    {
+      "topic": "iso42001-ai-management",
+      "page": 2,
+      "characters": 940,
+      "bottom": 599.7
+    },
+    {
+      "topic": "ai-ethics-user-protection",
+      "page": 1,
+      "characters": 925,
+      "bottom": 555.8
+    },
+    {
+      "topic": "ai-ethics-user-protection",
+      "page": 2,
+      "characters": 1043,
+      "bottom": 647.0
+    },
+    {
+      "topic": "korean-ai-basic-act",
+      "page": 1,
+      "characters": 929,
+      "bottom": 572.6
+    },
+    {
       "topic": "korean-ai-basic-act",
       "page": 2,
-      "characters": 1028,
-      "bottom": 648.1
+      "characters": 1122,
+      "bottom": 663.5
     },
     {
       "topic": "adversarial-ai-security",
       "page": 1,
-      "characters": 1071,
-      "bottom": 624.8
+      "characters": 1304,
+      "bottom": 655.6
     },
     {
       "topic": "adversarial-ai-security",
       "page": 2,
-      "characters": 849,
-      "bottom": 584.3
+      "characters": 1050,
+      "bottom": 630.5
     },
     {
       "topic": "llm-owasp-mcp-autonomy",
       "page": 1,
-      "characters": 870,
-      "bottom": 557.2
+      "characters": 994,
+      "bottom": 588.0
     },
     {
       "topic": "llm-owasp-mcp-autonomy",
       "page": 2,
-      "characters": 960,
+      "characters": 1051,
       "bottom": 612.2
     },
     {
       "topic": "ai-code-openweight-licensing",
       "page": 1,
-      "characters": 928,
+      "characters": 962,
       "bottom": 572.6
     },
     {
       "topic": "ai-code-openweight-licensing",
       "page": 2,
-      "characters": 1069,
+      "characters": 1133,
       "bottom": 632.7
     },
     {
       "topic": "cryptanalysis-threat-models",
       "page": 1,
-      "characters": 786,
-      "bottom": 557.2
+      "characters": 909,
+      "bottom": 572.6
     },
     {
       "topic": "cryptanalysis-threat-models",
       "page": 2,
-      "characters": 907,
+      "characters": 980,
       "bottom": 599.7
     },
     {
       "topic": "devsecops-sbom-security-quality",
       "page": 1,
-      "characters": 836,
-      "bottom": 541.8
+      "characters": 933,
+      "bottom": 557.2
     },
     {
       "topic": "devsecops-sbom-security-quality",
       "page": 2,
-      "characters": 832,
+      "characters": 905,
       "bottom": 583.2
     },
     {
       "topic": "facial-recognition-payment",
       "page": 1,
-      "characters": 1049,
+      "characters": 1053,
       "bottom": 634.0
     },
     {
       "topic": "facial-recognition-payment",
       "page": 2,
-      "characters": 1405,
+      "characters": 1408,
       "bottom": 719.1
     },
     {
       "topic": "digital-government-ui-quality",
       "page": 1,
-      "characters": 1146,
+      "characters": 1176,
       "bottom": 661.6
     },
     {
       "topic": "digital-government-ui-quality",
       "page": 2,
-      "characters": 989,
-      "bottom": 622.7
+      "characters": 1116,
+      "bottom": 653.5
     },
     {
       "topic": "isp-ismp-bpr",
       "page": 1,
-      "characters": 1056,
-      "bottom": 624.8
+      "characters": 1077,
+      "bottom": 640.2
     },
     {
       "topic": "isp-ismp-bpr",
       "page": 2,
-      "characters": 761,
+      "characters": 777,
       "bottom": 545.3
     },
     {
       "topic": "it-governance-enterprise-architecture",
       "page": 1,
-      "characters": 914,
+      "characters": 921,
       "bottom": 594.0
     },
     {
       "topic": "it-governance-enterprise-architecture",
       "page": 2,
-      "characters": 867,
-      "bottom": 561.8
+      "characters": 887,
+      "bottom": 577.2
     },
     {
       "topic": "it-investment-balanced-scorecard",
       "page": 1,
-      "characters": 943,
+      "characters": 949,
       "bottom": 578.6
     },
     {
       "topic": "it-investment-balanced-scorecard",
       "page": 2,
-      "characters": 967,
-      "bottom": 578.3
+      "characters": 1015,
+      "bottom": 593.7
     },
     {
       "topic": "analytic-hierarchy-process",
       "page": 1,
-      "characters": 846,
-      "bottom": 563.2
+      "characters": 890,
+      "bottom": 578.6
     },
     {
       "topic": "analytic-hierarchy-process",
       "page": 2,
-      "characters": 792,
-      "bottom": 545.3
+      "characters": 822,
+      "bottom": 560.7
     },
     {
       "topic": "it-service-management",
       "page": 1,
-      "characters": 807,
+      "characters": 834,
       "bottom": 547.8
     },
     {
       "topic": "it-service-management",
       "page": 2,
-      "characters": 904,
+      "characters": 906,
       "bottom": 589.7
     },
     {
       "topic": "service-level-agreement-financial-cloud",
       "page": 1,
-      "characters": 1149,
+      "characters": 1192,
       "bottom": 677.0
     },
     {
       "topic": "service-level-agreement-financial-cloud",
       "page": 2,
-      "characters": 965,
+      "characters": 1017,
       "bottom": 594.8
     },
     {
       "topic": "digital-transformation-ax-coe",
       "page": 1,
-      "characters": 887,
+      "characters": 881,
       "bottom": 578.6
     },
     {
       "topic": "digital-transformation-ax-coe",
       "page": 2,
-      "characters": 950,
+      "characters": 959,
       "bottom": 578.3
     },
     {
       "topic": "strategic-enterprise-management",
       "page": 1,
-      "characters": 878,
+      "characters": 874,
       "bottom": 578.6
     },
     {
       "topic": "strategic-enterprise-management",
       "page": 2,
-      "characters": 864,
+      "characters": 875,
       "bottom": 546.4
     },
     {
       "topic": "business-environment-analysis",
       "page": 1,
-      "characters": 868,
-      "bottom": 578.6
+      "characters": 885,
+      "bottom": 608.0
     },
     {
       "topic": "business-environment-analysis",
       "page": 2,
-      "characters": 840,
+      "characters": 841,
       "bottom": 561.8
     },
     {
       "topic": "technology-acceptance-model",
       "page": 1,
-      "characters": 835,
+      "characters": 836,
       "bottom": 594.0
     },
     {
       "topic": "technology-acceptance-model",
       "page": 2,
-      "characters": 856,
-      "bottom": 557.8
+      "characters": 875,
+      "bottom": 573.2
     },
     {
       "topic": "market-size-white-label",
       "page": 1,
-      "characters": 957,
+      "characters": 958,
       "bottom": 594.0
     },
     {
       "topic": "market-size-white-label",
       "page": 2,
-      "characters": 877,
-      "bottom": 561.8
+      "characters": 964,
+      "bottom": 592.6
     },
     {
       "topic": "public-sector-service-level-agreement",
       "page": 1,
-      "characters": 1017,
-      "bottom": 594.0
+      "characters": 1083,
+      "bottom": 609.4
     },
     {
       "topic": "public-sector-service-level-agreement",
       "page": 2,
-      "characters": 867,
+      "characters": 907,
       "bottom": 588.6
     },
     {
       "topic": "esg-information-technology",
       "page": 1,
-      "characters": 961,
-      "bottom": 578.6
+      "characters": 1018,
+      "bottom": 594.0
     },
     {
       "topic": "esg-information-technology",
       "page": 2,
-      "characters": 873,
+      "characters": 878,
       "bottom": 561.8
     },
     {
       "topic": "environmental-management-iso14000",
       "page": 1,
-      "characters": 974,
-      "bottom": 578.6
+      "characters": 998,
+      "bottom": 594.0
     },
     {
       "topic": "environmental-management-iso14000",
       "page": 2,
-      "characters": 814,
+      "characters": 837,
       "bottom": 545.3
     },
     {
       "topic": "oecd-digital-tax-two-pillars",
       "page": 1,
-      "characters": 1038,
+      "characters": 1072,
       "bottom": 594.0
     },
     {
       "topic": "oecd-digital-tax-two-pillars",
       "page": 2,
-      "characters": 908,
+      "characters": 931,
       "bottom": 589.7
     },
     {
       "topic": "un-egovernment-development-index",
       "page": 1,
-      "characters": 965,
+      "characters": 971,
       "bottom": 594.0
     },
     {
       "topic": "un-egovernment-development-index",
       "page": 2,
-      "characters": 767,
-      "bottom": 545.3
+      "characters": 819,
+      "bottom": 560.7
     },
     {
       "topic": "digital-platform-government",
       "page": 1,
-      "characters": 964,
+      "characters": 981,
       "bottom": 609.4
     },
     {
       "topic": "digital-platform-government",
       "page": 2,
-      "characters": 902,
-      "bottom": 589.7
+      "characters": 929,
+      "bottom": 605.1
     },
     {
       "topic": "data-industry-act",
       "page": 1,
-      "characters": 913,
+      "characters": 932,
       "bottom": 577.2
     },
     {
       "topic": "data-industry-act",
       "page": 2,
-      "characters": 1111,
-      "bottom": 648.4
+      "characters": 1129,
+      "bottom": 663.8
     },
     {
       "topic": "project-program-portfolio-iso",
       "page": 1,
-      "characters": 928,
+      "characters": 957,
       "bottom": 594.0
     },
     {
       "topic": "project-program-portfolio-iso",
       "page": 2,
-      "characters": 858,
+      "characters": 859,
       "bottom": 561.8
     },
     {
       "topic": "work-breakdown-structure",
       "page": 1,
-      "characters": 870,
-      "bottom": 563.2
+      "characters": 946,
+      "bottom": 594.0
     },
     {
       "topic": "work-breakdown-structure",
       "page": 2,
-      "characters": 726,
+      "characters": 728,
       "bottom": 529.9
     },
     {
       "topic": "project-risk-management",
       "page": 1,
-      "characters": 911,
-      "bottom": 563.2
+      "characters": 957,
+      "bottom": 578.6
     },
     {
       "topic": "project-risk-management",
       "page": 2,
-      "characters": 940,
+      "characters": 970,
       "bottom": 587.9
     },
     {
       "topic": "project-conflict-team-development",
       "page": 1,
-      "characters": 926,
-      "bottom": 563.2
+      "characters": 967,
+      "bottom": 578.6
     },
     {
       "topic": "project-conflict-team-development",
       "page": 2,
-      "characters": 847,
+      "characters": 863,
       "bottom": 574.3
     },
     {
       "topic": "pmo-pmc-information-system-audit",
       "page": 1,
-      "characters": 994,
-      "bottom": 594.0
+      "characters": 1012,
+      "bottom": 609.4
     },
     {
       "topic": "pmo-pmc-information-system-audit",
       "page": 2,
-      "characters": 896,
-      "bottom": 578.3
+      "characters": 921,
+      "bottom": 593.7
     },
     {
       "topic": "big-data-system-audit",
       "page": 1,
-      "characters": 864,
-      "bottom": 547.8
+      "characters": 895,
+      "bottom": 563.2
     },
     {
       "topic": "big-data-system-audit",
       "page": 2,
-      "characters": 745,
-      "bottom": 529.9
+      "characters": 772,
+      "bottom": 545.3
     },
     {
       "topic": "cloud-migration-audit",
       "page": 1,
-      "characters": 876,
-      "bottom": 578.6
+      "characters": 886,
+      "bottom": 594.0
     },
     {
       "topic": "cloud-migration-audit",
       "page": 2,
-      "characters": 750,
+      "characters": 759,
       "bottom": 545.3
     },
     {
       "topic": "operations-maintenance-audit",
       "page": 1,
-      "characters": 1002,
+      "characters": 1051,
       "bottom": 623.4
     },
     {
       "topic": "operations-maintenance-audit",
       "page": 2,
-      "characters": 763,
-      "bottom": 545.3
+      "characters": 826,
+      "bottom": 560.7
     },
     {
       "topic": "go-live-readiness",
       "page": 1,
-      "characters": 928,
+      "characters": 937,
       "bottom": 578.6
     },
     {
       "topic": "go-live-readiness",
       "page": 2,
-      "characters": 858,
+      "characters": 891,
       "bottom": 562.9
     },
     {
       "topic": "software-size-cost-estimation",
       "page": 1,
-      "characters": 964,
+      "characters": 963,
       "bottom": 594.0
     },
     {
       "topic": "software-size-cost-estimation",
       "page": 2,
-      "characters": 837,
-      "bottom": 546.4
+      "characters": 875,
+      "bottom": 561.8
     },
     {
       "topic": "software-operations-pricing",
       "page": 1,
-      "characters": 1043,
+      "characters": 1063,
       "bottom": 624.8
     },
     {
       "topic": "software-operations-pricing",
       "page": 2,
-      "characters": 905,
+      "characters": 937,
       "bottom": 592.6
     },
     {
       "topic": "ai-service-pricing-2025",
       "page": 1,
-      "characters": 919,
+      "characters": 923,
       "bottom": 578.6
     },
     {
       "topic": "ai-service-pricing-2025",
       "page": 2,
-      "characters": 751,
-      "bottom": 560.7
+      "characters": 786,
+      "bottom": 576.1
     },
     {
       "topic": "public-software-task-review",
       "page": 1,
-      "characters": 856,
-      "bottom": 563.2
+      "characters": 862,
+      "bottom": 578.6
     },
     {
       "topic": "public-software-task-review",
       "page": 2,
-      "characters": 1046,
+      "characters": 1055,
       "bottom": 603.3
     },
     {
       "topic": "software-promotion-act-plan-safety",
       "page": 1,
-      "characters": 1013,
-      "bottom": 594.0
+      "characters": 1058,
+      "bottom": 609.4
     },
     {
       "topic": "software-promotion-act-plan-safety",
       "page": 2,
-      "characters": 977,
+      "characters": 978,
       "bottom": 586.8
     },
     {
       "topic": "it-job-competency-system",
       "page": 1,
-      "characters": 883,
+      "characters": 888,
       "bottom": 594.0
     },
     {
       "topic": "it-job-competency-system",
       "page": 2,
-      "characters": 810,
+      "characters": 852,
       "bottom": 561.8
     },
     {
       "topic": "software-proposal-evaluation-2024",
       "page": 1,
-      "characters": 908,
-      "bottom": 578.6
+      "characters": 936,
+      "bottom": 594.0
     },
     {
       "topic": "software-proposal-evaluation-2024",
       "page": 2,
-      "characters": 770,
+      "characters": 775,
       "bottom": 560.7
     },
     {
       "topic": "supply-chain-demand-inventory",
       "page": 1,
-      "characters": 999,
+      "characters": 1006,
       "bottom": 594.0
     },
     {
       "topic": "supply-chain-demand-inventory",
       "page": 2,
-      "characters": 971,
-      "bottom": 593.7
+      "characters": 1056,
+      "bottom": 639.9
     },
     {
       "topic": "point-of-production",
       "page": 1,
-      "characters": 941,
+      "characters": 954,
       "bottom": 609.4
     },
     {
       "topic": "point-of-production",
       "page": 2,
-      "characters": 880,
-      "bottom": 574.3
+      "characters": 923,
+      "bottom": 589.7
     },
     {
       "topic": "dark-factory",
       "page": 1,
-      "characters": 967,
+      "characters": 990,
       "bottom": 609.4
     },
     {
       "topic": "dark-factory",
       "page": 2,
-      "characters": 874,
-      "bottom": 574.3
+      "characters": 903,
+      "bottom": 589.7
     },
     {
       "topic": "blockchain-deployment-data-storage",
       "page": 1,
-      "characters": 988,
+      "characters": 1024,
       "bottom": 609.4
     },
     {
       "topic": "blockchain-deployment-data-storage",
       "page": 2,
-      "characters": 838,
+      "characters": 828,
       "bottom": 545.3
     },
     {
       "topic": "non-fungible-token",
       "page": 1,
-      "characters": 995,
-      "bottom": 594.0
+      "characters": 1028,
+      "bottom": 609.4
     },
     {
       "topic": "non-fungible-token",
       "page": 2,
-      "characters": 916,
+      "characters": 917,
       "bottom": 561.8
     },
     {
       "topic": "decentralized-web3",
       "page": 1,
-      "characters": 963,
+      "characters": 981,
       "bottom": 609.4
     },
     {
       "topic": "decentralized-web3",
       "page": 2,
-      "characters": 978,
-      "bottom": 578.3
+      "characters": 1014,
+      "bottom": 593.7
     },
     {
       "topic": "digital-twin-metaverse",
       "page": 1,
-      "characters": 982,
+      "characters": 990,
       "bottom": 609.4
     },
     {
       "topic": "digital-twin-metaverse",
       "page": 2,
-      "characters": 1072,
-      "bottom": 607.3
+      "characters": 1106,
+      "bottom": 622.7
     },
     {
       "topic": "metaverse-ethical-principles",
       "page": 1,
-      "characters": 974,
+      "characters": 998,
       "bottom": 594.0
     },
     {
       "topic": "metaverse-ethical-principles",
+      "page": 2,
+      "characters": 891,
+      "bottom": 561.8
+    },
+    {
+      "topic": "digital-dysfunctions",
+      "page": 1,
+      "characters": 990,
+      "bottom": 609.4
+    },
+    {
+      "topic": "digital-dysfunctions",
       "page": 2,
       "characters": 844,
-      "bottom": 561.8
-    },
-    {
-      "topic": "digital-dysfunctions",
-      "page": 1,
-      "characters": 953,
-      "bottom": 594.0
-    },
-    {
-      "topic": "digital-dysfunctions",
-      "page": 2,
-      "characters": 806,
-      "bottom": 557.8
+      "bottom": 573.2
     },
     {
       "topic": "dark-patterns",
       "page": 1,
-      "characters": 964,
+      "characters": 986,
       "bottom": 594.0
     },
     {
       "topic": "dark-patterns",
       "page": 2,
-      "characters": 981,
-      "bottom": 593.7
+      "characters": 1008,
+      "bottom": 609.1
     },
     {
       "topic": "superapp-miniapp",
       "page": 1,
-      "characters": 1003,
+      "characters": 1023,
       "bottom": 609.4
     },
     {
       "topic": "superapp-miniapp",
       "page": 2,
-      "characters": 932,
-      "bottom": 593.7
+      "characters": 957,
+      "bottom": 609.1
     },
     {
       "topic": "ai-digital-textbook-platform",
       "page": 1,
-      "characters": 1034,
+      "characters": 1055,
       "bottom": 624.8
     },
     {
       "topic": "ai-digital-textbook-platform",
       "page": 2,
-      "characters": 1022,
-      "bottom": 617.6
+      "characters": 1136,
+      "bottom": 663.8
     }
   ],
   "embedded_fonts": [
