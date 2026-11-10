@@ -86,7 +86,15 @@ Graphify 0.9.55의 공식 스킬과 추출 규격을 프로젝트에 등록했�
 
 `scripts/export_concept_graph.py`는 최신 상태인 `graphify-out/graph.json`에서 `wiki/concepts/` 노드와 내부 관계만 뽑는다. 개념 문서 안에서 추출된 기출·출처 문서 노드도 제외하고, 다른 개념 문서의 참조는 해당 문서 노드로 연결한다. 공개 JSON에는 이름·별칭·간단한 설명·관계 유형·위키 검토 상태·개념 문서 경로만 둔다. 개인 기록과 원자료 경로가 섞이면 내보내기를 거부한다.
 
-정적 화면은 `site/concept-graph/`에 보관하고, 내보낸 결과만 별도 공개 GitHub Pages 저장소에 수동으로 반영한다. 위키 갱신만으로 웹페이지가 바뀌었다고 말하지 않는다. 비공개 PEIM 위키 원문으로 가는 링크는 저장소 접근 권한이 있는 사용자에게만 열린다.
+공개 화면은 [PEIM 개념 그래프](https://chc0331.github.io/PEIM/)에 게시한다. PEIM 저장소와 그래프 페이지는 공개 상태이며, 페이지의 위키 원문 링크는 해당 저장소의 `main` 브랜치를 가리킨다.
+
+위키를 갱신하고 Graphify 빌드를 완료한 다음 아래 명령으로 화면의 데이터를 갱신한다.
+
+```sh
+.venv/bin/python scripts/export_concept_graph.py --output site/concept-graph
+```
+
+변경한 개념 문서와 `site/concept-graph/graph-data.json`을 함께 `main`에 반영하면 GitHub Actions가 페이지를 배포한다. 위키 원고만 변경하거나 Graphify만 빌드하면 공개 데이터는 갱신되지 않는다. 별도 저장소에 내보내는 기존 방식도 같은 명령의 `--output` 경로를 지정해 사용할 수 있다.
 
 ## 검증 범위
 

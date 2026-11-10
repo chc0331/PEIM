@@ -401,6 +401,7 @@
 - [FTS와 HA·장애 격리](concepts/availability-ft-ha.md) — 미검증; 클라우드·인프라
 - [은행가 알고리즘과 안전 상태](concepts/bankers-algorithm.md) — 출처 확인; 운영체제
 - [베이즈 정리와 기저율](concepts/bayes-theorem.md) — 출처 확인; 통계
+- [빅데이터 분석 과정 기초](concepts/big-data-analysis.md) — 출처 확인; 통계·분석·AI
 - [빅데이터 플랫폼·데이터 레이크·늪 방지](concepts/big-data-platform-data-lake.md) — 출처 확인; 데이터관리
 - [빅데이터 사업 분석·설계 감리](concepts/big-data-system-audit.md) — 출처 확인; 감리
 - [이진 탐색 트리와 트리정렬](concepts/binary-search-tree-and-tree-sort.md) — 출처 확인; 자료구조·알고리즘
@@ -454,6 +455,8 @@
 - [RTO·RPO와 Active-Active·Passive·Pilot Light](concepts/disaster-recovery-rto-rpo.md) — 출처 확인; 클라우드·인프라
 - [베르누이·기하·이항·포아송 분포](concepts/discrete-probability-distributions.md) — 출처 확인; 통계
 - [분산 DB의 투명성](concepts/distributed-database-transparency.md) — 미검증; 데이터베이스
+- [분산 파일 처리 기초](concepts/distributed-file-processing.md) — 출처 확인; 클라우드·운영·복구
+- [임베디드 응용 분석과 설계](concepts/embedded-app.md) — 출처 확인; 소프트웨어·아키텍처
 - [임베디드·신뢰성·이식성 테스트](concepts/embedded-reliability-portability-testing.md) — 미검증; 소프트웨어공학
 - [전사 아키텍처(EA)](concepts/enterprise-architecture.md) — 출처 확인; 전략·아키텍처
 - [ISO14000 계열·환경경영시스템 인증](concepts/environmental-management-iso14000.md) — 미검증; 경영·ESG
@@ -492,6 +495,7 @@
 - [AI기본법·고영향 AI와 사업자 책무](concepts/korean-ai-basic-act.md) — 미검증; AI 거버넌스·법·윤리
 - [쿠버네티스와 HPA·오토스케일링](concepts/kubernetes-hpa.md) — 출처 확인; 클라우드·인프라
 - [학습 최적화와 베이지안 탐색](concepts/learning-optimization-bayesian-search.md) — 출처 확인; 머신러닝
+- [정보통신 법규와 정책 확인 기초](concepts/legal-policy-overview.md) — 출처 확인; 전략·IT 거버넌스
 - [선형·비선형 자료구조와 스택·큐·리스트 입출력](concepts/linear-nonlinear-structures.md) — 출처 확인; 자료구조·알고리즘
 - [OWASP LLM2025·프롬프트 주입·MCP·자율성 통제](concepts/llm-owasp-mcp-autonomy.md) — 출처 확인; AI 보안
 - [로우코드·노코드 플랫폼](concepts/low-code-no-code.md) — 미검증; 소프트웨어공학
@@ -505,12 +509,14 @@
 - [MSA·서비스 메시·이벤트 아키텍처](concepts/microservices-event-driven-architecture.md) — 미검증; 소프트웨어공학
 - [모듈 응집도·결합도·캡슐화·정보은닉](concepts/modularity-encapsulation.md) — 미검증; 소프트웨어공학
 - [멀티클라우드와 클라우드 관리 플랫폼](concepts/multicloud-cmp.md) — 미검증; 클라우드·인프라
+- [네트워크 설계 기초](concepts/network-design.md) — 출처 확인; 네트워크·통신
 - [인공신경망·순전파·역전파·활성화](concepts/neural-network-backpropagation.md) — 출처 확인; 딥러닝
 - [NFC와 MODBUS·산업제어 보안](concepts/nfc-ot-modbus.md) — 미검증; 네트워크·통신
 - [AI 거버넌스와 NIST AI RMF 1.0](concepts/nist-ai-rmf.md) — 출처 확인; AI 거버넌스·법·윤리
 - [NFT 대체불가능 토큰](concepts/non-fungible-token.md) — 미검증; 경영·디지털자산
 - [정규분포·대수의 법칙·중심극한정리](concepts/normal-distribution-lln-clt.md) — 출처 확인; 통계
 - [NoSQL 유형과 MongoDB 모델링](concepts/nosql-document-modeling.md) — 미검증; 데이터베이스
+- [수치해석 기초](concepts/numerical-analysis.md) — 출처 확인; 운영체제·컴퓨터구조
 - [OECD 디지털세·두 축 국제조세 개편](concepts/oecd-digital-tax-two-pillars.md) — 미검증; 경영·디지털정책
 - [온디바이스 AI의 경량화와 실행](concepts/on-device-ai.md) — 미검증; 인공지능
 - [시스템 운영·유지보수 감리](concepts/operations-maintenance-audit.md) — 미검증; 감리
@@ -525,6 +531,7 @@
 - [개인정보 보호 법·내부 관리 계획·마이데이터 권리](concepts/privacy-law-internal-plan.md) — 미검증; 개인정보·컴플라이언스
 - [코드·데이터·힙·스택과 메모리 오류](concepts/process-memory.md) — 미검증; 운영체제
 - [경쟁 상태와 뮤텍스·세마포어·모니터](concepts/process-synchronization.md) — 출처 확인; 운영체제
+- [프로그래밍 언어와 응용 소프트웨어 기초](concepts/programming-fundamentals.md) — 출처 확인; 소프트웨어·아키텍처
 - [PM의 갈등관리와 Tuckman 팀 발달](concepts/project-conflict-team-development.md) — 미검증; 프로젝트관리
 - [프로젝트 관리](concepts/project-management.md) — 출처 확인; 프로젝트 관리
 - [프로젝트·프로그램·포트폴리오와 ISO 21500](concepts/project-program-portfolio-iso.md) — 미검증; 프로젝트관리
@@ -565,6 +572,7 @@
 - [소켓·WebSocket·SCTP](concepts/socket-sctp-websocket.md) — 출처 확인; 네트워크·통신
 - [2023 운영단계 SW 대가산정](concepts/software-operations-pricing.md) — 출처 확인; 사업관리·대가
 - [소프트웨어 제품계열 방법론](concepts/software-product-line.md) — 출처 확인; 소프트웨어공학
+- [소프트웨어 제품 개발 계획 기초](concepts/software-product-planning.md) — 출처 확인; 전략·IT 거버넌스
 - [SW 진흥법 기본계획·SW안전 지침](concepts/software-promotion-act-plan-safety.md) — 미검증; 사업관리·법령
 - [2024 조달청 대형SW 전문평가제](concepts/software-proposal-evaluation-2024.md) — 출처 확인; 사업관리·조달
 - [소프트웨어 품질과 ISO/IEC 25010 판본](concepts/software-quality-model.md) — 미검증; 소프트웨어공학
@@ -585,6 +593,8 @@
 - [SVM의 최대 마진과 hard/soft margin](concepts/support-vector-machine.md) — 출처 확인; 머신러닝
 - [대칭·비대칭 암호와 AES](concepts/symmetric-asymmetric-aes.md) — 출처 확인; 보안·암호
 - [합성데이터 생성과 품질 평가](concepts/synthetic-data-generation-evaluation.md) — 미검증; 데이터관리
+- [시스템 프로그래밍 기초](concepts/system-programming.md) — 출처 확인; 운영체제·컴퓨터구조
+- [시스템 소프트웨어 아키텍처와 기술문서](concepts/system-software-architecture.md) — 출처 확인; 운영체제·컴퓨터구조
 - [독립·대응 t검정과 z검정](concepts/t-test-z-test.md) — 출처 확인; 통계
 - [TCP 연결·종료·흐름제어·혼잡제어](concepts/tcp-control.md) — 출처 확인; 네트워크·통신
 - [TA와 AA의 역할·산출물·협업](concepts/technical-application-architect.md) — 미검증; 소프트웨어공학
@@ -598,6 +608,7 @@
 - [네 격리 수준과 팬텀·직렬화 이상](concepts/transaction-isolation-levels.md) — 미검증; 데이터베이스
 - [Transformer와 MoE의 결합](concepts/transformer-mixture-of-experts.md) — 출처 확인; 딥러닝
 - [TurboQuant와 KV 캐시 양자화](concepts/turboquant-vector-quantization.md) — 출처 확인; 인공지능
+- [UI와 UX 설계 기초](concepts/ui-ux-design.md) — 출처 확인; 전략·IT 거버넌스
 - [UML 활동·상태·유스케이스 다이어그램](concepts/uml-behavior-diagrams.md) — 출처 확인; 소프트웨어공학
 - [UML 주사위 게임의 객체·시퀀스·클래스 모델](concepts/uml-dice-model.md) — 출처 확인; 소프트웨어공학
 - [UML 순차 다이어그램과 도서예약 변환](concepts/uml-sequence-library.md) — 출처 확인; 소프트웨어공학

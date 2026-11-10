@@ -62,6 +62,37 @@ class ConceptGraphExportTests(unittest.TestCase):
                     exporter.export(root, output)
             self.assertFalse(output.exists())
 
+    def test_export_to_source_and_separate_directory(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            site = root / "site" / "concept-graph"
+            site.mkdir(parents=True)
+            for name in exporter.SITE_FILES:
+                (site / name).write_text(f"existing {name}", encoding="utf-8")
+            graph_dir = root / "graphify-out"
+            graph_dir.mkdir()
+            graph = {
+                "nodes": [{"id": "a", "label": "A", "file_type": "concept", "source_file": "wiki/concepts/a.md"}],
+                "links": [],
+            }
+            (graph_dir / "graph.json").write_text(json.dumps(graph), encoding="utf-8")
+            state = {"status": "ready", "nodes": 1, "edges": 0, "built_at": "2026-11-10"}
+            docs = {"wiki/concepts/a.md": {"meta": {"title": "A", "type": "concept"}}}
+            with patch.object(exporter, "SITE_SOURCE", site), \
+                 patch.object(exporter, "status", return_value=state), \
+                 patch.object(exporter, "lint", return_value=(docs, {})):
+                exporter.export(root, site)
+                self.assertEqual((site / "index.html").read_text(), "existing index.html")
+                self.assertEqual(json.loads((site / "graph-data.json").read_text())["nodes"][0]["label"], "A")
+
+                separate = root / "separate"
+                exporter.export(root, separate)
+                self.assertEqual((separate / "app.js").read_text(), "existing app.js")
+                self.assertEqual((separate / "graph-data.json").read_text(), (site / "graph-data.json").read_text())
+
+                with self.assertRaisesRegex(ValueError, "프로젝트 루트"):
+                    exporter.export(root, root)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -29,9 +29,9 @@ status: 미검증
 
 대규모 학습·추론을 위해 가속기·고대역 메모리·고속 연결·스토리지·스케줄링·운영 시설을 통합한 병렬 계산 플랫폼입니다.
 
-- GPU는 다양한 병렬 연산과 생태계 유연성, TPU는 Google의 대규모 행렬 연산용 ASIC·HBM·slices·XLA를 특징으로 합니다. TPU는 큰 dense 행렬·큰 batch에 적합할 수 있지만 분기·custom op·높은 정밀도·I/O 병목에는 부적합할 수 있어 GPU보다 항상 좋다는 문항 전제를 조건부로 해석합니다.
+- GPU는 다양한 병렬 연산에 쓰이며 도구 선택 폭이 넓습니다. Google TPU는 대규모 행렬 연산을 위한 ASIC이며 HBM·슬라이스·XLA를 활용합니다. 큰 밀집 행렬과 큰 배치에는 적합할 수 있으나 분기·사용자 정의 연산·고정밀 계산·입출력이 병목인 작업에서는 실제 성능을 비교합니다.
 - Data parallel은 모델 복제·batch 분할·gradient all-reduce, tensor/model parallel은 한 연산/층의 파라미터 분산, pipeline parallel은 층을 stage로 분할, sharding은 파라미터/optimizer 상태 분산을 활용합니다. 통신 중첩·batch와 학습률·mixed precision·checkpoint·straggler·수치 재현을 검토합니다.
-- 플랫폼은 compute fabric·storage fabric·management network, 고성능 공유 저장·checkpoint, job scheduler·registry/관측, 전력·고밀도 냉각으로 구성합니다. 전통 HPC의 다양한 수치해석, cloud의 자원 서비스 모델과 AI platform의 tensor workload 최적화는 다른 분류 축이라 서로 배타적이지 않습니다. 데이터센터 전체 TCO·활용률·장애 복구·환경 제약을 평가합니다.
+- 플랫폼은 compute fabric·storage fabric·management network, 고성능 공유 저장·checkpoint, job scheduler·registry/관측, 전력·고밀도 냉각으로 구성합니다. 전통 HPC의 다양한 수치 해석, cloud의 자원 서비스 모델과 AI platform의 tensor workload 최적화는 다른 분류 축이라 서로 배타적이지 않습니다. 데이터 센터 전체 TCO·활용률·장애 복구·환경 제약을 평가합니다.
 
 ### 구조·비교·판단
 
@@ -39,7 +39,7 @@ status: 미검증
 | --- | --- | --- |
 | GPU | 범용 병렬·custom 연산·넓은 도구 | 메모리·연결·전력 |
 | TPU | ASIC 행렬·HBM·XLA·slice | 워크로드·연산 지원 제약 |
-| AI 슈퍼컴퓨팅 | 가속기+fabric+storage+운영 | cloud/HPC와 결합 가능 |
+| AI 슈퍼컴퓨팅 | 가속기 + fabric + storage + 운영 | cloud/HPC와 결합 가능 |
 
 <!-- subnote-page:apply -->
 
@@ -49,19 +49,19 @@ status: 미검증
 
 강사 생성 학습 예제입니다. 공식 기준답안이 아닙니다.
 
-**조건:** 단일GPU에 모델이 들어가며 한 step batch128을4GPU로 나눕니다.
+**조건:** 모델이 GPU 한 장에 들어갑니다. 한 학습 단계의 배치 128개를 GPU 네 장에 나눕니다.
 
-1. 각 GPU가32개 표본의 gradient를 계산합니다.
-2. 동기 집계 후 같은 파라미터를 갱신하며 글로벌 batch128을 유지합니다.
-3. 계산100ms가25ms로 줄어도 통신20ms·I/O10ms가 추가되면55ms로 약1.82배입니다. 실제 겹침·기준 비용을 측정합니다.
+1. 각 GPU가 표본 32개의 기울기를 계산합니다.
+2. 기울기를 동기화한 뒤 같은 매개변수를 갱신합니다. 전체 배치 크기는 128개로 유지합니다.
+3. 계산 시간이 100 ms에서 25 ms로 줄어도 통신 20 ms, 입출력 10 ms가 따로 들면 55 ms입니다. 계산만 100 ms인 기준과 비교하면 약 1.82배입니다. 실제 비교에서는 기준 비용과 작업이 겹치는 시간을 측정합니다.
 
-**결과·해석:** GPU 수4와 실제 가속비4는 다르며 병목별 시간이 필요합니다.
+**결과·해석:** GPU를 네 장 쓴 결과를 계산·통신·입출력별로 나누어 확인합니다.
 
 **전제·주의:** 숫자는 계산 예시이며 특정 장비의 벤치마크가 아닙니다. DCI는 별도 거리·복제·대역폭 설계가 필요합니다.
 
 ### 답안 골격과 혼동 방지
 
-배경·GPU/TPU 조건부 비교 → 병렬화4방식 → fabric·storage·software·시설 → 4GPU 시간 계산 → HPC/cloud 비교·TCO·복구
+배경·GPU/TPU 조건부 비교 → 병렬화 4가지 방식 → fabric·storage·software·시설 → 4 GPU 시간 계산 → HPC/cloud 비교·TCO·복구
 
 - GPU보다 TPU를 쓰는 이유를 모든 과업의 우위로 일반화하지 않습니다.
 - FLOPS나 GPU 수 하나로 플랫폼 성능을 판정하지 않습니다.

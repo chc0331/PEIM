@@ -90,11 +90,12 @@ def export(root, output):
     concept_titles = {doc["meta"]["title"]: path for path, doc in docs.items() if doc["meta"]["type"] == "concept"}
     data = public_graph(graph, state["built_at"], concept_titles)
     output = output.resolve()
-    if output == root.resolve() or output == SITE_SOURCE.resolve():
-        raise ValueError("출력 위치는 프로젝트 루트와 사이트 원본 폴더가 아니어야 합니다")
+    if output == root.resolve():
+        raise ValueError("출력 위치는 프로젝트 루트가 아니어야 합니다")
     output.mkdir(parents=True, exist_ok=True)
-    for name in SITE_FILES:
-        shutil.copyfile(SITE_SOURCE / name, output / name)
+    if output != SITE_SOURCE.resolve():
+        for name in SITE_FILES:
+            shutil.copyfile(SITE_SOURCE / name, output / name)
     (output / "graph-data.json").write_text(data, encoding="utf-8")
     result = json.loads(data)
     return {"output": str(output), "nodes": len(result["nodes"]), "edges": len(result["edges"])}
@@ -102,6 +103,6 @@ def export(root, output):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output", type=Path, required=True, help="공개 사이트 저장소의 루트 경로")
+    parser.add_argument("--output", type=Path, required=True, help="공개 사이트 파일을 저장할 디렉터리")
     args = parser.parse_args()
     print(json.dumps(export(ROOT, args.output), ensure_ascii=False))

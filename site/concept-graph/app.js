@@ -1,6 +1,6 @@
 "use strict";
 
-const PRIVATE_WIKI = "https://github.com/chc0331/PEIM/blob/main/";
+const WIKI_BASE_URL = "https://github.com/chc0331/PEIM/blob/main/";
 const RELATED = {
   conceptually_related_to: "관련",
   references: "참조",
@@ -150,7 +150,7 @@ function showDetails() {
   panel.appendChild(textNode("p", node.description || "이 노드의 별도 설명은 기준 위키에서 확인할 수 있습니다.", "description"));
   const source = textNode("p", "위키 문서: ", "meta");
   const link = document.createElement("a");
-  link.href = PRIVATE_WIKI + node.source_file.split("/").map(encodeURIComponent).join("/");
+  link.href = WIKI_BASE_URL + node.source_file.split("/").map(encodeURIComponent).join("/");
   link.target = "_blank";
   link.rel = "noopener noreferrer";
   link.textContent = node.source_file.replace("wiki/concepts/", "");
