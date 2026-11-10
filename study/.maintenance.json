@@ -31,7 +31,8 @@
     "wiki/sources/qnet-138.md": "4a101e8a2fd47422fc29086f84717eabfd8c3e254942bb051889c30050a9c09c",
     "wiki/sources/qnet-139.md": "cc068540b33e36952a83a4987f9f5b3a5c12b7de18a8339822778c6f2ce84402",
     "wiki/sources/qnet-140.md": "f87776b7b69cd7b56e3dc5667590a95fd7b20899ce0737af657eb10fe9e072d8",
-    "wiki/sources/qnet-guide.md": "adcfef3f86f4ae6e2d80e382761799fd489c1c093ad51d88d53bce4928495fa7",
+    "wiki/sources/qnet-criteria-2027-photos.md": "ccf4447f0256b12fe2cdda28abab4feef46321005f7673a93ee98e56321d8d99",
+    "wiki/sources/qnet-guide.md": "bf2758e1d7431198e55b814e995c999aa26fa89f3d8630ad8ee555b561ac594c",
     "wiki/sources/six-month-review.md": "6c271050ebe506e20f75ca558f9c03105e6d5893c5acd69e83ce72bf777d1986",
     "wiki/sources/subnote-0150911a3482.md": "d7ecd46b07f3c32f74be6e83a4ef654881a70fc13eb5a446c33d019ace0ea563",
     "wiki/sources/subnote-027bed212e7e.md": "f735802ed83addf7fec85012dcb8743f341f5c9b02de09db88de8ba9205dc937",
@@ -606,6 +607,7 @@
     "wiki/concepts/work-breakdown-structure.md": "66f28f3a2505fabfc3d8f948085690994f6958f2e34c0c381afc1095b268cefb",
     "wiki/concepts/zero-trust-supply-chain-n2sf.md": "d806f5c9a540df9f65c9dc1192de8f219bcde906508bfde6dcd788ebe594aa86",
     "wiki/concepts/zombie-process.md": "65ba5714f0a30330d61473d319de600225124b8af52f5175e71c12d63ea8b686",
+    "wiki/comparisons/qnet-2027-curriculum-map.md": "60c5505e5036c836ed127e6b9013f50bfa64ff6160ce3a7ac78baf390084e2e6",
     "wiki/comparisons/qnet-exam-map.md": "00bed0056466b0f8e5610487e90f30c1290cceafc72ad38a46b2d357401de197",
     "wiki/comparisons/study-strategy.md": "398702fba0dcafced31042d6c6c33ad488a51098356372a3424b8b210e0f124a",
     "wiki/questions/qnet-126-p1.md": "db775035354a4a3e1775eb774ef41bbfc37affbc2ad20724332c05a45f5963a5",
@@ -738,6 +740,8 @@
     "raw/requests/2026-11-05-print-subnotes.md": "83fc5ba8f692271b95b11b4ac6ea9a77236986ff8973b50b6196e105b4821688",
     "raw/requests/2026-11-09-normalization-ai-pilot.md": "62169f9bb66e60e22956725ae5de05786c79ebadbab42752a9c6596dd33f31ac",
     "raw/requests/2026-11-09-roadmap-timetable.md": "25a521a4d8940a6588df679a9dedd197aa66447844ec43bc7c9725f9909b44fd",
+    "raw/requests/2026-11-10-criteria-curriculum.md": "e1572a43b9e166891596a8a6c835444f302d5d0beb31eb4dc0e5d5c3a1722f38",
+    "raw/requests/2026-11-10-subject-curriculum.md": "58fcb03c4b43f023eac9b4eaf6bfe0ef9954565dfeef9faca420592e0c1222e7",
     "raw/research/2026-11-05-data-ai.md": "b6c721fea72a8408e035c3696e31fd5703bbdb0c908490c18f88b0f525cc4026",
     "raw/research/2026-11-05-missing-topics.md": "30b60516095d5a841e1b09057cb3086a2e9a05995d7097d228e4cc9f9de02ad8",
     "raw/research/2026-11-05-print-pilot.md": "04837d0ca168cd64821748c8ad9e05f3bfe1ebb96881f6b33bad868e83b6baa0",
@@ -761,6 +765,12 @@
     "raw/sources/2026-09-06-qnet-guide.md": "dd9c48e6d39b10d3794e821164e3670c5328d156a65287504446c18faf551d9a",
     "raw/sources/2026-09-06-six-month-review.md": "2f66b374d18d62e46c322f8c86d560b10de5c46555abd72c5a8de28eed6713f6",
     "raw/sources/2026-09-06-ten-month-review.md": "2dc13d855d7418b8cf1980799c97904143048af5435db01cfd2e49288ad1ac7e",
-    "raw/sources/2026-11-09-gornik-ai-engineering-learning.md": "a47a799a4aa2ba476e616ffd2d500a982f3f23cce3297477b371297602d2be1d"
+    "raw/sources/2026-11-09-gornik-ai-engineering-learning.md": "a47a799a4aa2ba476e616ffd2d500a982f3f23cce3297477b371297602d2be1d",
+    "raw/sources/2026-11-10-qnet-criteria-2027-photos.md": "0d60fdb5a1e547905bdef944c99be4221ec99f5d205ce26341f7241f3a09c4c6",
+    "raw/sources/2026-11-10-qnet-criteria-2027.md": "7ff273bf0906d9ddff28688dc962e53721f80285ed9a088bb5aadfcc83878819",
+    "raw/sources/qnet-criteria-2027-photos/page-01.jpg": "1f0a0fad0581e875a7a1ff575f4ce8a4a7118ba8d1dde51a29a81164eee68beb",
+    "raw/sources/qnet-criteria-2027-photos/page-02.jpg": "01b754830f96bf161c665729c63097c7185f3b1df92e8e015e00b0874884a4db",
+    "raw/sources/qnet-criteria-2027-photos/page-03.jpg": "896d13785638ed6e6379cae1d94eb6e4fe89c6dcf3f31d35e1d6ee478483ceb4",
+    "raw/sources/qnet-criteria-2027-photos/page-04.jpg": "c1de7304e8efac3930e07d1129a7551ef0ad281b6c4cd513226ad85690dde7c2"
   }
 }

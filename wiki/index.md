@@ -35,6 +35,7 @@
 - [Q-Net 제138회 정보관리기술사 공식 문제지](sources/qnet-138.md) — 출처 확인; 정보관리기술사 기출
 - [Q-Net 제139회 정보관리기술사 공식 문제지](sources/qnet-139.md) — 출처 확인; 정보관리기술사 기출
 - [Q-Net 제140회 정보관리기술사 공식 문제지](sources/qnet-140.md) — 출처 확인; 정보관리기술사 기출
+- [2027~2030 출제기준 사용자 제공 화면 사진](sources/qnet-criteria-2027-photos.md) — 미검증; 공식 출제기준, 사용자 제공 자료
 - [Q-Net 정보관리기술사 공식 시험·출제기준 안내](sources/qnet-guide.md) — 출처 확인; 공식 안내
 - [정보관리기술사 필기 6개월 합격 후기](sources/six-month-review.md) — 출처 확인; 합격 후기
 - [자료: 정기결제 대금 인상 또는 유료 전환 전30일 이내 소비자 동의받아야](sources/subnote-0150911a3482.md) — 출처 확인; 서브노트 근거
@@ -616,6 +617,7 @@
 
 ## comparisons
 
+- [2027~2030 출제기준 사진과 학습 과정 대조](comparisons/qnet-2027-curriculum-map.md) — 미검증; 출제기준 대조, 학습 계획
 - [정보관리기술사 기출·개념 탐색 지도](comparisons/qnet-exam-map.md) — 출처 확인; 정보관리기술사 기출, 학습 탐색
 - [주 15~20시간 독학 학습 전략](comparisons/study-strategy.md) — 출처 확인; 학습 전략
 
