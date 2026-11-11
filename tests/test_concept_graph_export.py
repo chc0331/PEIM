@@ -53,6 +53,22 @@ class ConceptGraphExportTests(unittest.TestCase):
         self.assertEqual({node["id"] for node in result["nodes"]}, {"a", "b", "c"})
         self.assertEqual([(edge["source"], edge["target"]) for edge in result["edges"]], [("a", "b"), ("b", "c")])
 
+    def test_overview_includes_the_canonical_node_for_each_concept_document(self):
+        graph = {
+            "nodes": [
+                {"id": "a", "label": "A", "file_type": "concept", "source_file": "wiki/concepts/a.md"},
+                {"id": "b-ref", "label": "B", "file_type": "document", "source_file": "wiki/concepts/a.md"},
+                {"id": "b", "label": "B", "file_type": "document", "source_file": "wiki/concepts/b.md"},
+                {"id": "detail", "label": "B detail", "file_type": "concept", "source_file": "wiki/concepts/b.md"},
+                {"id": "c", "label": "C", "file_type": "concept", "source_file": "wiki/concepts/c.md"},
+            ],
+            "links": [{"source": "a", "target": "b-ref", "relation": "references"}],
+        }
+        titles = {"A": "wiki/concepts/a.md", "B": "wiki/concepts/b.md", "C": "wiki/concepts/c.md"}
+        result = json.loads(exporter.public_graph(graph, "2026-11-10", titles))
+        self.assertEqual(set(result["topic_ids"]), {"a", "b", "c"})
+        self.assertEqual(len(result["topic_ids"]), 3)
+
     def test_stale_graph_does_not_create_site(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)

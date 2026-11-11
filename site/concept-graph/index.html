@@ -6,17 +6,17 @@
   <meta name="theme-color" content="#10233b">
   <meta name="description" content="정보관리기술사 개념을 검색하고 관련 개념의 연결을 탐색합니다.">
   <title>정보관리기술사 개념 그래프</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css?v=2">
   <script src="https://unpkg.com/vis-network@9.1.6/standalone/umd/vis-network.min.js"
           integrity="sha384-Ux6phic9PEHJ38YtrijhkzyJ8yQlH8i/+buBR8s3mAZOJrP1gwyvAcIYl3GWtpX1"
           crossorigin="anonymous" defer></script>
-  <script src="./app.js" defer></script>
+  <script src="./app.js?v=2" defer></script>
 </head>
 <body>
   <header class="masthead">
     <div class="brand"><span class="brand-mark">PEIM</span><span class="brand-divider"></span><span>개념 탐색 지도</span></div>
     <h1>정보관리기술사 개념 그래프</h1>
-    <p>하나의 개념에서 출발해 연결된 지식을 따라가 보세요.</p>
+    <p>전체 주제를 살펴보고, 개념을 선택해 연결된 지식을 따라가 보세요.</p>
     <div class="summary" id="summary" aria-live="polite">개념 그래프를 불러오는 중입니다.</div>
   </header>
 
@@ -28,26 +28,30 @@
       </div>
       <label for="search">한글·영문·약어로 검색</label>
       <input id="search" type="search" placeholder="예: 데이터 거버넌스, TLS, DevOps" autocomplete="off">
-      <p class="hint" id="search-hint">시작할 개념을 선택하세요.</p>
-      <ul id="results" class="result-list" aria-label="개념 검색 결과"></ul>
-      <p class="privacy-note">개념을 선택하면 연결된 개념과 PEIM 위키의 원문을 확인할 수 있습니다.</p>
+      <p class="hint" id="search-hint">전체 주제를 불러오는 중입니다.</p>
+      <ul id="results" class="result-list" aria-label="주제 목록과 개념 검색 결과" tabindex="0"></ul>
+      <p class="privacy-note">목록에서 주제를 고르거나 세부 개념을 검색하세요. 그래프의 점을 선택해도 자세히 볼 수 있습니다.</p>
     </section>
 
-    <section class="graph-pane" aria-labelledby="graph-title">
+    <section id="graph-pane" class="graph-pane" aria-labelledby="graph-title">
       <div class="graph-toolbar">
         <div>
           <span class="step">02 / 연결 보기</span>
-          <h2 id="graph-title">관련 개념</h2>
-          <p id="graph-caption" aria-live="polite">개념을 선택하면 주변 연결을 표시합니다.</p>
+          <h2 id="graph-title">전체 주제 지도</h2>
+          <p id="graph-caption" aria-live="polite">전체 주제를 불러오는 중입니다.</p>
         </div>
-        <fieldset class="depth-control">
-          <legend>표시 범위</legend>
-          <label><input type="radio" name="depth" value="1" checked> 1단계</label>
-          <label><input type="radio" name="depth" value="2"> 2단계</label>
-        </fieldset>
+        <div class="graph-controls">
+          <button id="overview" class="overview-button" type="button">전체 주제 보기</button>
+          <fieldset id="depth-control" class="depth-control" hidden>
+            <legend>표시 범위</legend>
+            <label><input type="radio" name="depth" value="1" checked> 1단계</label>
+            <label><input type="radio" name="depth" value="2"> 2단계</label>
+          </fieldset>
+        </div>
       </div>
-      <div id="graph" role="img" aria-label="선택한 개념의 연결 그래프"></div>
-      <div class="graph-footnote">
+      <div id="graph" role="img" aria-label="전체 주제 지도"></div>
+      <p id="overview-note" class="graph-footnote">점은 개념 문서이고 선은 서로 다른 문서에 속한 개념 사이의 연결입니다. 확대하거나 이동해 살펴보세요.</p>
+      <div id="detail-legend" class="graph-footnote" hidden>
         <span><i class="swatch swatch-focus"></i> 선택 개념</span>
         <span><i class="swatch swatch-concept"></i> 관련 개념</span>
         <span><i class="swatch swatch-document"></i> 개념 문서</span>

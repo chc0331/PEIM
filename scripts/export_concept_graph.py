@@ -72,6 +72,7 @@ def public_graph(graph, built_at, concept_titles):
         "built_at": built_at,
         "nodes": nodes,
         "edges": edges,
+        "topic_ids": [item["id"] for _, item in sorted(canonical.items()) if item["id"] in ids],
     }
     serialized = json.dumps(result, ensure_ascii=False, separators=(",", ":"))
     if PRIVATE_TEXT.search(serialized):

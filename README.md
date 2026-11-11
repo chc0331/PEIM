@@ -62,6 +62,7 @@ Codex 스킬은 `.codex/skills/graphify/`에 이미 등록되어 있습니다. �
 .venv/bin/graphify path '회상 연습' '시간제한 답안 훈련'
 .venv/bin/graphify explain '회상 연습'
 .venv/bin/python -m unittest discover -s tests -v
+node --test tests/test_concept_graph_page.cjs  # Node.js 18 이상
 ```
 
 `prepare`는 목차와 변경 이력을 정리하고 갱신할 문서 목록을 만듭니다. **명령만 실행하면 LLM 추출까지 자동으로 끝나는 것은 아닙니다.** 강사가 세션에서 의미를 추출한 뒤 `accept`, `build`로 반영합니다. 자세한 절차는 운영 문서를 따릅니다.
@@ -79,5 +80,7 @@ Codex 스킬은 `.codex/skills/graphify/`에 이미 등록되어 있습니다. �
 문서가 존재하는 것과 실제로 회상·답안 작성을 할 수 있는 것은 별개입니다. 사용자의 수행 기록은 그래프에 넣지 않습니다. 검증 상태가 상충·미검증인 내용도 탐색할 수 있으나 정답 근거로 무비판적으로 사용하지 않습니다.
 
 전체 그래프 HTML은 Graphify의 기본 시각화이며 최초 표시 시 vis-network 라이브러리를 CDN에서 불러옵니다. 로컬에 자료를 보관하지만 완전한 오프라인 화면을 보장하지 않습니다. PEIM의 공개 개념 그래프에는 개념 문서에서 추출한 노드와 관계만 담고, 원자료·기출 문서 노드·개인 학습 기록은 싣지 않습니다. PEIM 저장소의 위키 원문도 공개되어 있습니다.
+
+공개 그래프의 첫 화면에서는 전체 주제를 지도와 목록으로 살펴볼 수 있습니다. 주제를 선택하면 관련 개념을 1~2단계로 펼치고 위키 원문을 확인합니다. 검색창에서는 주제와 세부 개념을 한글·영문·약어로 찾을 수 있습니다.
 
 새 자료를 위키에 반영하고 `scripts/wiki.py prepare`·의미 추출·`build`를 마친 다음, `.venv/bin/python scripts/export_concept_graph.py --output site/concept-graph`로 공개 데이터를 갱신합니다. 개념 문서와 생성된 데이터를 `main`에 반영하면 GitHub Actions가 공개 페이지를 배포합니다. 내보내기는 그래프가 최신 상태인지 검사하며 개인 자료 경로가 섞인 결과는 거부합니다.

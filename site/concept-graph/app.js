@@ -14,8 +14,14 @@ const elements = {
   hint: document.getElementById("search-hint"),
   results: document.getElementById("results"),
   summary: document.getElementById("summary"),
+  graphPane: document.getElementById("graph-pane"),
   graph: document.getElementById("graph"),
   caption: document.getElementById("graph-caption"),
+  graphTitle: document.getElementById("graph-title"),
+  overview: document.getElementById("overview"),
+  depthControl: document.getElementById("depth-control"),
+  overviewNote: document.getElementById("overview-note"),
+  detailLegend: document.getElementById("detail-legend"),
   details: document.getElementById("details"),
   builtAt: document.getElementById("built-at")
 };
@@ -44,7 +50,7 @@ function resultButton(node) {
   button.setAttribute("aria-current", String(node.id === selectedId));
   const alias = (node.aliases || []).find(value => norm(value) !== norm(node.label));
   if (alias) button.appendChild(textNode("small", alias));
-  button.addEventListener("click", () => select(node.id));
+  button.addEventListener("click", () => select(node.id, true));
   li.appendChild(button);
   return li;
 }
@@ -58,12 +64,11 @@ function searchResults() {
       const labels = [node.label, ...(node.aliases || [])].map(norm);
       const score = labels.includes(q) ? 0 : labels.some(value => value.startsWith(q)) ? 1 : labels.some(value => value.includes(q)) ? 2 : 3;
       return {node, score};
-    }).filter(item => item.score < 3).sort((a, b) => a.score - b.score || a.node.label.localeCompare(b.node.label, "ko")).slice(0, 12).map(item => item.node);
+    }).filter(item => item.score < 3).sort((a, b) => a.score - b.score || a.node.label.localeCompare(b.node.label, "ko")).map(item => item.node);
   } else {
-    const examples = ["데이터 거버넌스", "AI 거버넌스", "DevOps", "TLS 1.3", "정규화"];
-    matches = examples.map(label => data.nodes.find(node => node.label === label)).filter(Boolean);
+    matches = data.topic_ids.map(id => nodesById.get(id)).filter(Boolean).sort((a, b) => a.label.localeCompare(b.label, "ko"));
   }
-  elements.hint.textContent = q ? `검색 결과 ${matches.length}개${matches.length === 12 ? " (상위 12개)" : ""}` : "시작 예시 · 중요도 순위가 아닙니다";
+  elements.hint.textContent = q ? `검색 결과 ${matches.length}개` : `전체 주제 ${matches.length}개 · 목록을 스크롤하세요`;
   if (!matches.length) elements.results.appendChild(textNode("li", "일치하는 개념이 없습니다.", "hint"));
   matches.forEach(node => elements.results.appendChild(resultButton(node)));
 }
@@ -88,6 +93,84 @@ function neighborhood(id, depth) {
 
 function relationLabel(edge) {
   return RELATED[edge.relation] || edge.relation.replaceAll("_", " ");
+}
+
+function showOverview() {
+  selectedId = null;
+  elements.search.value = "";
+  searchResults();
+  elements.graphTitle.textContent = "전체 주제 지도";
+  elements.depthControl.hidden = true;
+  elements.overviewNote.hidden = false;
+  elements.detailLegend.hidden = true;
+
+  const topics = data.topic_ids.map(id => nodesById.get(id)).filter(Boolean);
+  const topicByFile = new Map(topics.map(node => [node.source_file, node.id]));
+  const links = new Map();
+  for (const edge of data.edges) {
+    const from = topicByFile.get(nodesById.get(edge.source).source_file);
+    const to = topicByFile.get(nodesById.get(edge.target).source_file);
+    if (!from || !to || from === to) continue;
+    const key = JSON.stringify([from, to]);
+    links.set(key, {from, to});
+  }
+  elements.caption.textContent = `전체 주제 ${topics.length}개 · 문서 간 연결 ${links.size}개`;
+  elements.graph.setAttribute("aria-label", `전체 주제 ${topics.length}개와 문서 간 연결 ${links.size}개. 목록에서도 주제를 선택할 수 있습니다.`);
+  elements.details.replaceChildren(
+    textNode("h3", "주제를 선택하세요", "node-title"),
+    textNode("p", "목록이나 지도에서 주제를 선택하면 관련 개념을 자세히 볼 수 있습니다. 검색창에서는 세부 개념도 찾을 수 있습니다.", "description")
+  );
+
+  if (network) network.destroy();
+  if (!window.vis || !window.vis.Network) {
+    elements.graph.replaceChildren(textNode("p", "그래프 라이브러리를 불러오지 못했습니다. 주제 목록과 검색은 이용할 수 있습니다.", "graph-error"));
+    return;
+  }
+
+  const startingFiles = ["data-governance.md", "tls13.md", "devops-cicd.md", "relational-normalization.md", "ai-governance.md", "cloud-computing.md"];
+  const rank = node => {
+    const index = startingFiles.indexOf(node.source_file.replace("wiki/concepts/", ""));
+    return index === -1 ? startingFiles.length : index;
+  };
+  topics.sort((a, b) => rank(a) - rank(b) || a.label.localeCompare(b.label, "ko"));
+  const compact = elements.graph.clientWidth < 600;
+  const labelLimit = compact ? 10 : 18;
+  let x = 0, y = 0, dx = 1, dy = 0, length = 1, progress = 0, turns = 0;
+  const displayNodes = topics.map(node => {
+    const position = {x: x * (compact ? 160 : 250), y: y * 100};
+    x += dx;
+    y += dy;
+    if (++progress === length) {
+      progress = 0;
+      [dx, dy] = [-dy, dx];
+      if (++turns % 2 === 0) length++;
+    }
+    return {
+      id: node.id,
+      label: node.label.length > labelLimit ? `${node.label.slice(0, labelLimit - 1)}…` : node.label,
+      title: node.label,
+      ...position,
+      shape: "dot",
+      size: 14,
+      color: {background: "#397fa8", border: "#ffffff"},
+      font: {color: "#14263d", size: 14, face: "sans-serif", strokeWidth: 5, strokeColor: "#ffffff"},
+      borderWidth: 2
+    };
+  });
+  const displayEdges = [...links.values()].map((edge, index) => ({
+    id: index, ...edge, arrows: {to: {enabled: true, scaleFactor: 0.5}},
+    color: {color: "rgba(40, 91, 125, 0.14)", hover: "#176a9c"}, width: 1
+  }));
+  network = new vis.Network(elements.graph, {nodes: displayNodes, edges: displayEdges}, {
+    autoResize: true,
+    interaction: {hover: true, navigationButtons: true, keyboard: true},
+    layout: {improvedLayout: false},
+    physics: false
+  });
+  network.moveTo({position: {x: 0, y: 0}, scale: 0.8});
+  network.on("click", event => {
+    if (event.nodes.length) select(event.nodes[0]);
+  });
 }
 
 function showGraph() {
@@ -170,18 +253,23 @@ function showDetails() {
     button.type = "button";
     button.textContent = `${outgoing ? "→" : "←"} ${other.label}`;
     button.appendChild(textNode("small", `${relationLabel(edge)} · ${edge.confidence === "EXTRACTED" ? "문서에 명시된 연결" : edge.confidence === "INFERRED" ? "추론된 연결" : "불확실한 연결"}`));
-    button.addEventListener("click", () => select(other.id));
+    button.addEventListener("click", () => select(other.id, true));
     li.appendChild(button);
     list.appendChild(li);
   }
   panel.appendChild(list);
 }
 
-function select(id) {
+function select(id, revealGraph = false) {
   selectedId = id;
+  elements.graphTitle.textContent = "관련 개념";
+  elements.depthControl.hidden = false;
+  elements.overviewNote.hidden = true;
+  elements.detailLegend.hidden = false;
   searchResults();
   showDetails();
   showGraph();
+  if (revealGraph && window.matchMedia("(max-width: 690px)").matches) elements.graphPane.scrollIntoView({block: "start"});
 }
 
 async function start() {
@@ -195,12 +283,12 @@ async function start() {
       adjacent.get(edge.source).add(edge.target);
       adjacent.get(edge.target).add(edge.source);
     }
-    elements.summary.textContent = `개념 문서에서 추출한 ${data.nodes.length.toLocaleString("ko-KR")}개 노드 · ${data.edges.length.toLocaleString("ko-KR")}개 연결`;
+    elements.summary.textContent = `${data.topic_ids.length.toLocaleString("ko-KR")}개 주제 · 전체 노드 ${data.nodes.length.toLocaleString("ko-KR")}개 · 연결 ${data.edges.length.toLocaleString("ko-KR")}개`;
     elements.builtAt.textContent = `그래프 빌드: ${data.built_at}`;
     elements.search.addEventListener("input", searchResults);
+    elements.overview.addEventListener("click", showOverview);
     document.querySelectorAll('input[name="depth"]').forEach(input => input.addEventListener("change", showGraph));
-    const first = data.nodes.find(node => node.label === "데이터 거버넌스") || data.nodes[0];
-    select(first.id);
+    showOverview();
   } catch (error) {
     elements.summary.textContent = "개념 데이터를 불러오지 못했습니다.";
     elements.graph.replaceChildren(textNode("p", `페이지 데이터를 확인해 주세요: ${error.message}`, "graph-error"));
