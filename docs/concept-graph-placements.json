@@ -1,0 +1,59 @@
+{
+  "additional_units": {
+    "course-systems": ["시스템 SW·수치해석"]
+  },
+  "placements": {
+    "course-db": {
+      "관계형 모델링·정규화": ["wiki/concepts/data-modeling.md"],
+      "데이터 거버넌스·품질": ["wiki/concepts/data-governance.md"]
+    },
+    "course-software": {
+      "구현·유지보수·API": [
+        "wiki/concepts/embedded-app.md",
+        "wiki/concepts/programming-fundamentals.md"
+      ],
+      "설계·아키텍처": ["wiki/concepts/microservices-architecture.md"],
+      "개발·배포·변경 관리": ["wiki/concepts/devops-cicd.md"]
+    },
+    "course-systems": {
+      "시스템 SW·수치해석": [
+        "wiki/concepts/system-programming.md",
+        "wiki/concepts/system-software-architecture.md",
+        "wiki/concepts/numerical-analysis.md"
+      ]
+    },
+    "course-network": {
+      "주소·라우팅": ["wiki/concepts/network-design.md"]
+    },
+    "course-cloud": {
+      "스토리지·클라우드 보안": ["wiki/concepts/distributed-file-processing.md"],
+      "클라우드 서비스·플랫폼": ["wiki/concepts/cloud-computing.md"]
+    },
+    "course-security": {
+      "AI 위험·거버넌스": ["wiki/concepts/ai-governance.md"],
+      "개인정보·보호 관리체계": ["wiki/concepts/security-governance-isms-p.md"]
+    },
+    "course-strategy": {
+      "정보전략·거버넌스": [
+        "wiki/concepts/enterprise-architecture.md",
+        "wiki/concepts/information-strategy-planning.md",
+        "wiki/concepts/it-governance.md"
+      ],
+      "서비스·사용자": [
+        "wiki/concepts/ui-ux-design.md",
+        "wiki/concepts/software-product-planning.md"
+      ],
+      "정책·산업·지속가능성": ["wiki/concepts/legal-policy-overview.md"]
+    },
+    "course-project": {
+      "프로젝트·범위·위험": ["wiki/concepts/project-management.md"]
+    },
+    "course-ai": {
+      "기계학습과 분석": ["wiki/concepts/big-data-analysis.md"]
+    }
+  },
+  "study_methods": [
+    "wiki/concepts/active-recall.md",
+    "wiki/concepts/answer-practice.md"
+  ]
+}

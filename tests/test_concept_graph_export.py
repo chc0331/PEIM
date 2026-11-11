@@ -9,6 +9,20 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import export_concept_graph as exporter
 
 
+CURRICULUM = """<a id="course-test"></a>
+
+## 학습 과목
+
+### 기존 단원
+
+- [x] [A](../wiki/concepts/a.md) · [수행 기록](progress.md) <!-- topic-id:a -->
+
+### 사진 대조 후 추가한 기초 학습 목표
+
+- [ ] [B](../wiki/concepts/b.md) <!-- goal-id:b -->
+"""
+
+
 class ConceptGraphExportTests(unittest.TestCase):
     def test_public_snapshot_excludes_nonconcept_nodes_and_private_fields(self):
         graph = {
@@ -69,6 +83,49 @@ class ConceptGraphExportTests(unittest.TestCase):
         self.assertEqual(set(result["topic_ids"]), {"a", "b", "c"})
         self.assertEqual(len(result["topic_ids"]), 3)
 
+    def test_classification_exports_course_topics_methods_and_unclassified(self):
+        titles = {ident.upper(): f"wiki/concepts/{ident}.md" for ident in "abcd"}
+        graph = {
+            "nodes": [
+                {"id": label.lower(), "label": label, "file_type": "concept", "source_file": source}
+                for label, source in titles.items()
+            ],
+            "links": [],
+        }
+        classification = exporter.read_classification(CURRICULUM, {
+            "additional_units": {"course-test": ["추가 단원"]},
+            "placements": {"course-test": {"추가 단원": [titles["B"]]}},
+            "study_methods": [titles["C"]],
+        })
+        text = exporter.public_graph(graph, "2026-11-10", titles, classification=classification)
+        hierarchy = json.loads(text)["hierarchy"]
+        self.assertEqual(hierarchy["courses"], [{
+            "id": "course-test", "label": "학습 과목",
+            "units": [
+                {"id": "course-test-unit-1", "label": "기존 단원", "topic_ids": ["a"]},
+                {"id": "course-test-unit-2", "label": "추가 단원", "topic_ids": ["b"]},
+            ],
+        }])
+        self.assertEqual(hierarchy["study_methods"], ["c"])
+        self.assertEqual(hierarchy["unclassified"], ["d"])
+        self.assertNotIn("progress.md", text)
+        self.assertNotIn("topic-id", text)
+
+    def test_classification_rejects_duplicate_and_unknown_wiki_references(self):
+        snapshot = {"nodes": [{"id": "a", "source_file": "wiki/concepts/a.md"}], "topic_ids": ["a"]}
+        for source, error in [
+            ("wiki/concepts/a.md", "대표 배치 중복"),
+            ("wiki/concepts/missing.md", "공개 주제를 찾지 못했습니다"),
+        ]:
+            with self.subTest(source=source):
+                classification = exporter.read_classification(CURRICULUM, {
+                    "placements": {"course-test": {"기존 단원": [source]}},
+                })
+                with self.assertRaisesRegex(ValueError, error):
+                    exporter.topic_hierarchy(snapshot, classification)
+        with self.assertRaisesRegex(ValueError, "대표 배치의 단원을 찾지 못했습니다"):
+            exporter.read_classification(CURRICULUM, {"placements": {"course-test": {"없는 단원": []}}})
+
     def test_stale_graph_does_not_create_site(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
@@ -92,6 +149,10 @@ class ConceptGraphExportTests(unittest.TestCase):
                 "links": [],
             }
             (graph_dir / "graph.json").write_text(json.dumps(graph), encoding="utf-8")
+            (root / "study").mkdir()
+            (root / "study/curriculum.md").write_text(CURRICULUM, encoding="utf-8")
+            (root / "docs").mkdir()
+            (root / "docs/concept-graph-placements.json").write_text("{}", encoding="utf-8")
             state = {"status": "ready", "nodes": 1, "edges": 0, "built_at": "2026-11-10"}
             docs = {"wiki/concepts/a.md": {"meta": {"title": "A", "type": "concept"}}}
             with patch.object(exporter, "SITE_SOURCE", site), \
@@ -99,7 +160,9 @@ class ConceptGraphExportTests(unittest.TestCase):
                  patch.object(exporter, "lint", return_value=(docs, {})):
                 exporter.export(root, site)
                 self.assertEqual((site / "index.html").read_text(), "existing index.html")
-                self.assertEqual(json.loads((site / "graph-data.json").read_text())["nodes"][0]["label"], "A")
+                snapshot = json.loads((site / "graph-data.json").read_text())
+                self.assertEqual(snapshot["nodes"][0]["label"], "A")
+                self.assertEqual(snapshot["hierarchy"]["courses"][0]["units"][0]["topic_ids"], ["a"])
 
                 separate = root / "separate"
                 exporter.export(root, separate)
